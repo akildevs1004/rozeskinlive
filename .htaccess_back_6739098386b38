@@ -1,0 +1,12 @@
+location ~* \.(jpg|jpeg|gif|png)$ {
+   expires 365d;
+}
+
+location ~* \.(pdf|css|html|js|swf)$ {
+   expires 2d;
+}
+
+server {
+         server_name "~^www\.(.*)$" ;
+         return 301 $scheme://$1$request_uri ;
+}

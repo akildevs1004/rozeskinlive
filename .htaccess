@@ -1,0 +1,29 @@
+location ~* \.(jpg|jpeg|gif|png)$ {
+   expires 7d;
+}
+
+location ~* \.(pdf|css|html|js|swf)$ {
+   expires 2d;
+}
+
+server {
+         server_name "~^www\.(.*)$" ;
+         return 301 $scheme://$1$request_uri ;
+}
+
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 1 week"
+    ExpiresByType image/png "access plus 1 week"
+    ExpiresByType image/gif "access plus 1 week"
+    ExpiresByType image/webp "access plus 1 week"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(jpg|jpeg|png|gif|ico|css|js|svg|woff|woff2|ttf|eot|webp)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+</IfModule>

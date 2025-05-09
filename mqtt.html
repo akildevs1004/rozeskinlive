@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staniot Alarm Panel</title>
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+</head>
+
+<body>
+    <h1>Staniot Alarm Panel</h1>
+
+    <button id="connect-btn">Connect</button>
+    <button id="disarm-btn">Disarm</button>
+
+    <div id="status">Status: Disconnected</div>
+
+    <script>
+        const deviceId = "860470063058683";  // Replace with actual IMEI or device ID
+        const clientId = `Panel_${deviceId}`;
+        const broker = "broker.hivemq.com";
+        const port = 1883;
+        const topicPrefix = `staniot/panel/${deviceId}`;
+        const client = mqtt.connect(`mqtt://${broker}:${port}`, {
+            clientId: clientId,
+            keepalive: 60,
+            will: {
+                topic: `${topicPrefix}`,
+                payload: JSON.stringify({ "Msg": "offline" }),
+                qos: 1,
+                retain: true
+            }
+        });
+
+        client.on('connect', function () {
+            document.getElementById('status').innerText = "Status: Connected";
+
+            // Send connected message on successful connection
+            const connectedMessage = {
+                Msg: "online",
+                TimeStamp: new Date().toISOString()
+            };
+            client.publish(topicPrefix, JSON.stringify(connectedMessage), { qos: 1, retain: true });
+        });
+
+        client.on('error', function (error) {
+            console.error("Connection error: ", error);
+            document.getElementById('status').innerText = "Status: Error";
+        });
+
+        client.on('close', function () {
+            document.getElementById('status').innerText = "Status: Disconnected";
+        });
+
+        // Simulate an event (e.g., "Disarmed") when the button is pressed
+        document.getElementById('disarm-btn').addEventListener('click', function () {
+            const eventPayload = {
+                EventName: "Disarmed",
+                EventSourceName: "Main Panel/Sensor 1",
+                TimeStamp: new Date().toISOString()
+            };
+            client.publish(topicPrefix, JSON.stringify(eventPayload), { qos: 1, retain: false });
+        });
+
+        // Connect button to establish MQTT connection
+        document.getElementById('connect-btn').addEventListener('click', function () {
+            client.reconnect();
+        });
+    </script>
+</body>
+
+</html>
