@@ -1,0 +1,964 @@
+0000.000 (0) Opened log file at time: Mon, 21 Apr 2025 15:22:04 +0000 on https://rozeskin.com
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.8 PHP: 8.2.28 (fpm-fcgi, Linux rozeskin 5.15.0-131-generic #141-Ubuntu SMP Fri Jan 10 21:18:28 UTC 2025 x86_64) MySQL: 8.0.35 (max packet size=67108864) WPLANG: en_US Server: nginx/1.18.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.1M | 30M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 35179.5 MB
+0000.023 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: every2hours)
+0000.047 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.061 (0) Set semaphore last lock (fd) time to 2025-04-21 15:22:04
+0000.065 (0) Semaphore lock (fd) complete
+0000.085 (0) Backup run: resumption=0, nonce=400b35b44a7e, file_nonce=400b35b44a7e begun at=1745248924 (0s ago), job type=backup
+0000.100 (0) Scheduling a resumption (1) after 300 seconds (1745249224) in case this run gets aborted
+0000.130 (0) Checking if we have a zip executable available
+0000.139 (0) Testing: /usr/bin/zip
+0000.149 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.156 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.170 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.182 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.188 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.225 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.238 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.260 (0) Working binary zip found: /usr/bin/zip
+0000.291 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.305 (0) Creation of backups of directories: beginning
+0000.357 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.017 (0) Total entities for the zip file: 3155 directories, 21916 files (0 skipped as non-modified), 299.9 MB
+0001.027 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.034 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.043 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.051 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.058 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.064 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.070 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.078 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.104 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.113 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.140 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.4 MB, 21916 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.826 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: size is now: 3.60 MB
+0001.844 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1100 files added (on-disk size: 3709.9 KB)
+0001.851 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1200 files added (on-disk size: 3709.9 KB)
+0001.858 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1300 files added (on-disk size: 3709.9 KB)
+0001.867 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 21916 files batched, 380 (1381) added so far); re-opening (prior size: 3709.9 KB)
+0002.752 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: size is now: 19.80 MB
+0002.767 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17589.4 KB/s)
+0002.779 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4560449123383, normalised_time=1.4554260853139, max_time=2.7727980613708, data points known=1, old_max_bytes=26214400, new_max_bytes=108068971)
+0002.789 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1400 files added (on-disk size: 20231 KB)
+0002.799 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1500 files added (on-disk size: 20231 KB)
+0002.806 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1600 files added (on-disk size: 20231 KB)
+0002.817 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1700 files added (on-disk size: 20231 KB)
+0002.830 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1800 files added (on-disk size: 20231 KB)
+0002.840 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 1900 files added (on-disk size: 20231 KB)
+0002.858 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2000 files added (on-disk size: 20231 KB)
+0002.865 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2100 files added (on-disk size: 20231 KB)
+0002.871 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2200 files added (on-disk size: 20231 KB)
+0002.879 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2300 files added (on-disk size: 20231 KB)
+0002.885 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.1 MB, 21916 files batched, 1001 (2382) added so far); re-opening (prior size: 20231 KB)
+0003.394 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2400 files added (on-disk size: 22461.4 KB)
+0003.408 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2500 files added (on-disk size: 22461.4 KB)
+0003.415 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2600 files added (on-disk size: 22461.4 KB)
+0003.423 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2700 files added (on-disk size: 22461.4 KB)
+0003.434 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2800 files added (on-disk size: 22461.4 KB)
+0003.447 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 2900 files added (on-disk size: 22461.4 KB)
+0003.466 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3000 files added (on-disk size: 22461.4 KB)
+0003.475 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3100 files added (on-disk size: 22461.4 KB)
+0003.487 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3200 files added (on-disk size: 22461.4 KB)
+0003.501 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3300 files added (on-disk size: 22461.4 KB)
+0003.512 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.6 MB, 21916 files batched, 1001 (3383) added so far); re-opening (prior size: 22461.4 KB)
+0003.966 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3400 files added (on-disk size: 24228.7 KB)
+0003.974 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3500 files added (on-disk size: 24228.7 KB)
+0003.985 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3600 files added (on-disk size: 24228.7 KB)
+0003.994 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3700 files added (on-disk size: 24228.7 KB)
+0004.006 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3800 files added (on-disk size: 24228.7 KB)
+0004.013 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 3900 files added (on-disk size: 24228.7 KB)
+0004.020 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4000 files added (on-disk size: 24228.7 KB)
+0004.026 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4100 files added (on-disk size: 24228.7 KB)
+0004.037 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4200 files added (on-disk size: 24228.7 KB)
+0004.049 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4300 files added (on-disk size: 24228.7 KB)
+0004.059 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.7 MB, 21916 files batched, 1001 (4384) added so far); re-opening (prior size: 24228.7 KB)
+0004.845 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4400 files added (on-disk size: 27991.5 KB)
+0004.864 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4500 files added (on-disk size: 27991.5 KB)
+0004.882 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4600 files added (on-disk size: 27991.5 KB)
+0004.891 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4700 files added (on-disk size: 27991.5 KB)
+0004.903 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4800 files added (on-disk size: 27991.5 KB)
+0004.922 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 4900 files added (on-disk size: 27991.5 KB)
+0004.931 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5000 files added (on-disk size: 27991.5 KB)
+0004.943 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5100 files added (on-disk size: 27991.5 KB)
+0004.950 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5200 files added (on-disk size: 27991.5 KB)
+0004.958 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5300 files added (on-disk size: 27991.5 KB)
+0004.971 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.4 MB, 21916 files batched, 1001 (5385) added so far); re-opening (prior size: 27991.5 KB)
+0005.461 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5400 files added (on-disk size: 29827.5 KB)
+0005.478 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5500 files added (on-disk size: 29827.5 KB)
+0005.484 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5600 files added (on-disk size: 29827.5 KB)
+0005.495 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5700 files added (on-disk size: 29827.5 KB)
+0005.509 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5800 files added (on-disk size: 29827.5 KB)
+0005.528 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 5900 files added (on-disk size: 29827.5 KB)
+0005.534 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6000 files added (on-disk size: 29827.5 KB)
+0005.545 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6100 files added (on-disk size: 29827.5 KB)
+0005.555 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6200 files added (on-disk size: 29827.5 KB)
+0005.562 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6300 files added (on-disk size: 29827.5 KB)
+0005.576 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.5 MB, 21916 files batched, 1001 (6386) added so far); re-opening (prior size: 29827.5 KB)
+0006.236 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: size is now: 37.60 MB
+0006.256 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6400 files added (on-disk size: 38541.4 KB)
+0006.279 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6500 files added (on-disk size: 38541.4 KB)
+0006.285 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6600 files added (on-disk size: 38541.4 KB)
+0006.294 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6700 files added (on-disk size: 38541.4 KB)
+0006.301 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6800 files added (on-disk size: 38541.4 KB)
+0006.309 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 6900 files added (on-disk size: 38541.4 KB)
+0006.315 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7000 files added (on-disk size: 38541.4 KB)
+0006.326 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7100 files added (on-disk size: 38541.4 KB)
+0006.340 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7200 files added (on-disk size: 38541.4 KB)
+0006.349 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7300 files added (on-disk size: 38541.4 KB)
+0006.359 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25.2 MB, 21916 files batched, 1001 (7387) added so far); re-opening (prior size: 38541.4 KB)
+0008.165 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7400 files added (on-disk size: 44483.8 KB)
+0008.174 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7500 files added (on-disk size: 44483.8 KB)
+0008.187 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7600 files added (on-disk size: 44483.8 KB)
+0008.195 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7700 files added (on-disk size: 44483.8 KB)
+0008.203 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7800 files added (on-disk size: 44483.8 KB)
+0008.213 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 7900 files added (on-disk size: 44483.8 KB)
+0008.226 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8000 files added (on-disk size: 44483.8 KB)
+0008.232 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8100 files added (on-disk size: 44483.8 KB)
+0008.241 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8200 files added (on-disk size: 44483.8 KB)
+0008.251 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8300 files added (on-disk size: 44483.8 KB)
+0008.265 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (34.4 MB, 21916 files batched, 1001 (8388) added so far); re-opening (prior size: 44483.8 KB)
+0011.167 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: size is now: 53.40 MB
+0011.182 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8400 files added (on-disk size: 54634.5 KB)
+0011.189 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8500 files added (on-disk size: 54634.5 KB)
+0011.206 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8600 files added (on-disk size: 54634.5 KB)
+0011.215 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8700 files added (on-disk size: 54634.5 KB)
+0011.225 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8800 files added (on-disk size: 54634.5 KB)
+0011.239 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 8900 files added (on-disk size: 54634.5 KB)
+0011.249 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9000 files added (on-disk size: 54634.5 KB)
+0011.288 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9100 files added (on-disk size: 54634.5 KB)
+0011.301 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9200 files added (on-disk size: 54634.5 KB)
+0011.311 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9300 files added (on-disk size: 54634.5 KB)
+0011.324 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.1 MB, 21916 files batched, 1001 (9389) added so far); re-opening (prior size: 54634.5 KB)
+0012.631 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9400 files added (on-disk size: 58795.1 KB)
+0012.639 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9500 files added (on-disk size: 58795.1 KB)
+0012.646 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9600 files added (on-disk size: 58795.1 KB)
+0012.653 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9700 files added (on-disk size: 58795.1 KB)
+0012.659 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9800 files added (on-disk size: 58795.1 KB)
+0012.664 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 9900 files added (on-disk size: 58795.1 KB)
+0012.678 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10000 files added (on-disk size: 58795.1 KB)
+0012.684 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10100 files added (on-disk size: 58795.1 KB)
+0012.692 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10200 files added (on-disk size: 58795.1 KB)
+0012.697 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10300 files added (on-disk size: 58795.1 KB)
+0012.705 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.5 MB, 21916 files batched, 1001 (10390) added so far); re-opening (prior size: 58795.1 KB)
+0013.602 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10400 files added (on-disk size: 63704.3 KB)
+0013.622 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10500 files added (on-disk size: 63704.3 KB)
+0013.636 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10600 files added (on-disk size: 63704.3 KB)
+0013.647 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10700 files added (on-disk size: 63704.3 KB)
+0013.655 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10800 files added (on-disk size: 63704.3 KB)
+0013.669 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 10900 files added (on-disk size: 63704.3 KB)
+0013.675 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11000 files added (on-disk size: 63704.3 KB)
+0013.682 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11100 files added (on-disk size: 63704.3 KB)
+0013.703 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11200 files added (on-disk size: 63704.3 KB)
+0013.715 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11300 files added (on-disk size: 63704.3 KB)
+0013.723 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.5 MB, 21916 files batched, 1001 (11391) added so far); re-opening (prior size: 63704.3 KB)
+0014.444 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11400 files added (on-disk size: 65372.6 KB)
+0014.451 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11500 files added (on-disk size: 65372.6 KB)
+0014.467 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11600 files added (on-disk size: 65372.6 KB)
+0014.475 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11700 files added (on-disk size: 65372.6 KB)
+0014.486 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11800 files added (on-disk size: 65372.6 KB)
+0014.493 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 11900 files added (on-disk size: 65372.6 KB)
+0014.503 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12000 files added (on-disk size: 65372.6 KB)
+0014.515 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12100 files added (on-disk size: 65372.6 KB)
+0014.523 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12200 files added (on-disk size: 65372.6 KB)
+0014.533 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12300 files added (on-disk size: 65372.6 KB)
+0014.546 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.2 MB, 21916 files batched, 1001 (12392) added so far); re-opening (prior size: 65372.6 KB)
+0015.452 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12400 files added (on-disk size: 71939.1 KB)
+0015.458 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12500 files added (on-disk size: 71939.1 KB)
+0015.465 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12600 files added (on-disk size: 71939.1 KB)
+0015.474 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12700 files added (on-disk size: 71939.1 KB)
+0015.485 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12800 files added (on-disk size: 71939.1 KB)
+0015.490 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 12900 files added (on-disk size: 71939.1 KB)
+0015.499 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13000 files added (on-disk size: 71939.1 KB)
+0015.508 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13100 files added (on-disk size: 71939.1 KB)
+0015.519 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13200 files added (on-disk size: 71939.1 KB)
+0015.527 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13300 files added (on-disk size: 71939.1 KB)
+0015.536 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.9 MB, 21916 files batched, 1001 (13393) added so far); re-opening (prior size: 71939.1 KB)
+0016.945 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13400 files added (on-disk size: 75123.1 KB)
+0016.960 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13500 files added (on-disk size: 75123.1 KB)
+0016.975 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13600 files added (on-disk size: 75123.1 KB)
+0016.984 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13700 files added (on-disk size: 75123.1 KB)
+0016.994 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13800 files added (on-disk size: 75123.1 KB)
+0017.002 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 13900 files added (on-disk size: 75123.1 KB)
+0017.012 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14000 files added (on-disk size: 75123.1 KB)
+0017.030 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14100 files added (on-disk size: 75123.1 KB)
+0017.041 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14200 files added (on-disk size: 75123.1 KB)
+0017.063 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14300 files added (on-disk size: 75123.1 KB)
+0017.070 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.4 MB, 21916 files batched, 1001 (14394) added so far); re-opening (prior size: 75123.1 KB)
+0018.927 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14400 files added (on-disk size: 81939.8 KB)
+0018.936 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14500 files added (on-disk size: 81939.8 KB)
+0018.949 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14600 files added (on-disk size: 81939.8 KB)
+0018.969 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14700 files added (on-disk size: 81939.8 KB)
+0018.980 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14800 files added (on-disk size: 81939.8 KB)
+0018.992 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 14900 files added (on-disk size: 81939.8 KB)
+0018.999 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15000 files added (on-disk size: 81939.8 KB)
+0019.006 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15100 files added (on-disk size: 81939.8 KB)
+0019.011 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15200 files added (on-disk size: 81939.8 KB)
+0019.021 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15300 files added (on-disk size: 81939.8 KB)
+0019.029 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.5 MB, 21916 files batched, 1001 (15395) added so far); re-opening (prior size: 81939.8 KB)
+0019.628 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15400 files added (on-disk size: 83378.7 KB)
+0019.637 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15500 files added (on-disk size: 83378.7 KB)
+0019.647 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15600 files added (on-disk size: 83378.7 KB)
+0019.656 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15700 files added (on-disk size: 83378.7 KB)
+0019.663 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15800 files added (on-disk size: 83378.7 KB)
+0019.673 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 15900 files added (on-disk size: 83378.7 KB)
+0019.681 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16000 files added (on-disk size: 83378.7 KB)
+0019.690 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16100 files added (on-disk size: 83378.7 KB)
+0019.703 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16200 files added (on-disk size: 83378.7 KB)
+0019.713 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16300 files added (on-disk size: 83378.7 KB)
+0019.719 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.9 MB, 21916 files batched, 1001 (16396) added so far); re-opening (prior size: 83378.7 KB)
+0020.939 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16400 files added (on-disk size: 86915.5 KB)
+0020.947 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16500 files added (on-disk size: 86915.5 KB)
+0020.956 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16600 files added (on-disk size: 86915.5 KB)
+0020.963 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16700 files added (on-disk size: 86915.5 KB)
+0020.970 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16800 files added (on-disk size: 86915.5 KB)
+0020.975 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 16900 files added (on-disk size: 86915.5 KB)
+0020.983 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17000 files added (on-disk size: 86915.5 KB)
+0020.988 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17100 files added (on-disk size: 86915.5 KB)
+0020.996 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17200 files added (on-disk size: 86915.5 KB)
+0021.003 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17300 files added (on-disk size: 86915.5 KB)
+0021.011 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.7 MB, 21916 files batched, 1001 (17397) added so far); re-opening (prior size: 86915.5 KB)
+0021.850 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17400 files added (on-disk size: 88833.1 KB)
+0021.871 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17500 files added (on-disk size: 88833.1 KB)
+0021.891 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17600 files added (on-disk size: 88833.1 KB)
+0021.900 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17700 files added (on-disk size: 88833.1 KB)
+0021.907 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17800 files added (on-disk size: 88833.1 KB)
+0021.919 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 17900 files added (on-disk size: 88833.1 KB)
+0021.933 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18000 files added (on-disk size: 88833.1 KB)
+0021.958 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18100 files added (on-disk size: 88833.1 KB)
+0021.965 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18200 files added (on-disk size: 88833.1 KB)
+0021.974 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18300 files added (on-disk size: 88833.1 KB)
+0021.983 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.7 MB, 21916 files batched, 1001 (18398) added so far); re-opening (prior size: 88833.1 KB)
+0023.947 (0) PHP event: code E_WARNING: filesize(): stat failed for /var/www/rozeskin/wp-content/updraft/backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0024.009 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18400 files added (on-disk size: 95390.2 KB)
+0024.023 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18500 files added (on-disk size: 95390.2 KB)
+0024.029 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18600 files added (on-disk size: 95390.2 KB)
+0024.050 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18700 files added (on-disk size: 95390.2 KB)
+0024.056 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18800 files added (on-disk size: 95390.2 KB)
+0024.062 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 18900 files added (on-disk size: 95390.2 KB)
+0024.071 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19000 files added (on-disk size: 95390.2 KB)
+0024.078 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19100 files added (on-disk size: 95390.2 KB)
+0024.084 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19200 files added (on-disk size: 95390.2 KB)
+0024.090 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19300 files added (on-disk size: 95390.2 KB)
+0024.095 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.1 MB, 21916 files batched, 1001 (19399) added so far); re-opening (prior size: 95390.2 KB)
+0025.266 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19400 files added (on-disk size: 98617.2 KB)
+0025.274 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19500 files added (on-disk size: 98617.2 KB)
+0025.288 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19600 files added (on-disk size: 98617.2 KB)
+0025.296 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19700 files added (on-disk size: 98617.2 KB)
+0025.314 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19800 files added (on-disk size: 98617.2 KB)
+0025.320 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 19900 files added (on-disk size: 98617.2 KB)
+0025.328 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20000 files added (on-disk size: 98617.2 KB)
+0025.337 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20100 files added (on-disk size: 98617.2 KB)
+0025.359 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20200 files added (on-disk size: 98617.2 KB)
+0025.366 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20300 files added (on-disk size: 98617.2 KB)
+0025.375 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.7 MB, 21916 files batched, 1001 (20400) added so far); re-opening (prior size: 98617.2 KB)
+0027.275 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20400 files added (on-disk size: 109334.2 KB)
+0027.288 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20500 files added (on-disk size: 109334.2 KB)
+0027.308 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20600 files added (on-disk size: 109334.2 KB)
+0027.317 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20700 files added (on-disk size: 109334.2 KB)
+0027.337 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20800 files added (on-disk size: 109334.2 KB)
+0027.345 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 20900 files added (on-disk size: 109334.2 KB)
+0027.357 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21000 files added (on-disk size: 109334.2 KB)
+0027.371 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21100 files added (on-disk size: 109334.2 KB)
+0027.384 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21200 files added (on-disk size: 109334.2 KB)
+0027.392 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21300 files added (on-disk size: 109334.2 KB)
+0027.404 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21400 files added (on-disk size: 109334.2 KB)
+0027.414 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.5 MB, 21916 files batched, 1001 (21401) added so far); re-opening (prior size: 109334.2 KB)
+0028.250 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21500 files added (on-disk size: 110451 KB)
+0028.263 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21600 files added (on-disk size: 110451 KB)
+0028.273 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21700 files added (on-disk size: 110451 KB)
+0028.288 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21800 files added (on-disk size: 110451 KB)
+0028.303 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.tmp: 21900 files added (on-disk size: 110451 KB)
+0029.411 (0) Creating zip file manifest (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.list-temp.tmp)
+0029.556 (0) Successfully created zip file manifest (size: 2114402)
+0031.647 (0) Created plugins zip (0) - 114577.6 KB in 31.3 s (3665 KB/s) (sha1: 0fc2defbc43681269b89aab75ec442ca2bd5e76f, sha256: a7ea5829a4255bd9ceb9c43109a0b98a17608455aa3b74a76aeeff17eb029675)
+0031.731 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0031.745 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0033.935 (0) Google Drive: quota usage: used=5975.3 MB, total=15360 MB, available=9384.7 MB
+0033.943 (0) Google Drive: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0034.908 (0) Googledrive chunked upload: 0.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 35.7 / 60)
+0035.274 (0) Googledrive chunked upload: 2.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 35.8 / 60)
+0035.654 (0) Googledrive chunked upload: 6.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 35.8 / 60)
+0036.079 (0) Googledrive chunked upload: 13.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 35.8 / 60)
+0036.623 (0) Googledrive chunked upload: 27.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 35.8 / 60)
+0037.513 (0) Googledrive chunked upload: 56.3 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 35.8 / 60)
+0039.515 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0039.554 (0) Google Drive: OK: Archive backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip uploaded in 5.6 seconds
+0039.562 (0) Recording as successfully uploaded: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip
+0039.622 (0) Deleting local file: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip: OK
+0039.675 (0) Beginning creation of dump of themes (split every: 400 MB)
+0039.714 (0) Total entities for the zip file: 123 directories, 882 files (0 skipped as non-modified), 53.4 MB
+0039.722 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0039.732 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0039.747 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0039.761 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0039.770 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0039.776 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0039.784 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0039.791 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0041.743 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.tmp: size is now: 46.40 MB
+0041.787 (0) Creating zip file manifest (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.list-temp.tmp)
+0041.798 (0) Successfully created zip file manifest (size: 58423)
+0042.695 (0) Created themes zip (0) - 47495.2 KB in 3 s (15802 KB/s) (sha1: d3282adaaf46917a2764a593cf544fba3319d5b9, sha256: 854540d799fd1055b48b09da80fc1bf3724deda7c0209d0aa544cb13df6a7793)
+0042.711 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0042.719 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0042.963 (0) Google Drive: quota usage: used=6087.2 MB, total=15360 MB, available=9272.8 MB
+0042.969 (0) Google Drive: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0043.886 (0) Googledrive chunked upload: 2.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 32.2 / 58)
+0044.308 (0) Googledrive chunked upload: 6.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 32.2 / 58)
+0044.712 (0) Googledrive chunked upload: 15.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 32.2 / 58)
+0045.133 (0) Googledrive chunked upload: 32.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 32.2 / 58)
+0045.643 (0) Googledrive chunked upload: 66.8 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 32.2 / 58)
+0047.510 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0047.526 (0) Google Drive: OK: Archive backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip uploaded in 4.55 seconds
+0047.533 (0) Recording as successfully uploaded: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip
+0047.564 (0) Deleting local file: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip: OK
+0047.602 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0047.609 (0) Looking for candidates to backup in: /var/www/rozeskin/wp-content/uploads
+0047.613 (0) finding files: 2023: adding to list (1)
+0047.618 (0) finding files: redux: adding to list (2)
+0047.621 (0) finding files: 2024: adding to list (3)
+0047.627 (0) finding files: woocommerce_uploads: adding to list (4)
+0047.638 (0) finding files: 2018: adding to list (5)
+0047.645 (0) finding files: elementor: adding to list (6)
+0047.650 (0) finding files: smush-webp-test.png: adding to list (7)
+0047.654 (0) finding files: 2022: adding to list (8)
+0047.657 (0) finding files: smush: adding to list (9)
+0047.661 (0) finding files: essential-addons-elementor: adding to list (10)
+0047.666 (0) finding files: nitropack-logs: adding to list (11)
+0047.670 (0) finding files: woo-feed: adding to list (12)
+0047.674 (0) finding files: wpcf7_uploads: adding to list (13)
+0047.678 (0) finding files: 2020: adding to list (14)
+0047.684 (0) finding files: fonts: adding to list (15)
+0047.688 (0) finding files: 2025: adding to list (16)
+0047.692 (0) finding files: rank-math: adding to list (17)
+0047.698 (0) finding files: revslider: adding to list (18)
+0047.701 (0) finding files: 2021: adding to list (19)
+0047.704 (0) finding files: wc-logs: adding to list (20)
+0047.708 (0) finding files: 2019: adding to list (21)
+0047.711 (0) finding files: ip2location: adding to list (22)
+0047.715 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0047.762 (0) Total entities for the zip file: 59 directories, 2607 files (0 skipped as non-modified), 126.3 MB
+0047.777 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0047.796 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0047.803 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0047.814 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0047.825 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0047.844 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0047.855 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0047.863 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0047.872 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0047.878 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0047.882 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (47.4 MB, 2607 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0048.733 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: size is now: 47.60 MB
+0048.754 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1100 files added (on-disk size: 48707.1 KB)
+0048.762 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1200 files added (on-disk size: 48707.1 KB)
+0048.771 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1300 files added (on-disk size: 48707.1 KB)
+0048.780 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1400 files added (on-disk size: 48707.1 KB)
+0048.791 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1500 files added (on-disk size: 48707.1 KB)
+0048.797 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1600 files added (on-disk size: 48707.1 KB)
+0048.805 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1700 files added (on-disk size: 48707.1 KB)
+0048.815 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1800 files added (on-disk size: 48707.1 KB)
+0048.821 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 1900 files added (on-disk size: 48707.1 KB)
+0048.833 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 2000 files added (on-disk size: 48707.1 KB)
+0048.842 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (58.8 MB, 2607 files batched, 1001 (2002) added so far); re-opening (prior size: 48707.1 KB)
+0049.850 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: size is now: 106.40 MB
+0049.879 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 2100 files added (on-disk size: 108975.4 KB)
+0049.888 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 2200 files added (on-disk size: 108975.4 KB)
+0049.895 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 2300 files added (on-disk size: 108975.4 KB)
+0049.904 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 2400 files added (on-disk size: 108975.4 KB)
+0049.919 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 2500 files added (on-disk size: 108975.4 KB)
+0049.925 (0) Zip: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.tmp: 2600 files added (on-disk size: 108975.4 KB)
+0051.175 (0) Creating zip file manifest (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.list-temp.tmp)
+0051.191 (0) Successfully created zip file manifest (size: 170705)
+0053.418 (0) Created uploads zip (0) - 126767.5 KB in 5.7 s (22263.8 KB/s) (sha1: 1c2fa77d0622cbf92ca20ff56561d207f6322f68, sha256: 04077cf27c639a0846a1ff5d86d0191ae542aff2efd908c5ca1eb1f198396de7)
+0053.435 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0053.439 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0053.859 (0) Google Drive: quota usage: used=6133.6 MB, total=15360 MB, available=9226.4 MB
+0053.867 (0) Google Drive: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0054.854 (0) Googledrive chunked upload: 0.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 32.4 / 58)
+0055.137 (0) Googledrive chunked upload: 2.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 32.4 / 58)
+0055.504 (0) Googledrive chunked upload: 5.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 32.4 / 58)
+0055.922 (0) Googledrive chunked upload: 12.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 32.4 / 58)
+0056.472 (0) Googledrive chunked upload: 25 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 32.4 / 58)
+0057.247 (0) Googledrive chunked upload: 50.9 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 32.4 / 58)
+0059.542 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0059.602 (0) Google Drive: OK: Archive backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip uploaded in 5.71 seconds
+0059.611 (0) Recording as successfully uploaded: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip
+0059.671 (0) Deleting local file: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip: OK
+0059.699 (0) No backup of mu-plugins: excluded by user's options
+0059.720 (0) Beginning backup of other directories found in the content directory (index: 0)
+0059.729 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0059.740 (0) Looking for candidates to backup in: /var/www/rozeskin/wp-content
+0059.752 (0) finding files: themes: skipping: this is the themes directory
+0059.772 (0) finding files: updraft: skipping: this is the updraft directory
+0059.783 (0) finding files: jetpack-waf: adding to list (1)
+0059.789 (0) finding files: uploads: skipping: this is the uploads directory
+0059.803 (0) finding files: upgrade-temp-backup: adding to list (2)
+0059.825 (0) finding files: smush-webp: adding to list (3)
+0059.833 (0) finding files: index.php: adding to list (4)
+0059.840 (0) finding files: upgrade: skipping: excluded by options
+0059.853 (0) finding files: order.log: adding to list (5)
+0059.862 (0) finding files: plugins: skipping: this is the plugins directory
+0059.868 (0) finding files: cache: skipping: excluded by options
+0059.872 (0) finding files: config-da303ce-nitropack: adding to list (6)
+0059.880 (0) finding files: advanced-cache.php: adding to list (7)
+0059.883 (0) finding files: elm-error-logs: adding to list (8)
+0059.902 (0) Total entities for the zip file: 6 directories, 14 files (0 skipped as non-modified), 0 MB
+0059.934 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-others.zip.tmp: size is now: 0.00 MB
+0059.969 (0) Creating zip file manifest (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-others.zip.list-temp.tmp)
+0059.976 (0) Successfully created zip file manifest (size: 522)
+0060.007 (0) Created others zip (0) - 5.2 KB in 0.1 s (47.1 KB/s) (sha1: 006aad91b8fca6255111e82ad7d8048b8c21130a, sha256: 86359a23959d1f51a39a610d81d1c413c23c65a87f1f20161478e5572fe02313)
+0060.030 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0060.036 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0060.392 (0) Google Drive: quota usage: used=6257.4 MB, total=15360 MB, available=9102.6 MB
+0060.404 (0) Google Drive: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-others.zip: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0061.884 (0) Googledrive chunked upload: 100 % uploaded
+0061.904 (0) Google Drive: OK: Archive backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-others.zip uploaded in 1.48 seconds
+0061.911 (0) Recording as successfully uploaded: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-others.zip
+0061.933 (0) Deleting local file: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-others.zip: OK
+0061.995 (0) Saving backup status to database (elements: 8)
+0062.016 (0) Beginning creation of database dump (WordPress DB)
+0062.022 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0062.035 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0062.093 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1537 bytes total)
+0062.103 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0062.161 (0) Table wp_options: Total expected rows (approximate): 1220
+0062.441 (0) Table wp_options: Rows added in this batch (next record: 208471): 1244 (uncompressed bytes in this segment=3732219) in 0.30 seconds
+0062.504 (0) Table wp_options: finishing file(s) (2, 632.1 KB)
+0062.528 (0) Table wp_users: Total expected rows (via COUNT): 46
+0062.536 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0062.551 (0) Table wp_users: Rows added in this batch (next record: 1163): 46 (uncompressed bytes in this segment=10498) in 0.03 seconds
+0062.588 (0) Table wp_users: finishing file(s) (2, 4.9 KB)
+0062.629 (0) Table wp_usermeta: Total expected rows (approximate): 1922
+0062.678 (0) Table wp_usermeta: Rows added in this batch (next record: 24669): 1998 (uncompressed bytes in this segment=215596) in 0.07 seconds
+0062.708 (0) Table wp_usermeta: finishing file(s) (2, 34 KB)
+0062.741 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 1152
+0062.792 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 4318): 1249 (uncompressed bytes in this segment=436651) in 0.07 seconds
+0062.819 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 38.8 KB)
+0062.833 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0062.843 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=624) in 0.01 seconds
+0062.871 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0062.903 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 9
+0062.906 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0062.917 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=899) in 0.03 seconds
+0062.939 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0062.954 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 3525
+0063.035 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 12878): 3740 (uncompressed bytes in this segment=335750) in 0.08 seconds
+0063.068 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 38.2 KB)
+0063.111 (0) Table wp_commentmeta: Total expected rows (via COUNT): 282
+0063.121 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.136 (0) Table wp_commentmeta: Rows added in this batch (next record: 457): 282 (uncompressed bytes in this segment=9031) in 0.05 seconds
+0063.164 (0) Table wp_commentmeta: finishing file(s) (2, 1.9 KB)
+0063.179 (0) Table wp_comments: Total expected rows (via COUNT): 481
+0063.183 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.201 (0) Table wp_comments: Rows added in this batch (next record: 535): 481 (uncompressed bytes in this segment=144895) in 0.03 seconds
+0063.233 (0) Table wp_comments: finishing file(s) (2, 21.3 KB)
+0063.258 (0) Table wp_links: Total expected rows (via COUNT): 0
+0063.274 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0063.295 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0063.330 (0) Table wp_postmeta: Total expected rows (approximate): 13616
+0065.502 (0) Table wp_postmeta: binary mysqldump finished (writes: 70, bytes 39821682, return code 0) in 2.16 seconds
+0065.521 (0) Table wp_postmeta: finishing file(s) (1, 2431.5 KB)
+0065.584 (0) Table wp_posts: Total expected rows (approximate): 1594
+0066.139 (0) Table wp_posts: Rows added in this batch (next record: 53432): 2648 (uncompressed bytes in this segment=21225086) in 0.59 seconds
+0066.176 (0) Table wp_posts: finishing file(s) (2, 710.6 KB)
+0066.239 (0) Table wp_term_relationships: Total expected rows (approximate): 129
+0066.280 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 146 (uncompressed bytes in this segment=3161) in 0.05 seconds
+0066.321 (0) Table wp_term_relationships: finishing file(s) (2, 0.8 KB)
+0066.399 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 78
+0066.410 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.446 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 146): 78 (uncompressed bytes in this segment=4940) in 0.08 seconds
+0066.501 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.5 KB)
+0066.574 (0) Table wp_termmeta: Total expected rows (via COUNT): 193
+0066.580 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.604 (0) Table wp_termmeta: Rows added in this batch (next record: 445): 193 (uncompressed bytes in this segment=8423) in 0.07 seconds
+0066.648 (0) Table wp_termmeta: finishing file(s) (2, 2 KB)
+0066.689 (0) Table wp_terms: Total expected rows (via COUNT): 78
+0066.695 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.730 (0) Table wp_terms: Rows added in this batch (next record: 146): 78 (uncompressed bytes in this segment=3470) in 0.07 seconds
+0066.769 (0) Table wp_terms: finishing file(s) (2, 1.3 KB)
+0066.786 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 13
+0066.818 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 13 (uncompressed bytes in this segment=738) in 0.03 seconds
+0066.856 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0066.880 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 45
+0066.886 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0066.902 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 53421): 45 (uncompressed bytes in this segment=5993) in 0.03 seconds
+0066.920 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 1.1 KB)
+0066.937 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0066.963 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.03 seconds
+0067.009 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0067.082 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0067.088 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.103 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=808) in 0.07 seconds
+0067.125 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0067.161 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 2263
+0067.191 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 2650): 2500 (uncompressed bytes in this segment=111489) in 0.04 seconds
+0067.215 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 15.7 KB)
+0067.241 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0067.249 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.02 seconds
+0067.276 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0067.302 (0) Table wp_chaty_contact_form_leads: Total expected rows (via COUNT): 0
+0067.315 (0) Table wp_chaty_contact_form_leads: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=920) in 0.02 seconds
+0067.346 (0) Table wp_chaty_contact_form_leads: finishing file(s) (2, 0.4 KB)
+0067.370 (0) Table wp_e_events: Total expected rows (via COUNT): 2
+0067.394 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0067.408 (0) Table wp_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=972) in 0.05 seconds
+0067.425 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0067.451 (0) Table wp_gla_attribute_mapping_rules: Total expected rows (via COUNT): 0
+0067.467 (0) Table wp_gla_attribute_mapping_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.02 seconds
+0067.490 (0) Table wp_gla_attribute_mapping_rules: finishing file(s) (2, 0.4 KB)
+0067.508 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0067.585 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=113887) in 0.08 seconds
+0067.653 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 23.9 KB)
+0067.685 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 0
+0067.695 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1153) in 0.01 seconds
+0067.751 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 0.4 KB)
+0067.782 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 0
+0067.794 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=725) in 0.02 seconds
+0067.819 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0067.856 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 0
+0067.870 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.02 seconds
+0067.907 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.4 KB)
+0067.999 (0) Table wp_hfcm_scripts: Total expected rows (via COUNT): 5
+0068.003 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.025 (0) Table wp_hfcm_scripts: Rows added in this batch (next record: 7): 5 (uncompressed bytes in this segment=5898) in 0.08 seconds
+0068.096 (0) Table wp_hfcm_scripts: finishing file(s) (2, 2 KB)
+0068.122 (0) Table wp_ip2location_country_blocker_backend_rate_limit_log: Total expected rows (via COUNT): 0
+0068.138 (0) Table wp_ip2location_country_blocker_backend_rate_limit_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=832) in 0.02 seconds
+0068.160 (0) Table wp_ip2location_country_blocker_backend_rate_limit_log: finishing file(s) (2, 0.4 KB)
+0068.201 (0) Table wp_ip2location_country_blocker_frontend_rate_limit_log: Total expected rows (via COUNT): 0
+0068.206 (0) Table wp_ip2location_country_blocker_frontend_rate_limit_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=838) in 0.01 seconds
+0068.238 (0) Table wp_ip2location_country_blocker_frontend_rate_limit_log: finishing file(s) (2, 0.4 KB)
+0068.256 (0) Table wp_ip2location_country_blocker_log: Total expected rows (via COUNT): 0
+0068.261 (0) Table wp_ip2location_country_blocker_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1008) in 0.01 seconds
+0068.289 (0) Table wp_ip2location_country_blocker_log: finishing file(s) (2, 0.4 KB)
+0068.336 (0) Table wp_jetpack_sync_queue: Total expected rows (via COUNT): 3
+0068.342 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.365 (0) Table wp_jetpack_sync_queue: Rows added in this batch (next record: 55): 3 (uncompressed bytes in this segment=5520) in 0.05 seconds
+0068.408 (0) Table wp_jetpack_sync_queue: finishing file(s) (2, 1.5 KB)
+0068.442 (0) Table wp_post_smtp_logmeta: Total expected rows (via COUNT): 0
+0068.468 (0) Table wp_post_smtp_logmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=581) in 0.04 seconds
+0068.490 (0) Table wp_post_smtp_logmeta: finishing file(s) (2, 0.3 KB)
+0068.515 (0) Table wp_post_smtp_logs: Total expected rows (via COUNT): 250
+0068.519 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.714 (0) Table wp_post_smtp_logs: Rows added in this batch (next record: 1932): 250 (uncompressed bytes in this segment=6088686) in 0.21 seconds
+0068.755 (0) Table wp_post_smtp_logs: finishing file(s) (2, 342.4 KB)
+0068.783 (0) Table wp_rank_math_analytics_gsc: Total expected rows (via COUNT): 1
+0068.787 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.806 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1088) in 0.03 seconds
+0068.827 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0068.858 (0) Table wp_rank_math_analytics_inspections: Total expected rows (via COUNT): 33
+0068.863 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.873 (0) Table wp_rank_math_analytics_inspections: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=10632) in 0.03 seconds
+0068.890 (0) Table wp_rank_math_analytics_inspections: finishing file(s) (2, 1.5 KB)
+0068.912 (0) Table wp_rank_math_analytics_objects: Total expected rows (via COUNT): 224
+0068.918 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0068.935 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 383): 224 (uncompressed bytes in this segment=42095) in 0.03 seconds
+0068.959 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 4.1 KB)
+0068.979 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 877
+0069.007 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 47590): 877 (uncompressed bytes in this segment=80537) in 0.04 seconds
+0069.031 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 8.6 KB)
+0069.052 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 122
+0069.058 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.087 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 53417): 122 (uncompressed bytes in this segment=2987) in 0.04 seconds
+0069.132 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.9 KB)
+0069.171 (0) Table wp_rank_math_redirections: Total expected rows (via COUNT): 1
+0069.190 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.204 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1307) in 0.05 seconds
+0069.233 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.6 KB)
+0069.281 (0) Table wp_rank_math_redirections_cache: Total expected rows (via COUNT): 1
+0069.287 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.295 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1003) in 0.02 seconds
+0069.320 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.5 KB)
+0069.372 (0) Table wp_revslider_css: Total expected rows (via COUNT): 170
+0069.379 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.404 (0) Table wp_revslider_css: Rows added in this batch (next record: 170): 170 (uncompressed bytes in this segment=162716) in 0.06 seconds
+0069.434 (0) Table wp_revslider_css: finishing file(s) (2, 5.9 KB)
+0069.469 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0069.483 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=561) in 0.02 seconds
+0069.505 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0069.551 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 4
+0069.556 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.575 (0) Table wp_revslider_navigations: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=4295) in 0.04 seconds
+0069.600 (0) Table wp_revslider_navigations: finishing file(s) (2, 1.2 KB)
+0069.629 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 9
+0069.638 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.668 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=83667) in 0.05 seconds
+0069.699 (0) Table wp_revslider_sliders: finishing file(s) (2, 5.4 KB)
+0069.727 (0) Table wp_revslider_sliders7: Total expected rows (via COUNT): 9
+0069.731 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.750 (0) Table wp_revslider_sliders7: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=32555) in 0.04 seconds
+0069.806 (0) Table wp_revslider_sliders7: finishing file(s) (2, 2.9 KB)
+0069.854 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 25
+0069.866 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.900 (0) Table wp_revslider_slides: Rows added in this batch (next record: 31): 25 (uncompressed bytes in this segment=350077) in 0.07 seconds
+0069.945 (0) Table wp_revslider_slides: finishing file(s) (2, 12.9 KB)
+0069.991 (0) Table wp_revslider_slides7: Total expected rows (via COUNT): 34
+0070.000 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.021 (0) Table wp_revslider_slides7: Rows added in this batch (next record: 40): 34 (uncompressed bytes in this segment=349050) in 0.06 seconds
+0070.051 (0) Table wp_revslider_slides7: finishing file(s) (2, 11.7 KB)
+0070.092 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 9
+0070.099 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.115 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=3199) in 0.05 seconds
+0070.133 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.8 KB)
+0070.154 (0) Table wp_smush_dir_images: Total expected rows (via COUNT): 0
+0070.165 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1079) in 0.01 seconds
+0070.203 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0070.229 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 115
+0070.233 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.251 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 22489): 115 (uncompressed bytes in this segment=23114) in 0.03 seconds
+0070.283 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 4 KB)
+0070.316 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 87
+0070.322 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.355 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 96): 87 (uncompressed bytes in this segment=42160) in 0.06 seconds
+0070.397 (0) Table wp_wc_admin_notes: finishing file(s) (2, 9.9 KB)
+0070.432 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 129
+0070.447 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.475 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 1252): 129 (uncompressed bytes in this segment=18100) in 0.05 seconds
+0070.496 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 5.3 KB)
+0070.523 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0070.538 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.02 seconds
+0070.560 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0070.590 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 292
+0070.596 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.628 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: 304): 292 (uncompressed bytes in this segment=46732) in 0.05 seconds
+0070.645 (0) Table wp_wc_order_addresses: finishing file(s) (2, 9.4 KB)
+0070.682 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0070.694 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=709) in 0.02 seconds
+0070.716 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0070.750 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 147
+0070.755 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.778 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: 1025): 147 (uncompressed bytes in this segment=33347) in 0.04 seconds
+0070.802 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 5.9 KB)
+0070.832 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 181
+0070.842 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.852 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 343): 181 (uncompressed bytes in this segment=17656) in 0.04 seconds
+0070.881 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 3.2 KB)
+0070.905 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 147
+0070.909 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.927 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 53423): 147 (uncompressed bytes in this segment=23938) in 0.03 seconds
+0070.948 (0) Table wp_wc_order_stats: finishing file(s) (2, 4.2 KB)
+0070.965 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0070.976 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=791) in 0.01 seconds
+0070.997 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0071.014 (0) Table wp_wc_orders: Total expected rows (via COUNT): 147
+0071.018 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.039 (0) Table wp_wc_orders: Rows added in this batch (next record: 53423): 147 (uncompressed bytes in this segment=59912) in 0.03 seconds
+0071.071 (0) Table wp_wc_orders: finishing file(s) (2, 8.9 KB)
+0071.100 (0) Table wp_wc_orders_meta: Total expected rows (approximate): 2031
+0071.152 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: 2267): 2200 (uncompressed bytes in this segment=208597) in 0.06 seconds
+0071.174 (0) Table wp_wc_orders_meta: finishing file(s) (2, 37.1 KB)
+0071.190 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0071.204 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=850) in 0.02 seconds
+0071.247 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0071.274 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0071.280 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.295 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=900) in 0.03 seconds
+0071.319 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0071.355 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0071.374 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.03 seconds
+0071.401 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0071.418 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0071.423 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.01 seconds
+0071.439 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0071.487 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0071.493 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1038) in 0.03 seconds
+0071.529 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0071.548 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0071.554 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=954) in 0.01 seconds
+0071.579 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0071.598 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0071.604 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1518) in 0.01 seconds
+0071.627 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0071.659 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0071.670 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.02 seconds
+0071.704 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0071.743 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 326
+0071.748 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.766 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 344): 326 (uncompressed bytes in this segment=26078) in 0.04 seconds
+0071.787 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 2.4 KB)
+0071.809 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0071.850 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0.05 seconds
+0071.875 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0071.901 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 45
+0071.905 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.922 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 45728): 45 (uncompressed bytes in this segment=127869) in 0.03 seconds
+0071.948 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 7.4 KB)
+0071.966 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0071.971 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0071.985 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=961) in 0.02 seconds
+0072.007 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0072.048 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0072.055 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0072.064 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=870) in 0.03 seconds
+0072.085 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0072.109 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0072.115 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0072.127 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=709) in 0.02 seconds
+0072.143 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0072.160 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0072.174 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.02 seconds
+0072.195 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0072.210 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0072.216 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1283) in 0.01 seconds
+0072.241 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0072.254 (0) Table wp_wpc_accesslocks: Total expected rows (via COUNT): 0
+0072.258 (0) Table wp_wpc_accesslocks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.01 seconds
+0072.279 (0) Table wp_wpc_accesslocks: finishing file(s) (2, 0.4 KB)
+0072.304 (0) Table wp_wpc_login_fails: Total expected rows (via COUNT): 0
+0072.311 (0) Table wp_wpc_login_fails: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.01 seconds
+0072.345 (0) Table wp_wpc_login_fails: finishing file(s) (2, 0.4 KB)
+0072.349 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/rozeskin/wp-content/updraft/backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0072.355 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_options.table.tmpr208472.gz (1/82/fopen): adding to final database dump
+0072.374 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_options.table.gz (2/82/fopen): adding to final database dump
+0072.390 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_users.table.tmpr1164.gz (3/82/fopen): adding to final database dump
+0072.397 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_users.table.gz (4/82/fopen): adding to final database dump
+0072.402 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_usermeta.table.tmpr24670.gz (5/82/fopen): adding to final database dump
+0072.406 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_usermeta.table.gz (6/82/fopen): adding to final database dump
+0072.410 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_actionscheduler_actions.table.tmpr4319.gz (7/82/fopen): adding to final database dump
+0072.417 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_actionscheduler_actions.table.gz (8/82/fopen): adding to final database dump
+0072.420 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/82/fopen): adding to final database dump
+0072.426 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_actionscheduler_claims.table.gz (10/82/fopen): adding to final database dump
+0072.431 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_actionscheduler_groups.table.tmpr10.gz (11/82/fopen): adding to final database dump
+0072.438 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_actionscheduler_groups.table.gz (12/82/fopen): adding to final database dump
+0072.442 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_actionscheduler_logs.table.tmpr12879.gz (13/82/fopen): adding to final database dump
+0072.449 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_actionscheduler_logs.table.gz (14/82/fopen): adding to final database dump
+0072.455 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_commentmeta.table.tmpr458.gz (15/82/fopen): adding to final database dump
+0072.463 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_commentmeta.table.gz (16/82/fopen): adding to final database dump
+0072.469 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_comments.table.tmpr536.gz (17/82/fopen): adding to final database dump
+0072.473 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_comments.table.gz (18/82/fopen): adding to final database dump
+0072.477 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_links.table.tmpr0.gz (19/82/fopen): adding to final database dump
+0072.481 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_links.table.gz (20/82/fopen): adding to final database dump
+0072.484 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_postmeta.table.gz (21/82/fopen): adding to final database dump
+0072.523 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_posts.table.tmpr53433.gz (22/82/fopen): adding to final database dump
+0072.541 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_posts.table.gz (23/82/fopen): adding to final database dump
+0072.546 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_term_relationships.table.tmpr100001.gz (24/82/fopen): adding to final database dump
+0072.550 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_term_relationships.table.gz (25/82/fopen): adding to final database dump
+0072.553 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_term_taxonomy.table.tmpr147.gz (26/82/fopen): adding to final database dump
+0072.557 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_term_taxonomy.table.gz (27/82/fopen): adding to final database dump
+0072.562 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_termmeta.table.tmpr446.gz (28/82/fopen): adding to final database dump
+0072.566 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_termmeta.table.gz (29/82/fopen): adding to final database dump
+0072.570 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_terms.table.tmpr147.gz (30/82/fopen): adding to final database dump
+0072.574 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_terms.table.gz (31/82/fopen): adding to final database dump
+0072.578 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_category_lookup.table.tmpr1001.gz (32/82/fopen): adding to final database dump
+0072.590 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_category_lookup.table.gz (33/82/fopen): adding to final database dump
+0072.596 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_product_meta_lookup.table.tmpr53422.gz (34/82/fopen): adding to final database dump
+0072.607 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_product_meta_lookup.table.gz (35/82/fopen): adding to final database dump
+0072.613 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_reserved_stock.table.tmpr1.gz (36/82/fopen): adding to final database dump
+0072.617 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_reserved_stock.table.gz (37/82/fopen): adding to final database dump
+0072.621 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (38/82/fopen): adding to final database dump
+0072.625 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_tax_rate_classes.table.gz (39/82/fopen): adding to final database dump
+0072.629 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_order_itemmeta.table.tmpr2651.gz (40/82/fopen): adding to final database dump
+0072.634 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_order_itemmeta.table.gz (41/82/fopen): adding to final database dump
+0072.639 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (42/82/fopen): adding to final database dump
+0072.643 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_payment_tokenmeta.table.gz (43/82/fopen): adding to final database dump
+0072.648 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_chaty_contact_form_leads.table.tmpr0.gz (44/82/fopen): adding to final database dump
+0072.653 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_chaty_contact_form_leads.table.gz (45/82/fopen): adding to final database dump
+0072.657 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_e_events.table.tmpr3.gz (46/82/fopen): adding to final database dump
+0072.666 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_e_events.table.gz (47/82/fopen): adding to final database dump
+0072.671 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_attribute_mapping_rules.table.tmpr0.gz (48/82/fopen): adding to final database dump
+0072.677 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_attribute_mapping_rules.table.gz (49/82/fopen): adding to final database dump
+0072.681 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (50/82/fopen): adding to final database dump
+0072.688 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_budget_recommendations.table.gz (51/82/fopen): adding to final database dump
+0072.702 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_merchant_issues.table.tmpr0.gz (52/82/fopen): adding to final database dump
+0072.707 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_merchant_issues.table.gz (53/82/fopen): adding to final database dump
+0072.714 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_shipping_rates.table.tmpr0.gz (54/82/fopen): adding to final database dump
+0072.719 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_shipping_rates.table.gz (55/82/fopen): adding to final database dump
+0072.722 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_shipping_times.table.tmpr0.gz (56/82/fopen): adding to final database dump
+0072.725 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_gla_shipping_times.table.gz (57/82/fopen): adding to final database dump
+0072.732 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_hfcm_scripts.table.tmpr8.gz (58/82/fopen): adding to final database dump
+0072.736 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_hfcm_scripts.table.gz (59/82/fopen): adding to final database dump
+0072.740 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_ip2location_country_blocker_backend_rate_limit_log.table.tmpr0.gz (60/82/fopen): adding to final database dump
+0072.744 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_ip2location_country_blocker_backend_rate_limit_log.table.gz (61/82/fopen): adding to final database dump
+0072.750 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_ip2location_country_blocker_frontend_rate_limit_log.table.tmpr0.gz (62/82/fopen): adding to final database dump
+0072.754 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_ip2location_country_blocker_frontend_rate_limit_log.table.gz (63/82/fopen): adding to final database dump
+0072.759 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_ip2location_country_blocker_log.table.tmpr0.gz (64/82/fopen): adding to final database dump
+0072.762 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_ip2location_country_blocker_log.table.gz (65/82/fopen): adding to final database dump
+0072.764 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_jetpack_sync_queue.table.tmpr56.gz (66/82/fopen): adding to final database dump
+0072.767 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_jetpack_sync_queue.table.gz (67/82/fopen): adding to final database dump
+0072.770 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_post_smtp_logmeta.table.tmpr0.gz (68/82/fopen): adding to final database dump
+0072.774 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_post_smtp_logmeta.table.gz (69/82/fopen): adding to final database dump
+0072.777 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_post_smtp_logs.table.tmpr1933.gz (70/82/fopen): adding to final database dump
+0072.785 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_post_smtp_logs.table.gz (71/82/fopen): adding to final database dump
+0072.792 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_analytics_gsc.table.tmpr2.gz (72/82/fopen): adding to final database dump
+0072.796 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_analytics_gsc.table.gz (73/82/fopen): adding to final database dump
+0072.802 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_analytics_inspections.table.tmpr34.gz (74/82/fopen): adding to final database dump
+0072.809 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_analytics_inspections.table.gz (75/82/fopen): adding to final database dump
+0072.812 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_analytics_objects.table.tmpr384.gz (76/82/fopen): adding to final database dump
+0072.815 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_analytics_objects.table.gz (77/82/fopen): adding to final database dump
+0072.819 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_internal_links.table.tmpr47591.gz (78/82/fopen): adding to final database dump
+0072.822 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_internal_links.table.gz (79/82/fopen): adding to final database dump
+0072.825 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_internal_meta.table.tmpr53418.gz (80/82/fopen): adding to final database dump
+0072.828 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_internal_meta.table.gz (81/82/fopen): adding to final database dump
+0072.832 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_redirections.table.tmpr2.gz (82/82/fopen): adding to final database dump
+0072.834 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_redirections.table.gz (83/82/fopen): adding to final database dump
+0072.840 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_redirections_cache.table.tmpr2.gz (84/82/fopen): adding to final database dump
+0072.844 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_rank_math_redirections_cache.table.gz (85/82/fopen): adding to final database dump
+0072.847 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_css.table.tmpr171.gz (86/82/fopen): adding to final database dump
+0072.853 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_css.table.gz (87/82/fopen): adding to final database dump
+0072.856 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_layer_animations.table.tmpr0.gz (88/82/fopen): adding to final database dump
+0072.862 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_layer_animations.table.gz (89/82/fopen): adding to final database dump
+0072.864 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_navigations.table.tmpr5.gz (90/82/fopen): adding to final database dump
+0072.867 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_navigations.table.gz (91/82/fopen): adding to final database dump
+0072.869 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_sliders.table.tmpr10.gz (92/82/fopen): adding to final database dump
+0072.873 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_sliders.table.gz (93/82/fopen): adding to final database dump
+0072.882 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_sliders7.table.tmpr10.gz (94/82/fopen): adding to final database dump
+0072.888 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_sliders7.table.gz (95/82/fopen): adding to final database dump
+0072.892 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_slides.table.tmpr32.gz (96/82/fopen): adding to final database dump
+0072.897 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_slides.table.gz (97/82/fopen): adding to final database dump
+0072.901 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_slides7.table.tmpr41.gz (98/82/fopen): adding to final database dump
+0072.906 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_slides7.table.gz (99/82/fopen): adding to final database dump
+0072.914 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_static_slides.table.tmpr10.gz (100/82/fopen): adding to final database dump
+0072.917 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_revslider_static_slides.table.gz (101/82/fopen): adding to final database dump
+0072.920 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_smush_dir_images.table.tmpr0.gz (102/82/fopen): adding to final database dump
+0072.926 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_smush_dir_images.table.gz (103/82/fopen): adding to final database dump
+0072.929 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_admin_note_actions.table.tmpr22490.gz (104/82/fopen): adding to final database dump
+0072.933 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_admin_note_actions.table.gz (105/82/fopen): adding to final database dump
+0072.936 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_admin_notes.table.tmpr97.gz (106/82/fopen): adding to final database dump
+0072.938 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_admin_notes.table.gz (107/82/fopen): adding to final database dump
+0072.941 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_customer_lookup.table.tmpr1253.gz (108/82/fopen): adding to final database dump
+0072.944 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_customer_lookup.table.gz (109/82/fopen): adding to final database dump
+0072.946 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_download_log.table.tmpr0.gz (110/82/fopen): adding to final database dump
+0072.949 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_download_log.table.gz (111/82/fopen): adding to final database dump
+0072.963 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_addresses.table.tmpr305.gz (112/82/fopen): adding to final database dump
+0072.969 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_addresses.table.gz (113/82/fopen): adding to final database dump
+0072.978 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (114/82/fopen): adding to final database dump
+0072.983 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_coupon_lookup.table.gz (115/82/fopen): adding to final database dump
+0072.988 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_operational_data.table.tmpr1026.gz (116/82/fopen): adding to final database dump
+0072.992 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_operational_data.table.gz (117/82/fopen): adding to final database dump
+0072.997 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_product_lookup.table.tmpr344.gz (118/82/fopen): adding to final database dump
+0073.001 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_product_lookup.table.gz (119/82/fopen): adding to final database dump
+0073.006 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_stats.table.tmpr53424.gz (120/82/fopen): adding to final database dump
+0073.010 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_stats.table.gz (121/82/fopen): adding to final database dump
+0073.013 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (122/82/fopen): adding to final database dump
+0073.017 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_order_tax_lookup.table.gz (123/82/fopen): adding to final database dump
+0073.021 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_orders.table.tmpr53424.gz (124/82/fopen): adding to final database dump
+0073.024 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_orders.table.gz (125/82/fopen): adding to final database dump
+0073.028 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_orders_meta.table.tmpr2268.gz (126/82/fopen): adding to final database dump
+0073.042 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_orders_meta.table.gz (127/82/fopen): adding to final database dump
+0073.046 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (128/82/fopen): adding to final database dump
+0073.050 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_product_attributes_lookup.table.gz (129/82/fopen): adding to final database dump
+0073.054 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_product_download_directories.table.tmpr3.gz (130/82/fopen): adding to final database dump
+0073.058 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_product_download_directories.table.gz (131/82/fopen): adding to final database dump
+0073.063 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_rate_limits.table.tmpr0.gz (132/82/fopen): adding to final database dump
+0073.069 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_rate_limits.table.gz (133/82/fopen): adding to final database dump
+0073.074 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_webhooks.table.tmpr0.gz (134/82/fopen): adding to final database dump
+0073.079 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wc_webhooks.table.gz (135/82/fopen): adding to final database dump
+0073.086 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (136/82/fopen): adding to final database dump
+0073.091 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_api_keys.table.gz (137/82/fopen): adding to final database dump
+0073.098 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (138/82/fopen): adding to final database dump
+0073.101 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_attribute_taxonomies.table.gz (139/82/fopen): adding to final database dump
+0073.108 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (140/82/fopen): adding to final database dump
+0073.113 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (141/82/fopen): adding to final database dump
+0073.125 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_log.table.tmpr0.gz (142/82/fopen): adding to final database dump
+0073.133 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_log.table.gz (143/82/fopen): adding to final database dump
+0073.142 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_order_items.table.tmpr345.gz (144/82/fopen): adding to final database dump
+0073.147 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_order_items.table.gz (145/82/fopen): adding to final database dump
+0073.150 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (146/82/fopen): adding to final database dump
+0073.153 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_payment_tokens.table.gz (147/82/fopen): adding to final database dump
+0073.162 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_sessions.table.tmpr45729.gz (148/82/fopen): adding to final database dump
+0073.168 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_sessions.table.gz (149/82/fopen): adding to final database dump
+0073.177 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (150/82/fopen): adding to final database dump
+0073.182 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_shipping_zone_locations.table.gz (151/82/fopen): adding to final database dump
+0073.185 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (152/82/fopen): adding to final database dump
+0073.194 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_shipping_zone_methods.table.gz (153/82/fopen): adding to final database dump
+0073.200 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (154/82/fopen): adding to final database dump
+0073.209 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_shipping_zones.table.gz (155/82/fopen): adding to final database dump
+0073.213 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (156/82/fopen): adding to final database dump
+0073.217 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_tax_rate_locations.table.gz (157/82/fopen): adding to final database dump
+0073.223 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (158/82/fopen): adding to final database dump
+0073.235 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_woocommerce_tax_rates.table.gz (159/82/fopen): adding to final database dump
+0073.244 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wpc_accesslocks.table.tmpr0.gz (160/82/fopen): adding to final database dump
+0073.260 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wpc_accesslocks.table.gz (161/82/fopen): adding to final database dump
+0073.266 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wpc_login_fails.table.tmpr0.gz (162/82/fopen): adding to final database dump
+0073.282 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db-table-wp_wpc_login_fails.table.gz (163/82/fopen): adding to final database dump
+0073.310 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db.gz: finished writing out complete database file (4475.5 KB)
+0073.444 (0) Total database tables backed up: 82 (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db.gz, size: 4583053, sha1: f008e6a1f4ca6a7103cd59a27be6352b707c4771, sha256: 8a9733910cdf1eed478af2f77fea6dac7570784f896359839231b9cf7bb137a6)
+0073.495 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip: plugins: This file has already been successfully uploaded
+0073.512 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip: themes: This file has already been successfully uploaded
+0073.521 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip: uploads: This file has already been successfully uploaded
+0073.529 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-others.zip: others: This file has already been successfully uploaded
+0073.536 (0) backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0073.545 (0) Saving backup history. Total backup size: 286.4 MB
+0073.568 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0073.589 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0073.593 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0073.854 (0) Google Drive: quota usage: used=6257.4 MB, total=15360 MB, available=9102.6 MB
+0073.859 (0) Google Drive: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db.gz: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0074.670 (0) Googledrive chunked upload: 22.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 32.2 / 90)
+0075.040 (0) Googledrive chunked upload: 68.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 32.2 / 90)
+0076.262 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0076.279 (0) Google Drive: OK: Archive backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db.gz uploaded in 2.41 seconds
+0076.282 (0) Recording as successfully uploaded: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db.gz
+0076.308 (0) Deleting local file: backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-db.gz: OK
+0076.342 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=100
+0076.352 (0) Number of backup sets in history: 11; groups (db): 1
+0076.358 (0) Examining (for databases) backup set with group_id=0, nonce=400b35b44a7e, datestamp=1745248924 (Apr 21 2025 15:22:04)
+0076.366 (0) This backup set is the backup set just made, so will not be deleted.
+0076.366 (0) Examining (for databases) backup set with group_id=0, nonce=63c9256029e7, datestamp=1745219472 (Apr 21 2025 07:11:12)
+0076.366 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.374 (0) Examining (for databases) backup set with group_id=0, nonce=0e5cf86b7dd2, datestamp=1745133067 (Apr 20 2025 07:11:07)
+0076.374 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.374 (0) Examining (for databases) backup set with group_id=0, nonce=2f528e436036, datestamp=1745046716 (Apr 19 2025 07:11:56)
+0076.374 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.374 (0) Examining (for databases) backup set with group_id=0, nonce=ef9e9161c559, datestamp=1744960317 (Apr 18 2025 07:11:57)
+0076.374 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.374 (0) Examining (for databases) backup set with group_id=0, nonce=52e2365d405b, datestamp=1744873850 (Apr 17 2025 07:10:50)
+0076.374 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.374 (0) Examining (for databases) backup set with group_id=0, nonce=86c136a223c0, datestamp=1744787450 (Apr 16 2025 07:10:50)
+0076.374 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.375 (0) Examining (for databases) backup set with group_id=0, nonce=3377fd5c407a, datestamp=1744701107 (Apr 15 2025 07:11:47)
+0076.375 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.375 (0) Examining (for databases) backup set with group_id=0, nonce=06ed0efc82b5, datestamp=1744614646 (Apr 14 2025 07:10:46)
+0076.375 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.375 (0) Examining (for databases) backup set with group_id=0, nonce=b75e4f6ef86e, datestamp=1744528247 (Apr 13 2025 07:10:47)
+0076.375 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.375 (0) Examining (for databases) backup set with group_id=0, nonce=789fb6584129, datestamp=1744441938 (Apr 12 2025 07:12:18)
+0076.375 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.375 (0) Number of backup sets in history: 11; groups (files): 1
+0076.380 (0) Examining (for files) backup set with nonce=400b35b44a7e, datestamp=1745248924 (Apr 21 2025 15:22:04)
+0076.380 (0) This backup set is the backup set just made, so will not be deleted.
+0076.391 (0) This backup set is the backup set just made, so will not be deleted.
+0076.392 (0) This backup set is the backup set just made, so will not be deleted.
+0076.392 (0) This backup set is the backup set just made, so will not be deleted.
+0076.392 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.402 (0) Examining (for files) backup set with nonce=63c9256029e7, datestamp=1745219472 (Apr 21 2025 07:11:12)
+0076.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.402 (0) Examining (for files) backup set with nonce=0e5cf86b7dd2, datestamp=1745133067 (Apr 20 2025 07:11:07)
+0076.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.402 (0) Examining (for files) backup set with nonce=2f528e436036, datestamp=1745046716 (Apr 19 2025 07:11:56)
+0076.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.402 (0) Examining (for files) backup set with nonce=ef9e9161c559, datestamp=1744960317 (Apr 18 2025 07:11:57)
+0076.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.402 (0) Examining (for files) backup set with nonce=52e2365d405b, datestamp=1744873850 (Apr 17 2025 07:10:50)
+0076.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.402 (0) Examining (for files) backup set with nonce=86c136a223c0, datestamp=1744787450 (Apr 16 2025 07:10:50)
+0076.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.402 (0) Examining (for files) backup set with nonce=3377fd5c407a, datestamp=1744701107 (Apr 15 2025 07:11:47)
+0076.402 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.403 (0) Examining (for files) backup set with nonce=06ed0efc82b5, datestamp=1744614646 (Apr 14 2025 07:10:46)
+0076.403 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.403 (0) Examining (for files) backup set with nonce=b75e4f6ef86e, datestamp=1744528247 (Apr 13 2025 07:10:47)
+0076.403 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.403 (0) Examining (for files) backup set with nonce=789fb6584129, datestamp=1744441938 (Apr 12 2025 07:12:18)
+0076.403 (0) plugins: over retain limit (10); will delete this file entity
+0076.403 (0) themes: over retain limit (10); will delete this file entity
+0076.403 (0) uploads: over retain limit (10); will delete this file entity
+0076.403 (0) others: over retain limit (10); will delete this file entity
+0078.193 (0) Google Drive: backup_2025-04-12-1112_Roze_Skincare_789fb6584129-others.zip: Deletion successful
+0078.631 (0) Google Drive: backup_2025-04-12-1112_Roze_Skincare_789fb6584129-uploads.zip: Deletion successful
+0079.806 (0) Google Drive: backup_2025-04-12-1112_Roze_Skincare_789fb6584129-themes.zip: Deletion successful
+0080.385 (0) Google Drive: backup_2025-04-12-1112_Roze_Skincare_789fb6584129-plugins.zip: Deletion successful
+0080.416 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0080.421 (0) Retain: saving new backup history (sets now: 11) and finishing retain operation
+0080.442 (0) Resume backup (400b35b44a7e, 0): finish run
+0080.459 (0) Decremented the semaphore (fd) by 1
+0080.479 (0) Semaphore (fd) unlocked
+0080.484 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0080.509 (0) Deleting zip manifest (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-plugins.zip.list.tmp)
+0080.528 (0) Deleting zip manifest (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-themes.zip.list.tmp)
+0080.536 (0) Deleting zip manifest (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-uploads.zip.list.tmp)
+0080.547 (0) Deleting zip manifest (backup_2025-04-21-1922_Roze_Skincare_400b35b44a7e-others.zip.list.tmp)
+0080.553 (0) No email will/can be sent - the user has not configured an email address.
+0080.561 (0) The backup succeeded and is now complete

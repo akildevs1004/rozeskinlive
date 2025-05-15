@@ -1,0 +1,193 @@
+/*
+*  Woocommerce Responsive
+*/
+
+@mixin product-grid-respon() {
+    .product-block{
+        @include transition(none);
+        .btn-outline,.button,#submit{
+            min-width: inherit;
+        }
+        
+        .image{
+            img,.image-hover{
+                @include transition(none);
+                @include transform(none);
+            }
+            &:hover{
+                .image-hover{
+                    @include transition(none);
+                    @include transform(none);
+                }
+            }
+        }
+        .image-effect,.category,.overlay,.add-links{
+            display: none;
+        }
+        
+    }
+    .product-grid{
+        .add-button,.price{
+            visibility: visible;
+            @include opacity(1);
+        }
+        &:hover{
+            .price,.add-button{
+                @include transition(none);
+                @include transform(none);
+                visibility: visible;
+                @include opacity(1);
+            }
+        }
+    }
+}
+
+@mixin product-grid-mobile() {
+    .product-grid{
+        .btn-outline{
+            padding: 0 10px;
+            span{
+                display: inline-block;
+            }
+        }
+    }
+    .widget{
+        &.widget-products{
+            .tabs-list{
+                
+            }
+        }
+    }
+}
+@media (max-width:$screen-xs-max){
+	.attribute-mobile-content{
+		display:none;
+		@include opacity-h();
+		position:fixed;
+		z-index:99;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		background:rgba(#000,0.25);
+		align-items:end;
+		&.active{
+			display:flex;
+			@include opacity-s();
+		}
+		&.show-content{
+			.form-attribute{
+				@include transform(translateY(0));
+				@include opacity-s();
+			}
+		}
+		.attribute-card.color{
+			display:none;
+		}
+		.form-attribute{
+			background:$white;
+			padding:30px 30px 80px;
+			width:100%;
+			@include transition(all 0.3s ease);
+			@include transform(translateY(100%));
+			@include opacity-h();
+			.attribute-card{
+				padding:0 0 10px;;
+				list-style:none;
+				text-align:center;
+				white-space: nowrap;
+				overflow: auto;
+			}
+			.title{
+				font-size:calc(var(--font-size-body,16px) - 2px);
+				font-weight:500;
+				text-align:center;
+				text-transform:uppercase;
+				color:var(--gray-dark,$gray-dark);
+				margin-bottom:15px;
+				&:before{
+					display:block;
+					content:attr(data-title_atc);
+				}
+				&:only-child {
+					display: none;
+				}
+				&.disabled{
+					&:before{
+						content:attr(data-title);
+					}
+				}
+			}
+			.list-attribute{
+				display:inline-block;
+				margin:0px 5px;
+				font-size:calc(var(--font-size-body,16px) - 6px);
+				text-transform:uppercase;
+				color:var(--gray-dark,$gray-dark);
+				font-weight:500;
+				line-height:var(--font-size-body,16px);
+				padding:6px 5px;
+				cursor:pointer;
+				min-width:40px;
+				text-align:center;
+				border:1px solid $border-color;
+				max-width: fit-content;
+				flex: unset;
+				&.active{
+					background:var(--gray-dark,$gray-dark);
+					border-color:var(--gray-dark,$gray-dark);
+					color:$white;
+				}
+				&.disabled{
+					pointer-events: none;
+					opacity:0.75;
+					position:relative;
+					&:before{
+						content: "";
+						pointer-events: none;
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						background: linear-gradient(to bottom right,transparent calc(50% - 1px),#dddddd,transparent calc(50% + 1px));
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-md) and (max-width: $screen-md-max){
+    @include product-grid-respon();
+    .product-info{
+        .product-title{
+            @include font-size(font-size,20px);
+        }
+    }
+}
+
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+    @include product-grid-respon();
+    .product-grid{
+        .name{
+            min-height: 60px;
+            @include font-size(font-size,11px);
+        }
+    }
+}
+
+@media (max-width: $screen-sm-max) {
+    @include product-grid-respon();
+    @include product-grid-mobile();
+}
+
+@media (max-width: $screen-xs-max) {
+    @include product-grid-respon();
+    @include product-grid-mobile();
+}
+
+@media (max-width: $screen-phone) {
+    @include product-grid-respon();
+    @include product-grid-mobile();
+}

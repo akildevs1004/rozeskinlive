@@ -1,0 +1,10 @@
+ 
+
+
+location ~* \.(jpg|jpeg|gif|png)$ {
+   expires 365d;
+}
+
+location ~* \.(pdf|css|html|js|swf)$ {
+   expires 2d;
+}

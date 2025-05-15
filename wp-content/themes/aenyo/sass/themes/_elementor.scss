@@ -1,0 +1,315 @@
+/*------------------- Content Layout -----------------*/
+.icon-scroll{
+	-webkit-animation: icon-scroll 1s infinite  alternate;
+    animation: icon-scroll 1s infinite  alternate;
+}
+.height-100{
+	height:100%;
+	>div{
+		height:100%;
+	}
+}
+.width-100{
+	.elementor-image{
+		img{
+			width: 100%;
+		}
+	}
+}
+.filter-white img{
+	-webkit-filter: brightness(0) invert(1);
+  	filter: brightness(0) invert(1);
+}
+.position-middle{
+	position: absolute !important;
+	top: 50%;
+	left: 0;
+	@include transform(translateY(-50%));
+}
+.img-menu{
+	img{
+		@include box-shadow(3px 4px 18px 0px rgba(0, 0, 0, 0.05) !important);
+	}
+}
+@media(min-width: $screen-xs-max){
+	.writing-mode{
+		h2{
+			writing-mode: vertical-lr;
+		}
+	}
+}
+/*------------------- End Content Layout -----------------*/
+
+
+/*------------------- Style Button -----------------*/
+.btn-style-2{
+	a{
+		&:after{
+			content: "\e905";
+			font-family: 'icomoon';
+			position: relative;
+			color: var(--theme-color,$theme-color);
+			@include transition(all .3s ease);
+			@include rtl-margin-left(2px);
+			top: 2px;
+			font-size: calc(var(--font-size-body,14px) - 1px);
+		}
+		&:hover{
+			&:after{
+				@include rtl-padding-left(3px);
+			}
+		}
+	}
+}
+.btn-style{
+	.bwp-button-widget{
+		a{
+			position: relative;
+			&:before{
+				content: "";
+				position: absolute;
+				display: block;
+				bottom: 4px;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background:var(--theme-color,$theme-color);
+				@include transform(scaleX(1));
+				transform-origin: 0 50%;
+				transition: transform .48s cubic-bezier(.77,0,.175,1);
+			}
+			&:hover{
+				&:before{
+					transform-origin: 100% 50%;
+					@include transform(scaleX(0));
+					animation: animate-btn-underline .96s .36s forwards cubic-bezier(.77,0,.175,1);
+				}
+			}
+		}
+	}
+}
+/*-------------------End Style Button -----------------*/
+
+
+/*------------------- Content Animation -----------------*/
+.img-animation{
+	.elementor-image{
+		img{
+			animation: rotation 15s infinite linear;
+		}
+	}
+}
+/*------------------- End Animation -----------------*/
+
+
+/*------------------- Navigation -----------------*/
+.style-navigation{
+	.content-product-list{
+		.slick-arrow{
+			&.fa-angle-left{
+				@include rtl-left(25px !important);
+			}
+			&.fa-angle-right{
+				@include rtl-right(25px !important);
+			}
+		}
+		&:hover{
+			.slick-arrow{
+				&.fa-angle-left{
+					@include rtl-left(0 !important);
+				}
+				&.fa-angle-right{
+					@include rtl-right(0 !important);
+				}
+			}
+		}
+	}
+}
+/*------------------- End Navigation -----------------*/
+
+/*------------------- Newsletter -----------------*/
+.style-newsletter-white{
+	.wpbingo-newsletter.newsletter-default .content-newsletter{
+		input[type="email"]{
+			border: 0;
+			border-bottom: 1px solid rgba($white, .4);
+			color: var(--text-color, $text-color);
+			padding: 0;
+		}
+		.clearfix{
+			background: transparent;
+			input[type="submit"]{
+				border-color: rgba($white, .4);
+			}
+			&:hover{
+				background: $white;
+			}
+		}
+	}
+}
+.newsletter-2 {
+	.wpcf7-form-control-wrap {
+		position: unset;
+	}
+	.wpbingo-newsletter {
+		position: relative;
+		.content-newsletter {
+			display: block;
+		}
+	}
+	input[type="email"]{
+		text-align: center;
+		border: 1px solid var(--gray-dark, $gray-dark) !important;
+		&::placeholder{
+			color: var(--text-color, $text-color);
+		}
+	}
+	input[type="submit"]{
+		width: 100%;
+		margin-top: 15px;
+		background: var(--gray-dark, $gray-dark) !important;
+		color: var(--white, $white) !important;
+		&:hover {
+			background: var(--theme-color, $theme-color) !important;
+		}
+	}
+}
+
+.newsletter-3 {
+	.wpbingo-newsletter {
+		.content-newsletter {
+			background: $white;
+			border-radius: 50px;
+			.clearfix {
+				border-radius: 50px;
+				background: transparent;
+				&:hover {
+					background: transparent;
+				}
+			}
+		}
+	}
+	input[type="email"]{
+		border: 0 !important;
+	}
+	input[type="submit"]{
+		border-radius: 50px;
+		color: var(--gray-dark, $gray-dark) !important;
+		background: transparent !important;
+		&:hover {
+			color: var(--theme-color, $theme-color) !important;
+		}
+	}
+}
+.newsletter-4 {
+	.wpbingo-newsletter {
+		.content-newsletter {
+			background: $white;
+		}
+	}
+	input[type="email"]{
+		border: 0 !important;
+	}
+	input[type="submit"]{
+		background: var(--gray-dark, $gray-dark) !important;
+		color: var(--white, $white) !important;
+		&:hover {
+			background: var(--theme-color, $theme-color) !important;
+		}
+	}
+}
+.newsletter-5 {
+	input[type="email"]{
+		border: 1px solid var(--gray-dark, $gray-dark) !important;
+	}
+	input[type="submit"]{
+		background: var(--gray-dark, $gray-dark) !important;
+		color: var(--white, $white) !important;
+		&:hover {
+			background: var(--theme-color, $theme-color) !important;
+		}
+	}
+}
+/*------------------- End Newsletter -----------------*/
+
+
+/*------------------- Other layout -----------------*/
+.marginright-auto{
+	>.elementor-container{
+		margin-left:0 !important;
+	}
+}
+.marginleft-auto{
+	>.elementor-container{
+		margin-right: 0 !important;
+	}
+}
+@media (min-width:$screen-sm-max){
+	.marginright-sm-auto{
+		>.elementor-container{
+			margin-left:0 !important;
+		}
+	}
+	.marginleft-sm-auto{
+		>.elementor-container{
+			margin-right: 0 !important;
+		}
+	}
+}
+@media (max-width:$screen-sm-max){
+	.marginright-xs-auto{
+		>.elementor-container{
+			margin-left:0 !important;
+		}
+	}
+	.marginleft-xs-auto{
+		>.elementor-container{
+			margin-right: 0 !important;
+		}
+	}
+}
+.elementor-icon-box-title{
+	margin-top:0;
+	strong{
+		font-style: italic;
+		font-weight: 400;
+	}
+}
+.content-container-full{
+	@include rtl-padding-left(70px);
+	@media (max-width:1770px){
+		@include rtl-padding-left(15px);
+	}
+	@media (max-width:$screen-md-max){
+		@include rtl-padding-left(0);
+	}
+}
+/*------------------- End layout -----------------*/
+.elementor-section:not(.elementor-section-full_width,.elementor-inner-section){
+	@media (max-width:1770px) and (min-width:$screen-md-max){
+		padding-left: 15px ;
+		padding-right: 15px ;
+	}
+}
+/*------------------- Accordion -----------------*/
+.content-accordion{
+	.elementor-accordion{
+		.elementor-accordion-item{
+			.elementor-tab-title{
+				border-bottom: 1px solid #e8e8e8 !important;
+				&.elementor-active{
+					border-color: var(--gray-dark, $gray-dark) !important;
+				}
+			}
+			.elementor-tab-content{
+				border-bottom: 1px solid #e8e8e8 !important;
+				height: auto !important;
+				padding: 0 !important;
+				&.elementor-active{
+					padding: 30px 0 !important;
+				}
+			}
+		}
+	}
+}
+/*------------------- End Accordion -----------------*/

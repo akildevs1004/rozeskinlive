@@ -1,0 +1,3 @@
+2025-04-25T02:50:39+00:00 NOTICE Unable to detect valid feed configuration: No catalog ID CONTEXT: {"_legacy":true}
+2025-04-25T06:02:00+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 07126d7aed1ebfd300e169ed09a356b5: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}
+2025-04-25T06:02:10+00:00 NOTICE There was an error trying sync products using the Catalog Batch API for job 22b03e3960574994c393f139d892f9d6: Cannot create the API instance because the access token is missing. CONTEXT: {"_legacy":true}

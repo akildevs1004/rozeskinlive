@@ -1,0 +1,90 @@
+[2025-04-15 16:18:39] Order ID: 52868
+Request:
+{
+    "order_id": 52868,
+    "order_date": "2025-01-27 16:13:44",
+    "order_status": "completed",
+    "currency": "AED",
+    "total": "10.00",
+    "payment_method": "stripe_cc",
+    "payment_method_title": "Visa ending in 4242",
+    "billing": {
+        "first_name": "Roze",
+        "last_name": "Skin",
+        "email": "rozeskincaredubai@gmail.com",
+        "phone": "0552205149",
+        "address_1": "8-9-99 Al fahidi",
+        "address_2": "",
+        "city": "Dubai",
+        "state": "Dubai",
+        "postcode": "",
+        "country": "AE"
+    },
+    "shipping": {
+        "first_name": "Roze",
+        "last_name": "Skin",
+        "address_1": "8-9-99 Al fahidi",
+        "address_2": "",
+        "city": "Dubai",
+        "state": "Dubai",
+        "postcode": "",
+        "country": "AE"
+    },
+    "items": [
+        {
+            "product_id": 49542,
+            "sku": "",
+            "name": "Rice Moisturizing Facial Cleanser",
+            "quantity": 1,
+            "subtotal": "10",
+            "total": "10"
+        }
+    ]
+}
+Response: ERROR - cURL error 6: Could not resolve host: api.example.com
+--------------------------------------------------------------------------------
+[2025-04-15 16:20:34] Order ID: 52868
+Request:
+{
+    "order_id": 52868,
+    "order_date": "2025-01-27 16:13:44",
+    "order_status": "completed",
+    "currency": "AED",
+    "total": "10.00",
+    "payment_method": "stripe_cc",
+    "payment_method_title": "Visa ending in 4242",
+    "billing": {
+        "first_name": "Roze",
+        "last_name": "Skin",
+        "email": "rozeskincaredubai@gmail.com",
+        "phone": "0552205149",
+        "address_1": "8-9-99 Al fahidi",
+        "address_2": "",
+        "city": "Dubai",
+        "state": "Dubai",
+        "postcode": "",
+        "country": "AE"
+    },
+    "shipping": {
+        "first_name": "Roze",
+        "last_name": "Skin",
+        "address_1": "8-9-99 Al fahidi",
+        "address_2": "",
+        "city": "Dubai",
+        "state": "Dubai",
+        "postcode": "",
+        "country": "AE"
+    },
+    "items": [
+        {
+            "product_id": 49542,
+            "sku": "",
+            "name": "Rice Moisturizing Facial Cleanser",
+            "quantity": 1,
+            "subtotal": "10",
+            "total": "10"
+        }
+    ]
+}
+Response: ERROR - cURL error 6: Could not resolve host: api.example.com
+--------------------------------------------------------------------------------

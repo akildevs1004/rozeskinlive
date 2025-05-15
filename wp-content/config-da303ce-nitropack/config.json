@@ -1,0 +1,39 @@
+{
+    "rozeskin.com": {
+        "siteId": "bpQLFyBfxDpqCtoJFPlzGkFEGEHoJlHG",
+        "siteSecret": "CL50SEEycRIIcSM2IHOCm0GUv7S6HmT8fRQY9rjmpu0HzAbIwyj48XZUnJjI6E2r",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "3eb36673150f301bdf5881afb92c2b75",
+        "home_url": "https:\/\/rozeskin.com",
+        "admin_url": "https:\/\/rozeskin.com\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isNginxHelperActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "isWoocommerceCacheHandlerActive": false,
+        "isWoocommerceActive": true,
+        "isAeliaCurrencySwitcherActive": false,
+        "isGeoTargetingWPActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.17.6",
+        "options_cache": {
+            "cache_handler_cache_handler": false,
+            "woocommerce_default_customer_address": "base",
+            "ajaxShortcodes": {
+                "enabled": false,
+                "shortcodes": []
+            },
+            "wc_aelia_currency_switcher": {
+                "ipgeolocation_enabled": null
+            }
+        },
+        "additional_domains": [],
+        "minimumLogLevel": null
+    },
+    "config_path": "7d2c82fc68e54ed480840b64b209d610"
+}

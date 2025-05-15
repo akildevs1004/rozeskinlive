@@ -1,0 +1,915 @@
+0000.000 (0) Opened log file at time: Sat, 03 May 2025 07:10:51 +0000 on https://rozeskin.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.8.1 PHP: 8.2.28 (fpm-fcgi, Linux rozeskin 5.15.0-131-generic #141-Ubuntu SMP Fri Jan 10 21:18:28 UTC 2025 x86_64) MySQL: 8.0.35 (max packet size=67108864) WPLANG: en_US Server: nginx/1.18.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.6M | 20M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 33736.3 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: every2hours)
+0000.015 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.026 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1746169898, seconds_ago=86353)
+0000.040 (0) Set semaphore last lock (f) time to 2025-05-03 07:10:51
+0000.044 (0) Semaphore lock (f) complete
+0000.055 (0) Backup run: resumption=0, nonce=7de142647fa2, file_nonce=7de142647fa2 begun at=1746256251 (0s ago), job type=backup
+0000.061 (0) Scheduling a resumption (1) after 300 seconds (1746256551) in case this run gets aborted
+0000.078 (0) Checking if we have a zip executable available
+0000.082 (0) Testing: /usr/bin/zip
+0000.089 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.093 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.096 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.101 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.110 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.114 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.124 (0) Working binary zip found: /usr/bin/zip
+0000.133 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.135 (0) Creation of backups of directories: beginning
+0000.147 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.470 (0) Total entities for the zip file: 3303 directories, 22681 files (0 skipped as non-modified), 306.6 MB
+0000.479 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.485 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.495 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.502 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.507 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.514 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.520 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.526 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.531 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.536 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.540 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.4 MB, 22681 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.993 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: size is now: 3.70 MB
+0001.002 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1100 files added (on-disk size: 3754.1 KB)
+0001.005 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1200 files added (on-disk size: 3754.1 KB)
+0001.010 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1300 files added (on-disk size: 3754.1 KB)
+0001.015 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 22681 files batched, 380 (1381) added so far); re-opening (prior size: 3754.1 KB)
+0001.750 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: size is now: 19.80 MB
+0001.760 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 16724.1 KB/s)
+0001.767 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5313799381256, normalised_time=1.5307290933047, max_time=1.7629110813141, data points known=1, old_max_bytes=26214400, new_max_bytes=102752603)
+0001.775 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1400 files added (on-disk size: 20275.2 KB)
+0001.780 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1500 files added (on-disk size: 20275.2 KB)
+0001.786 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1600 files added (on-disk size: 20275.2 KB)
+0001.791 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1700 files added (on-disk size: 20275.2 KB)
+0001.797 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1800 files added (on-disk size: 20275.2 KB)
+0001.802 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 1900 files added (on-disk size: 20275.2 KB)
+0001.807 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2000 files added (on-disk size: 20275.2 KB)
+0001.813 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2100 files added (on-disk size: 20275.2 KB)
+0001.818 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2200 files added (on-disk size: 20275.2 KB)
+0001.823 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2300 files added (on-disk size: 20275.2 KB)
+0001.828 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.1 MB, 22681 files batched, 1001 (2382) added so far); re-opening (prior size: 20275.2 KB)
+0002.258 (0) PHP event: code E_WARNING: filesize(): stat failed for /var/www/rozeskin/wp-content/updraft/backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0002.274 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2400 files added (on-disk size: 22505.6 KB)
+0002.282 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2500 files added (on-disk size: 22505.6 KB)
+0002.286 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2600 files added (on-disk size: 22505.6 KB)
+0002.290 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2700 files added (on-disk size: 22505.6 KB)
+0002.294 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2800 files added (on-disk size: 22505.6 KB)
+0002.298 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 2900 files added (on-disk size: 22505.6 KB)
+0002.302 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3000 files added (on-disk size: 22505.6 KB)
+0002.306 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3100 files added (on-disk size: 22505.6 KB)
+0002.311 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3200 files added (on-disk size: 22505.6 KB)
+0002.315 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3300 files added (on-disk size: 22505.6 KB)
+0002.319 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.6 MB, 22681 files batched, 1001 (3383) added so far); re-opening (prior size: 22505.6 KB)
+0002.729 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3400 files added (on-disk size: 24272.9 KB)
+0002.734 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3500 files added (on-disk size: 24272.9 KB)
+0002.739 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3600 files added (on-disk size: 24272.9 KB)
+0002.742 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3700 files added (on-disk size: 24272.9 KB)
+0002.746 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3800 files added (on-disk size: 24272.9 KB)
+0002.749 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 3900 files added (on-disk size: 24272.9 KB)
+0002.752 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4000 files added (on-disk size: 24272.9 KB)
+0002.755 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4100 files added (on-disk size: 24272.9 KB)
+0002.759 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4200 files added (on-disk size: 24272.9 KB)
+0002.763 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4300 files added (on-disk size: 24272.9 KB)
+0002.767 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.7 MB, 22681 files batched, 1001 (4384) added so far); re-opening (prior size: 24272.9 KB)
+0003.356 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4400 files added (on-disk size: 28035.7 KB)
+0003.361 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4500 files added (on-disk size: 28035.7 KB)
+0003.365 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4600 files added (on-disk size: 28035.7 KB)
+0003.369 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4700 files added (on-disk size: 28035.7 KB)
+0003.373 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4800 files added (on-disk size: 28035.7 KB)
+0003.377 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 4900 files added (on-disk size: 28035.7 KB)
+0003.380 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5000 files added (on-disk size: 28035.7 KB)
+0003.384 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5100 files added (on-disk size: 28035.7 KB)
+0003.388 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5200 files added (on-disk size: 28035.7 KB)
+0003.393 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5300 files added (on-disk size: 28035.7 KB)
+0003.397 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.4 MB, 22681 files batched, 1001 (5385) added so far); re-opening (prior size: 28035.7 KB)
+0003.734 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5400 files added (on-disk size: 29871.8 KB)
+0003.739 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5500 files added (on-disk size: 29871.8 KB)
+0003.743 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5600 files added (on-disk size: 29871.8 KB)
+0003.749 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5700 files added (on-disk size: 29871.8 KB)
+0003.753 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5800 files added (on-disk size: 29871.8 KB)
+0003.758 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 5900 files added (on-disk size: 29871.8 KB)
+0003.762 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6000 files added (on-disk size: 29871.8 KB)
+0003.766 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6100 files added (on-disk size: 29871.8 KB)
+0003.770 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6200 files added (on-disk size: 29871.8 KB)
+0003.775 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6300 files added (on-disk size: 29871.8 KB)
+0003.779 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.5 MB, 22681 files batched, 1001 (6386) added so far); re-opening (prior size: 29871.8 KB)
+0004.354 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: size is now: 37.70 MB
+0004.361 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6400 files added (on-disk size: 38585.6 KB)
+0004.364 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6500 files added (on-disk size: 38585.6 KB)
+0004.368 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6600 files added (on-disk size: 38585.6 KB)
+0004.373 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6700 files added (on-disk size: 38585.6 KB)
+0004.377 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6800 files added (on-disk size: 38585.6 KB)
+0004.380 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 6900 files added (on-disk size: 38585.6 KB)
+0004.385 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7000 files added (on-disk size: 38585.6 KB)
+0004.390 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7100 files added (on-disk size: 38585.6 KB)
+0004.394 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7200 files added (on-disk size: 38585.6 KB)
+0004.401 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7300 files added (on-disk size: 38585.6 KB)
+0004.405 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (25.2 MB, 22681 files batched, 1001 (7387) added so far); re-opening (prior size: 38585.6 KB)
+0005.517 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7400 files added (on-disk size: 44528.1 KB)
+0005.522 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7500 files added (on-disk size: 44528.1 KB)
+0005.526 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7600 files added (on-disk size: 44528.1 KB)
+0005.530 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7700 files added (on-disk size: 44528.1 KB)
+0005.535 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7800 files added (on-disk size: 44528.1 KB)
+0005.538 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 7900 files added (on-disk size: 44528.1 KB)
+0005.542 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8000 files added (on-disk size: 44528.1 KB)
+0005.547 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8100 files added (on-disk size: 44528.1 KB)
+0005.552 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8200 files added (on-disk size: 44528.1 KB)
+0005.557 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8300 files added (on-disk size: 44528.1 KB)
+0005.560 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (34.4 MB, 22681 files batched, 1001 (8388) added so far); re-opening (prior size: 44528.1 KB)
+0007.288 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: size is now: 53.40 MB
+0007.310 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8400 files added (on-disk size: 54678.7 KB)
+0007.317 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8500 files added (on-disk size: 54678.7 KB)
+0007.322 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8600 files added (on-disk size: 54678.7 KB)
+0007.331 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8700 files added (on-disk size: 54678.7 KB)
+0007.335 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8800 files added (on-disk size: 54678.7 KB)
+0007.340 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 8900 files added (on-disk size: 54678.7 KB)
+0007.345 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9000 files added (on-disk size: 54678.7 KB)
+0007.351 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9100 files added (on-disk size: 54678.7 KB)
+0007.356 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9200 files added (on-disk size: 54678.7 KB)
+0007.362 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9300 files added (on-disk size: 54678.7 KB)
+0007.367 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.1 MB, 22681 files batched, 1001 (9389) added so far); re-opening (prior size: 54678.7 KB)
+0008.183 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9400 files added (on-disk size: 58839.4 KB)
+0008.190 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9500 files added (on-disk size: 58839.4 KB)
+0008.196 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9600 files added (on-disk size: 58839.4 KB)
+0008.201 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9700 files added (on-disk size: 58839.4 KB)
+0008.206 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9800 files added (on-disk size: 58839.4 KB)
+0008.210 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 9900 files added (on-disk size: 58839.4 KB)
+0008.214 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10000 files added (on-disk size: 58839.4 KB)
+0008.218 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10100 files added (on-disk size: 58839.4 KB)
+0008.223 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10200 files added (on-disk size: 58839.4 KB)
+0008.228 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10300 files added (on-disk size: 58839.4 KB)
+0008.237 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.5 MB, 22681 files batched, 1001 (10390) added so far); re-opening (prior size: 58839.4 KB)
+0008.810 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10400 files added (on-disk size: 63748.5 KB)
+0008.817 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10500 files added (on-disk size: 63748.5 KB)
+0008.828 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10600 files added (on-disk size: 63748.5 KB)
+0008.850 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10700 files added (on-disk size: 63748.5 KB)
+0008.875 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10800 files added (on-disk size: 63748.5 KB)
+0008.891 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 10900 files added (on-disk size: 63748.5 KB)
+0008.897 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11000 files added (on-disk size: 63748.5 KB)
+0008.903 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11100 files added (on-disk size: 63748.5 KB)
+0008.908 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11200 files added (on-disk size: 63748.5 KB)
+0008.919 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11300 files added (on-disk size: 63748.5 KB)
+0008.926 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.5 MB, 22681 files batched, 1001 (11391) added so far); re-opening (prior size: 63748.5 KB)
+0009.356 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11400 files added (on-disk size: 65416.9 KB)
+0009.362 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11500 files added (on-disk size: 65416.9 KB)
+0009.369 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11600 files added (on-disk size: 65416.9 KB)
+0009.374 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11700 files added (on-disk size: 65416.9 KB)
+0009.381 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11800 files added (on-disk size: 65416.9 KB)
+0009.387 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 11900 files added (on-disk size: 65416.9 KB)
+0009.393 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12000 files added (on-disk size: 65416.9 KB)
+0009.400 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12100 files added (on-disk size: 65416.9 KB)
+0009.407 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12200 files added (on-disk size: 65416.9 KB)
+0009.414 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12300 files added (on-disk size: 65416.9 KB)
+0009.418 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.2 MB, 22681 files batched, 1001 (12392) added so far); re-opening (prior size: 65416.9 KB)
+0010.154 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12400 files added (on-disk size: 71983.3 KB)
+0010.160 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12500 files added (on-disk size: 71983.3 KB)
+0010.168 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12600 files added (on-disk size: 71983.3 KB)
+0010.174 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12700 files added (on-disk size: 71983.3 KB)
+0010.179 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12800 files added (on-disk size: 71983.3 KB)
+0010.186 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 12900 files added (on-disk size: 71983.3 KB)
+0010.191 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13000 files added (on-disk size: 71983.3 KB)
+0010.199 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13100 files added (on-disk size: 71983.3 KB)
+0010.205 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13200 files added (on-disk size: 71983.3 KB)
+0010.210 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13300 files added (on-disk size: 71983.3 KB)
+0010.216 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.9 MB, 22681 files batched, 1001 (13393) added so far); re-opening (prior size: 71983.3 KB)
+0011.197 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13400 files added (on-disk size: 75167.4 KB)
+0011.202 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13500 files added (on-disk size: 75167.4 KB)
+0011.207 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13600 files added (on-disk size: 75167.4 KB)
+0011.212 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13700 files added (on-disk size: 75167.4 KB)
+0011.218 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13800 files added (on-disk size: 75167.4 KB)
+0011.224 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 13900 files added (on-disk size: 75167.4 KB)
+0011.230 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14000 files added (on-disk size: 75167.4 KB)
+0011.234 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14100 files added (on-disk size: 75167.4 KB)
+0011.240 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14200 files added (on-disk size: 75167.4 KB)
+0011.245 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14300 files added (on-disk size: 75167.4 KB)
+0011.250 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.4 MB, 22681 files batched, 1001 (14394) added so far); re-opening (prior size: 75167.4 KB)
+0012.291 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14400 files added (on-disk size: 81984.1 KB)
+0012.296 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14500 files added (on-disk size: 81984.1 KB)
+0012.301 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14600 files added (on-disk size: 81984.1 KB)
+0012.306 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14700 files added (on-disk size: 81984.1 KB)
+0012.312 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14800 files added (on-disk size: 81984.1 KB)
+0012.316 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 14900 files added (on-disk size: 81984.1 KB)
+0012.322 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15000 files added (on-disk size: 81984.1 KB)
+0012.326 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15100 files added (on-disk size: 81984.1 KB)
+0012.330 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15200 files added (on-disk size: 81984.1 KB)
+0012.334 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15300 files added (on-disk size: 81984.1 KB)
+0012.338 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.5 MB, 22681 files batched, 1001 (15395) added so far); re-opening (prior size: 81984.1 KB)
+0012.692 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15400 files added (on-disk size: 83422.9 KB)
+0012.696 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15500 files added (on-disk size: 83422.9 KB)
+0012.701 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15600 files added (on-disk size: 83422.9 KB)
+0012.704 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15700 files added (on-disk size: 83422.9 KB)
+0012.708 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15800 files added (on-disk size: 83422.9 KB)
+0012.713 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 15900 files added (on-disk size: 83422.9 KB)
+0012.718 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16000 files added (on-disk size: 83422.9 KB)
+0012.723 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16100 files added (on-disk size: 83422.9 KB)
+0012.727 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16200 files added (on-disk size: 83422.9 KB)
+0012.730 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16300 files added (on-disk size: 83422.9 KB)
+0012.734 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.9 MB, 22681 files batched, 1001 (16396) added so far); re-opening (prior size: 83422.9 KB)
+0013.563 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16400 files added (on-disk size: 86959.8 KB)
+0013.568 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16500 files added (on-disk size: 86959.8 KB)
+0013.572 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16600 files added (on-disk size: 86959.8 KB)
+0013.576 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16700 files added (on-disk size: 86959.8 KB)
+0013.580 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16800 files added (on-disk size: 86959.8 KB)
+0013.584 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 16900 files added (on-disk size: 86959.8 KB)
+0013.589 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17000 files added (on-disk size: 86959.8 KB)
+0013.594 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17100 files added (on-disk size: 86959.8 KB)
+0013.600 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17200 files added (on-disk size: 86959.8 KB)
+0013.604 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17300 files added (on-disk size: 86959.8 KB)
+0013.608 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.2 MB, 22681 files batched, 1001 (17397) added so far); re-opening (prior size: 86959.8 KB)
+0014.217 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17400 files added (on-disk size: 89463.9 KB)
+0014.223 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17500 files added (on-disk size: 89463.9 KB)
+0014.227 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17600 files added (on-disk size: 89463.9 KB)
+0014.230 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17700 files added (on-disk size: 89463.9 KB)
+0014.234 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17800 files added (on-disk size: 89463.9 KB)
+0014.238 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 17900 files added (on-disk size: 89463.9 KB)
+0014.242 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18000 files added (on-disk size: 89463.9 KB)
+0014.247 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18100 files added (on-disk size: 89463.9 KB)
+0014.252 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18200 files added (on-disk size: 89463.9 KB)
+0014.256 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18300 files added (on-disk size: 89463.9 KB)
+0014.260 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.9 MB, 22681 files batched, 1001 (18398) added so far); re-opening (prior size: 89463.9 KB)
+0014.790 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18400 files added (on-disk size: 92006.8 KB)
+0014.795 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18500 files added (on-disk size: 92006.8 KB)
+0014.800 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18600 files added (on-disk size: 92006.8 KB)
+0014.804 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18700 files added (on-disk size: 92006.8 KB)
+0014.809 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18800 files added (on-disk size: 92006.8 KB)
+0014.814 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 18900 files added (on-disk size: 92006.8 KB)
+0014.817 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19000 files added (on-disk size: 92006.8 KB)
+0014.821 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19100 files added (on-disk size: 92006.8 KB)
+0014.826 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19200 files added (on-disk size: 92006.8 KB)
+0014.830 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19300 files added (on-disk size: 92006.8 KB)
+0014.834 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.1 MB, 22681 files batched, 1001 (19399) added so far); re-opening (prior size: 92006.8 KB)
+0016.266 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19400 files added (on-disk size: 98054.4 KB)
+0016.270 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19500 files added (on-disk size: 98054.4 KB)
+0016.274 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19600 files added (on-disk size: 98054.4 KB)
+0016.278 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19700 files added (on-disk size: 98054.4 KB)
+0016.283 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19800 files added (on-disk size: 98054.4 KB)
+0016.287 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 19900 files added (on-disk size: 98054.4 KB)
+0016.291 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20000 files added (on-disk size: 98054.4 KB)
+0016.296 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20100 files added (on-disk size: 98054.4 KB)
+0016.302 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20200 files added (on-disk size: 98054.4 KB)
+0016.307 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20300 files added (on-disk size: 98054.4 KB)
+0016.311 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.2 MB, 22681 files batched, 1001 (20400) added so far); re-opening (prior size: 98054.4 KB)
+0017.044 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20400 files added (on-disk size: 101544.4 KB)
+0017.049 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20500 files added (on-disk size: 101544.4 KB)
+0017.054 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20600 files added (on-disk size: 101544.4 KB)
+0017.059 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20700 files added (on-disk size: 101544.4 KB)
+0017.064 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20800 files added (on-disk size: 101544.4 KB)
+0017.068 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 20900 files added (on-disk size: 101544.4 KB)
+0017.073 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21000 files added (on-disk size: 101544.4 KB)
+0017.078 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21100 files added (on-disk size: 101544.4 KB)
+0017.082 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21200 files added (on-disk size: 101544.4 KB)
+0017.088 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21300 files added (on-disk size: 101544.4 KB)
+0017.096 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21400 files added (on-disk size: 101544.4 KB)
+0017.100 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.5 MB, 22681 files batched, 1001 (21401) added so far); re-opening (prior size: 101544.4 KB)
+0018.234 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21500 files added (on-disk size: 111430.3 KB)
+0018.240 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21600 files added (on-disk size: 111430.3 KB)
+0018.245 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21700 files added (on-disk size: 111430.3 KB)
+0018.249 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21800 files added (on-disk size: 111430.3 KB)
+0018.254 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 21900 files added (on-disk size: 111430.3 KB)
+0018.259 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 22000 files added (on-disk size: 111430.3 KB)
+0018.264 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 22100 files added (on-disk size: 111430.3 KB)
+0018.268 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 22200 files added (on-disk size: 111430.3 KB)
+0018.274 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 22300 files added (on-disk size: 111430.3 KB)
+0018.278 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 22400 files added (on-disk size: 111430.3 KB)
+0018.280 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.9 MB, 22681 files batched, 1001 (22402) added so far); re-opening (prior size: 111430.3 KB)
+0018.831 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 22500 files added (on-disk size: 112864.4 KB)
+0018.836 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.tmp: 22600 files added (on-disk size: 112864.4 KB)
+0019.632 (0) Creating zip file manifest (backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.list-temp.tmp)
+0019.700 (0) Successfully created zip file manifest (size: 2210807)
+0021.048 (0) Created plugins zip (0) - 116563.9 KB in 20.9 s (5580 KB/s) (sha1: 600012030d4c13a6792bc25a59857127cae132a3, sha256: 6e275f6567d9f301341689872c5999216ed0a9dfb4d16bdd277d3811a524291c)
+0021.076 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0021.079 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0022.045 (0) Google Drive: quota usage: used=6986.7 MB, total=15360 MB, available=8373.3 MB
+0022.049 (0) Google Drive: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0022.918 (0) Googledrive chunked upload: 0.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 24.7 / 50)
+0023.224 (0) Googledrive chunked upload: 2.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 24.7 / 50)
+0023.535 (0) Googledrive chunked upload: 6.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 24.7 / 50)
+0023.902 (0) Googledrive chunked upload: 13.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 24.7 / 50)
+0024.334 (0) Googledrive chunked upload: 27.2 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 24.7 / 50)
+0025.026 (0) Googledrive chunked upload: 55.3 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 24.7 / 50)
+0026.658 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0026.670 (0) Google Drive: OK: Archive backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip uploaded in 4.62 seconds
+0026.674 (0) Recording as successfully uploaded: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip
+0026.720 (0) Deleting local file: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip: OK
+0026.743 (0) Beginning creation of dump of themes (split every: 400 MB)
+0026.766 (0) Total entities for the zip file: 123 directories, 882 files (0 skipped as non-modified), 53.4 MB
+0026.773 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0026.777 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0026.782 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0026.786 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0026.790 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0026.795 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0026.800 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0026.806 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0028.111 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.tmp: size is now: 46.40 MB
+0028.132 (0) Creating zip file manifest (backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.list-temp.tmp)
+0028.138 (0) Successfully created zip file manifest (size: 58423)
+0028.713 (0) Created themes zip (0) - 47495.4 KB in 2 s (24230.4 KB/s) (sha1: 1a30721fb834a8e9a484fa62f368b633aefc8bbc, sha256: a27dcfa4ea2b05e38566d7f570ac19b8d2ccbc43c103682cb595cc242f0c8c76)
+0028.725 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0028.729 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0029.010 (0) Google Drive: quota usage: used=7100.5 MB, total=15360 MB, available=8259.5 MB
+0029.014 (0) Google Drive: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0029.749 (0) Googledrive chunked upload: 2.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 21 / 48)
+0030.053 (0) Googledrive chunked upload: 6.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 21.1 / 48)
+0030.360 (0) Googledrive chunked upload: 15.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 21.1 / 48)
+0030.718 (0) Googledrive chunked upload: 32.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 21.1 / 48)
+0031.071 (0) Googledrive chunked upload: 66.8 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 21.1 / 48)
+0032.087 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0032.097 (0) Google Drive: OK: Archive backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip uploaded in 3.08 seconds
+0032.100 (0) Recording as successfully uploaded: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip
+0032.117 (0) Deleting local file: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip: OK
+0032.128 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0032.130 (0) Looking for candidates to backup in: /var/www/rozeskin/wp-content/uploads
+0032.133 (0) finding files: 2023: adding to list (1)
+0032.135 (0) finding files: redux: adding to list (2)
+0032.136 (0) finding files: 2024: adding to list (3)
+0032.138 (0) finding files: woocommerce_uploads: adding to list (4)
+0032.140 (0) finding files: 2018: adding to list (5)
+0032.142 (0) finding files: elementor: adding to list (6)
+0032.144 (0) finding files: smush-webp-test.png: adding to list (7)
+0032.146 (0) finding files: 2022: adding to list (8)
+0032.147 (0) finding files: smush: adding to list (9)
+0032.149 (0) finding files: essential-addons-elementor: adding to list (10)
+0032.151 (0) finding files: nitropack-logs: adding to list (11)
+0032.153 (0) finding files: woo-feed: adding to list (12)
+0032.154 (0) finding files: wpcf7_uploads: adding to list (13)
+0032.156 (0) finding files: 2020: adding to list (14)
+0032.158 (0) finding files: fonts: adding to list (15)
+0032.160 (0) finding files: 2025: adding to list (16)
+0032.161 (0) finding files: rank-math: adding to list (17)
+0032.163 (0) finding files: revslider: adding to list (18)
+0032.164 (0) finding files: 2021: adding to list (19)
+0032.166 (0) finding files: wc-logs: adding to list (20)
+0032.168 (0) finding files: 2019: adding to list (21)
+0032.170 (0) finding files: ip2location: adding to list (22)
+0032.172 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0032.206 (0) Total entities for the zip file: 60 directories, 2612 files (0 skipped as non-modified), 126.3 MB
+0032.212 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0032.216 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0032.221 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0032.225 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0032.229 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0032.232 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0032.237 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0032.241 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0032.245 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0032.249 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0032.252 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (47.4 MB, 2612 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0032.592 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: size is now: 47.60 MB
+0032.602 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1100 files added (on-disk size: 48707.2 KB)
+0032.605 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1200 files added (on-disk size: 48707.2 KB)
+0032.609 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1300 files added (on-disk size: 48707.2 KB)
+0032.613 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1400 files added (on-disk size: 48707.2 KB)
+0032.616 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1500 files added (on-disk size: 48707.2 KB)
+0032.620 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1600 files added (on-disk size: 48707.2 KB)
+0032.624 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1700 files added (on-disk size: 48707.2 KB)
+0032.628 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1800 files added (on-disk size: 48707.2 KB)
+0032.632 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 1900 files added (on-disk size: 48707.2 KB)
+0032.638 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 2000 files added (on-disk size: 48707.2 KB)
+0032.641 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (58.8 MB, 2612 files batched, 1001 (2002) added so far); re-opening (prior size: 48707.2 KB)
+0033.252 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: size is now: 106.40 MB
+0033.264 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 2100 files added (on-disk size: 108975.5 KB)
+0033.269 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 2200 files added (on-disk size: 108975.5 KB)
+0033.274 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 2300 files added (on-disk size: 108975.5 KB)
+0033.278 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 2400 files added (on-disk size: 108975.5 KB)
+0033.283 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 2500 files added (on-disk size: 108975.5 KB)
+0033.289 (0) Zip: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.tmp: 2600 files added (on-disk size: 108975.5 KB)
+0034.127 (0) Creating zip file manifest (backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.list-temp.tmp)
+0034.138 (0) Successfully created zip file manifest (size: 171104)
+0035.593 (0) Created uploads zip (0) - 126775.9 KB in 3.4 s (37143 KB/s) (sha1: a79073d7af48ffd8035ce542c22cccaeaf1598a5, sha256: 9c0315498db72e7d1b4138357f6b759435f42b71fd4eb33abca245f6b9f1b5b9)
+0035.609 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0035.611 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0035.856 (0) Google Drive: quota usage: used=7100.5 MB, total=15360 MB, available=8259.5 MB
+0035.861 (0) Google Drive: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0036.944 (0) Googledrive chunked upload: 0.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 21.3 / 48)
+0037.191 (0) Googledrive chunked upload: 2.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 21.3 / 48)
+0037.506 (0) Googledrive chunked upload: 5.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 21.3 / 48)
+0037.788 (0) Googledrive chunked upload: 12.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 21.3 / 48)
+0038.236 (0) Googledrive chunked upload: 25 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 21.3 / 48)
+0038.782 (0) Googledrive chunked upload: 50.9 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 21.3 / 48)
+0040.488 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0040.500 (0) Google Drive: OK: Archive backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip uploaded in 4.64 seconds
+0040.504 (0) Recording as successfully uploaded: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip
+0040.546 (0) Deleting local file: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip: OK
+0040.561 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0040.564 (0) Does not exist: /var/www/rozeskin/wp-content/mu-plugins
+0040.568 (0) There are no mu-plugins to backup. Will not raise an error.
+0040.570 (0) mu-plugins: create_zip returned an error
+0040.577 (0) Beginning backup of other directories found in the content directory (index: 0)
+0040.581 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0040.583 (0) Looking for candidates to backup in: /var/www/rozeskin/wp-content
+0040.586 (0) finding files: themes: skipping: this is the themes directory
+0040.588 (0) finding files: updraft: skipping: this is the updraft directory
+0040.591 (0) finding files: jetpack-waf: adding to list (1)
+0040.595 (0) finding files: uploads: skipping: this is the uploads directory
+0040.597 (0) finding files: upgrade-temp-backup: adding to list (2)
+0040.600 (0) finding files: smush-webp: adding to list (3)
+0040.603 (0) finding files: index.php: adding to list (4)
+0040.607 (0) finding files: upgrade: skipping: excluded by options
+0040.610 (0) finding files: order.log: adding to list (5)
+0040.612 (0) finding files: plugins: skipping: this is the plugins directory
+0040.614 (0) finding files: cache: skipping: excluded by options
+0040.617 (0) finding files: config-da303ce-nitropack: adding to list (6)
+0040.620 (0) finding files: advanced-cache.php: adding to list (7)
+0040.623 (0) finding files: elm-error-logs: adding to list (8)
+0040.634 (0) Total entities for the zip file: 6 directories, 14 files (0 skipped as non-modified), 0 MB
+0040.647 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-others.zip.tmp: size is now: 0.00 MB
+0040.657 (0) Creating zip file manifest (backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-others.zip.list-temp.tmp)
+0040.660 (0) Successfully created zip file manifest (size: 522)
+0040.677 (0) Created others zip (0) - 5.2 KB in 0 s (116.9 KB/s) (sha1: 7a792e34f10c63b7e032aeeaa0a8baae274a0c4c, sha256: e848b9a47a597193decbf6bbc1a6fc5d26dd0deeaec61f5b73c30588f96e72bd)
+0040.690 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0040.692 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0040.931 (0) Google Drive: quota usage: used=7146.9 MB, total=15360 MB, available=8213.1 MB
+0040.935 (0) Google Drive: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-others.zip: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0042.106 (0) Googledrive chunked upload: 100 % uploaded
+0042.120 (0) Google Drive: OK: Archive backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-others.zip uploaded in 1.18 seconds
+0042.124 (0) Recording as successfully uploaded: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-others.zip
+0042.132 (0) Deleting local file: backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-others.zip: OK
+0042.155 (0) Saving backup status to database (elements: 8)
+0042.175 (0) No database backup (wp) - not part of this run
+0042.194 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip: plugins: This file has already been successfully uploaded
+0042.196 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip: themes: This file has already been successfully uploaded
+0042.199 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip: uploads: This file has already been successfully uploaded
+0042.202 (0) backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-others.zip: others: This file has already been successfully uploaded
+0042.203 (0) Saving backup history. Total backup size: 284 MB
+0042.218 (0) Resume backup (7de142647fa2, 0): finish run
+0042.222 (0) There were no more files that needed uploading
+0042.228 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=100
+0042.232 (0) Number of backup sets in history: 113; groups (db): 1
+0042.235 (0) Examining (for databases) backup set with group_id=0, nonce=7de142647fa2, datestamp=1746256251 (May 03 2025 07:10:51)
+0042.237 (0) Examining (for databases) backup set with group_id=0, nonce=e69ad93fd36a, datestamp=1746252299 (May 03 2025 06:04:59)
+0042.237 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.239 (0) Examining (for databases) backup set with group_id=0, nonce=76e6c82f4304, datestamp=1746245094 (May 03 2025 04:04:54)
+0042.239 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.239 (0) Examining (for databases) backup set with group_id=0, nonce=2d5521dbfe0f, datestamp=1746237887 (May 03 2025 02:04:47)
+0042.239 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.239 (0) Examining (for databases) backup set with group_id=0, nonce=fd927c062f68, datestamp=1746230889 (May 03 2025 00:08:09)
+0042.239 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.239 (0) Examining (for databases) backup set with group_id=0, nonce=036f0826e93b, datestamp=1746223663 (May 02 2025 22:07:43)
+0042.239 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.239 (0) Examining (for databases) backup set with group_id=0, nonce=11d1da5a517d, datestamp=1746216288 (May 02 2025 20:04:48)
+0042.239 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=939f2e1510ba, datestamp=1746209084 (May 02 2025 18:04:44)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=d82e1b7b62a6, datestamp=1746201927 (May 02 2025 16:05:27)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=e1b389a2f297, datestamp=1746194697 (May 02 2025 14:04:57)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=58051b8eb6f0, datestamp=1746187573 (May 02 2025 12:06:13)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=4d041d783a77, datestamp=1746180425 (May 02 2025 10:07:05)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=2ac4ff78db71, datestamp=1746173292 (May 02 2025 08:08:12)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=c234f7a60c8d, datestamp=1746169898 (May 02 2025 07:11:38)
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=68c8b1255302, datestamp=1746166084 (May 02 2025 06:08:04)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=6abe8fe9345b, datestamp=1746158691 (May 02 2025 04:04:51)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=aefee56abb47, datestamp=1746151490 (May 02 2025 02:04:50)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=7e9ecdf8e2b3, datestamp=1746144398 (May 02 2025 00:06:38)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=b516c1f8b929, datestamp=1746137159 (May 01 2025 22:05:59)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=1be5bd20c54b, datestamp=1746129916 (May 01 2025 20:05:16)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=1375ffb52f7b, datestamp=1746122930 (May 01 2025 18:08:50)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=bb43f57b6639, datestamp=1746115500 (May 01 2025 16:05:00)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=c667b1cb87e3, datestamp=1746108379 (May 01 2025 14:06:19)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=8c3a39640b90, datestamp=1746101099 (May 01 2025 12:04:59)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=32afbdaadecf, datestamp=1746093886 (May 01 2025 10:04:46)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=231a467e0b6c, datestamp=1746086728 (May 01 2025 08:05:28)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=f6ec619f8043, datestamp=1746083461 (May 01 2025 07:11:01)
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=a2531030c379, datestamp=1746079488 (May 01 2025 06:04:48)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=6b7749b156fa, datestamp=1746072323 (May 01 2025 04:05:23)
+0042.240 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.240 (0) Examining (for databases) backup set with group_id=0, nonce=b6e2d0c92104, datestamp=1746065168 (May 01 2025 02:06:08)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=6ccb7d64c960, datestamp=1746057900 (May 01 2025 00:05:00)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=2bdfbe31759e, datestamp=1746050712 (Apr 30 2025 22:05:12)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=daf7bf1a6d58, datestamp=1746043514 (Apr 30 2025 20:05:14)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=a09ef179d002, datestamp=1746036301 (Apr 30 2025 18:05:01)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=ca569c2cb83a, datestamp=1746029115 (Apr 30 2025 16:05:15)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=b9fc53026322, datestamp=1746021976 (Apr 30 2025 14:06:16)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=5cae649525f8, datestamp=1746014715 (Apr 30 2025 12:05:15)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=9bd2d654b55f, datestamp=1746007520 (Apr 30 2025 10:05:20)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=5129be0bfde4, datestamp=1746000294 (Apr 30 2025 08:04:54)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=7c60abf2a287, datestamp=1745997067 (Apr 30 2025 07:11:07)
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=c76df4501eca, datestamp=1745993159 (Apr 30 2025 06:05:59)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=e642afdb8c56, datestamp=1745985909 (Apr 30 2025 04:05:09)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=deb8e6e0ef43, datestamp=1745978747 (Apr 30 2025 02:05:47)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=ce28e6c44ec1, datestamp=1745971508 (Apr 30 2025 00:05:08)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=35c0e79e5c33, datestamp=1745964304 (Apr 29 2025 22:05:04)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=3cb27198a056, datestamp=1745957111 (Apr 29 2025 20:05:11)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=38b0f95d8054, datestamp=1745949886 (Apr 29 2025 18:04:46)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=6cd18a754e9f, datestamp=1745942825 (Apr 29 2025 16:07:05)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=8a7b9e8ef737, datestamp=1745935502 (Apr 29 2025 14:05:02)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.241 (0) Examining (for databases) backup set with group_id=0, nonce=c348ffdfe9c4, datestamp=1745928464 (Apr 29 2025 12:07:44)
+0042.241 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=f03e34039458, datestamp=1745921350 (Apr 29 2025 10:09:10)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=a28eb1495ae2, datestamp=1745913917 (Apr 29 2025 08:05:17)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=8eecf806310c, datestamp=1745910690 (Apr 29 2025 07:11:30)
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=4a3eafea4fec, datestamp=1745906727 (Apr 29 2025 06:05:27)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=9f7410508a8f, datestamp=1745899534 (Apr 29 2025 04:05:34)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=40ba81d7d650, datestamp=1745892338 (Apr 29 2025 02:05:38)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=0e2770250162, datestamp=1745885117 (Apr 29 2025 00:05:17)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=ec374868a2f0, datestamp=1745877886 (Apr 28 2025 22:04:46)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=e47eef1f4716, datestamp=1745870705 (Apr 28 2025 20:05:05)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=5269eb680a7a, datestamp=1745863583 (Apr 28 2025 18:06:23)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=04ceb8ea5b31, datestamp=1745856346 (Apr 28 2025 16:05:46)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=4a54a26ac378, datestamp=1745849119 (Apr 28 2025 14:05:19)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=f1226905804a, datestamp=1745841904 (Apr 28 2025 12:05:04)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=29fae65265ae, datestamp=1745834722 (Apr 28 2025 10:05:22)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=f11149f158d8, datestamp=1745827516 (Apr 28 2025 08:05:16)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=8f03a4a7b3d4, datestamp=1745824247 (Apr 28 2025 07:10:47)
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=1a509465e06f, datestamp=1745820369 (Apr 28 2025 06:06:09)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=b86ee9aca831, datestamp=1745813124 (Apr 28 2025 04:05:24)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=5647aa449a00, datestamp=1745805885 (Apr 28 2025 02:04:45)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=7eff25d0ad8a, datestamp=1745798775 (Apr 28 2025 00:06:15)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=b667a62c2040, datestamp=1745791488 (Apr 27 2025 22:04:48)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=62414737a65c, datestamp=1745784370 (Apr 27 2025 20:06:10)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=ee87c8681249, datestamp=1745777123 (Apr 27 2025 18:05:23)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=e4c955692777, datestamp=1745770202 (Apr 27 2025 16:10:02)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.242 (0) Examining (for databases) backup set with group_id=0, nonce=0f35591494ce, datestamp=1745763054 (Apr 27 2025 14:10:54)
+0042.242 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=54f00de91a73, datestamp=1745755499 (Apr 27 2025 12:04:59)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=1c5e53ba464e, datestamp=1745748421 (Apr 27 2025 10:07:01)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=804d67a79d93, datestamp=1745741164 (Apr 27 2025 08:06:04)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=f4f61dc1e073, datestamp=1745737851 (Apr 27 2025 07:10:51)
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=9ab36af4c233, datestamp=1745733928 (Apr 27 2025 06:05:28)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=62d9ca27cec8, datestamp=1745726716 (Apr 27 2025 04:05:16)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=97a87426ab3a, datestamp=1745719724 (Apr 27 2025 02:08:44)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=0e1622986f01, datestamp=1745712292 (Apr 27 2025 00:04:52)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=79da6dcaaeb5, datestamp=1745705115 (Apr 26 2025 22:05:15)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=0d664bbf65c8, datestamp=1745698011 (Apr 26 2025 20:06:51)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=608ff882cee4, datestamp=1745690752 (Apr 26 2025 18:05:52)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=74eab264ecfc, datestamp=1745683525 (Apr 26 2025 16:05:25)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=573fd8bc3023, datestamp=1745676387 (Apr 26 2025 14:06:27)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=70cda6e26088, datestamp=1745669104 (Apr 26 2025 12:05:04)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=6af43e46f5e3, datestamp=1745661891 (Apr 26 2025 10:04:51)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=a98789ec728f, datestamp=1745654717 (Apr 26 2025 08:05:17)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=9900eff726e2, datestamp=1745651485 (Apr 26 2025 07:11:25)
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=18dae766125f, datestamp=1745647524 (Apr 26 2025 06:05:24)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=d5390449ec29, datestamp=1745640303 (Apr 26 2025 04:05:03)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=22b114736a12, datestamp=1745633099 (Apr 26 2025 02:04:59)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=eb786e39b7d3, datestamp=1745625886 (Apr 26 2025 00:04:46)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=9d76569d2b20, datestamp=1745618699 (Apr 25 2025 22:04:59)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=7172d840eabb, datestamp=1745611491 (Apr 25 2025 20:04:51)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=6af88b0e235c, datestamp=1745604312 (Apr 25 2025 18:05:12)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.243 (0) Examining (for databases) backup set with group_id=0, nonce=0051f38134ef, datestamp=1745597138 (Apr 25 2025 16:05:38)
+0042.243 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=22a7cf1c28a3, datestamp=1745589887 (Apr 25 2025 14:04:47)
+0042.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=45cac4fae318, datestamp=1745582811 (Apr 25 2025 12:06:51)
+0042.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=7a7485868ca4, datestamp=1745575510 (Apr 25 2025 10:05:10)
+0042.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=bd9d468bde49, datestamp=1745568472 (Apr 25 2025 08:07:52)
+0042.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=d5b97ecca2bb, datestamp=1745565062 (Apr 25 2025 07:11:02)
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=30d4d724b03b, datestamp=1745561085 (Apr 25 2025 06:04:45)
+0042.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=55c5c82cd91d, datestamp=1745553924 (Apr 25 2025 04:05:24)
+0042.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=3944859a0fb4, datestamp=1745546724 (Apr 25 2025 02:05:24)
+0042.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=e5e4aed1ac53, datestamp=1745539517 (Apr 25 2025 00:05:17)
+0042.244 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=bc74d44e33ca, datestamp=1745478754 (Apr 24 2025 07:12:34)
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=14d0eea11a06, datestamp=1745392455 (Apr 23 2025 07:14:15)
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=9193ee6045d0, datestamp=1745251467 (Apr 21 2025 16:04:27)
+0042.244 (0) This backup set (1745251467) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0042.244 (0) Examining (for databases) backup set with group_id=0, nonce=400b35b44a7e, datestamp=1745248924 (Apr 21 2025 15:22:04)
+0042.244 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0042.244 (0) Number of backup sets in history: 113; groups (files): 1
+0042.246 (0) Examining (for files) backup set with nonce=7de142647fa2, datestamp=1746256251 (May 03 2025 07:10:51)
+0042.246 (0) This backup set is the backup set just made, so will not be deleted.
+0042.248 (0) This backup set is the backup set just made, so will not be deleted.
+0042.248 (0) This backup set is the backup set just made, so will not be deleted.
+0042.249 (0) This backup set is the backup set just made, so will not be deleted.
+0042.249 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.252 (0) Examining (for files) backup set with nonce=e69ad93fd36a, datestamp=1746252299 (May 03 2025 06:04:59)
+0042.252 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.254 (0) Examining (for files) backup set with nonce=76e6c82f4304, datestamp=1746245094 (May 03 2025 04:04:54)
+0042.254 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.254 (0) Examining (for files) backup set with nonce=2d5521dbfe0f, datestamp=1746237887 (May 03 2025 02:04:47)
+0042.254 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.254 (0) Examining (for files) backup set with nonce=fd927c062f68, datestamp=1746230889 (May 03 2025 00:08:09)
+0042.254 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=036f0826e93b, datestamp=1746223663 (May 02 2025 22:07:43)
+0042.255 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=11d1da5a517d, datestamp=1746216288 (May 02 2025 20:04:48)
+0042.255 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=939f2e1510ba, datestamp=1746209084 (May 02 2025 18:04:44)
+0042.255 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=d82e1b7b62a6, datestamp=1746201927 (May 02 2025 16:05:27)
+0042.255 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=e1b389a2f297, datestamp=1746194697 (May 02 2025 14:04:57)
+0042.255 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=58051b8eb6f0, datestamp=1746187573 (May 02 2025 12:06:13)
+0042.255 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=4d041d783a77, datestamp=1746180425 (May 02 2025 10:07:05)
+0042.255 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=2ac4ff78db71, datestamp=1746173292 (May 02 2025 08:08:12)
+0042.255 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=c234f7a60c8d, datestamp=1746169898 (May 02 2025 07:11:38)
+0042.255 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.257 (0) Examining (for files) backup set with nonce=68c8b1255302, datestamp=1746166084 (May 02 2025 06:08:04)
+0042.257 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.259 (0) Examining (for files) backup set with nonce=6abe8fe9345b, datestamp=1746158691 (May 02 2025 04:04:51)
+0042.259 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.259 (0) Examining (for files) backup set with nonce=aefee56abb47, datestamp=1746151490 (May 02 2025 02:04:50)
+0042.259 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.259 (0) Examining (for files) backup set with nonce=7e9ecdf8e2b3, datestamp=1746144398 (May 02 2025 00:06:38)
+0042.259 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.259 (0) Examining (for files) backup set with nonce=b516c1f8b929, datestamp=1746137159 (May 01 2025 22:05:59)
+0042.259 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.259 (0) Examining (for files) backup set with nonce=1be5bd20c54b, datestamp=1746129916 (May 01 2025 20:05:16)
+0042.259 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.259 (0) Examining (for files) backup set with nonce=1375ffb52f7b, datestamp=1746122930 (May 01 2025 18:08:50)
+0042.259 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.260 (0) Examining (for files) backup set with nonce=bb43f57b6639, datestamp=1746115500 (May 01 2025 16:05:00)
+0042.260 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.260 (0) Examining (for files) backup set with nonce=c667b1cb87e3, datestamp=1746108379 (May 01 2025 14:06:19)
+0042.260 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.260 (0) Examining (for files) backup set with nonce=8c3a39640b90, datestamp=1746101099 (May 01 2025 12:04:59)
+0042.260 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.260 (0) Examining (for files) backup set with nonce=32afbdaadecf, datestamp=1746093886 (May 01 2025 10:04:46)
+0042.260 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.260 (0) Examining (for files) backup set with nonce=231a467e0b6c, datestamp=1746086728 (May 01 2025 08:05:28)
+0042.260 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.260 (0) Examining (for files) backup set with nonce=f6ec619f8043, datestamp=1746083461 (May 01 2025 07:11:01)
+0042.260 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.262 (0) Examining (for files) backup set with nonce=a2531030c379, datestamp=1746079488 (May 01 2025 06:04:48)
+0042.262 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.264 (0) Examining (for files) backup set with nonce=6b7749b156fa, datestamp=1746072323 (May 01 2025 04:05:23)
+0042.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.264 (0) Examining (for files) backup set with nonce=b6e2d0c92104, datestamp=1746065168 (May 01 2025 02:06:08)
+0042.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.264 (0) Examining (for files) backup set with nonce=6ccb7d64c960, datestamp=1746057900 (May 01 2025 00:05:00)
+0042.264 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.264 (0) Examining (for files) backup set with nonce=2bdfbe31759e, datestamp=1746050712 (Apr 30 2025 22:05:12)
+0042.265 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=daf7bf1a6d58, datestamp=1746043514 (Apr 30 2025 20:05:14)
+0042.265 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=a09ef179d002, datestamp=1746036301 (Apr 30 2025 18:05:01)
+0042.265 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=ca569c2cb83a, datestamp=1746029115 (Apr 30 2025 16:05:15)
+0042.265 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=b9fc53026322, datestamp=1746021976 (Apr 30 2025 14:06:16)
+0042.265 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=5cae649525f8, datestamp=1746014715 (Apr 30 2025 12:05:15)
+0042.265 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=9bd2d654b55f, datestamp=1746007520 (Apr 30 2025 10:05:20)
+0042.265 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=5129be0bfde4, datestamp=1746000294 (Apr 30 2025 08:04:54)
+0042.265 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=7c60abf2a287, datestamp=1745997067 (Apr 30 2025 07:11:07)
+0042.265 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.267 (0) Examining (for files) backup set with nonce=c76df4501eca, datestamp=1745993159 (Apr 30 2025 06:05:59)
+0042.268 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=e642afdb8c56, datestamp=1745985909 (Apr 30 2025 04:05:09)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=deb8e6e0ef43, datestamp=1745978747 (Apr 30 2025 02:05:47)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=ce28e6c44ec1, datestamp=1745971508 (Apr 30 2025 00:05:08)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=35c0e79e5c33, datestamp=1745964304 (Apr 29 2025 22:05:04)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=3cb27198a056, datestamp=1745957111 (Apr 29 2025 20:05:11)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=38b0f95d8054, datestamp=1745949886 (Apr 29 2025 18:04:46)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=6cd18a754e9f, datestamp=1745942825 (Apr 29 2025 16:07:05)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=8a7b9e8ef737, datestamp=1745935502 (Apr 29 2025 14:05:02)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.270 (0) Examining (for files) backup set with nonce=c348ffdfe9c4, datestamp=1745928464 (Apr 29 2025 12:07:44)
+0042.270 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.271 (0) Examining (for files) backup set with nonce=f03e34039458, datestamp=1745921350 (Apr 29 2025 10:09:10)
+0042.271 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.271 (0) Examining (for files) backup set with nonce=a28eb1495ae2, datestamp=1745913917 (Apr 29 2025 08:05:17)
+0042.271 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.271 (0) Examining (for files) backup set with nonce=8eecf806310c, datestamp=1745910690 (Apr 29 2025 07:11:30)
+0042.271 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.274 (0) Examining (for files) backup set with nonce=4a3eafea4fec, datestamp=1745906727 (Apr 29 2025 06:05:27)
+0042.274 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=9f7410508a8f, datestamp=1745899534 (Apr 29 2025 04:05:34)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=40ba81d7d650, datestamp=1745892338 (Apr 29 2025 02:05:38)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=0e2770250162, datestamp=1745885117 (Apr 29 2025 00:05:17)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=ec374868a2f0, datestamp=1745877886 (Apr 28 2025 22:04:46)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=e47eef1f4716, datestamp=1745870705 (Apr 28 2025 20:05:05)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=5269eb680a7a, datestamp=1745863583 (Apr 28 2025 18:06:23)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=04ceb8ea5b31, datestamp=1745856346 (Apr 28 2025 16:05:46)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=4a54a26ac378, datestamp=1745849119 (Apr 28 2025 14:05:19)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=f1226905804a, datestamp=1745841904 (Apr 28 2025 12:05:04)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=29fae65265ae, datestamp=1745834722 (Apr 28 2025 10:05:22)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=f11149f158d8, datestamp=1745827516 (Apr 28 2025 08:05:16)
+0042.277 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.277 (0) Examining (for files) backup set with nonce=8f03a4a7b3d4, datestamp=1745824247 (Apr 28 2025 07:10:47)
+0042.277 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.279 (0) Examining (for files) backup set with nonce=1a509465e06f, datestamp=1745820369 (Apr 28 2025 06:06:09)
+0042.279 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.281 (0) Examining (for files) backup set with nonce=b86ee9aca831, datestamp=1745813124 (Apr 28 2025 04:05:24)
+0042.281 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.281 (0) Examining (for files) backup set with nonce=5647aa449a00, datestamp=1745805885 (Apr 28 2025 02:04:45)
+0042.281 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.281 (0) Examining (for files) backup set with nonce=7eff25d0ad8a, datestamp=1745798775 (Apr 28 2025 00:06:15)
+0042.281 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.281 (0) Examining (for files) backup set with nonce=b667a62c2040, datestamp=1745791488 (Apr 27 2025 22:04:48)
+0042.281 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.282 (0) Examining (for files) backup set with nonce=62414737a65c, datestamp=1745784370 (Apr 27 2025 20:06:10)
+0042.282 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.282 (0) Examining (for files) backup set with nonce=ee87c8681249, datestamp=1745777123 (Apr 27 2025 18:05:23)
+0042.282 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.282 (0) Examining (for files) backup set with nonce=e4c955692777, datestamp=1745770202 (Apr 27 2025 16:10:02)
+0042.282 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.282 (0) Examining (for files) backup set with nonce=0f35591494ce, datestamp=1745763054 (Apr 27 2025 14:10:54)
+0042.282 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.282 (0) Examining (for files) backup set with nonce=54f00de91a73, datestamp=1745755499 (Apr 27 2025 12:04:59)
+0042.282 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.282 (0) Examining (for files) backup set with nonce=1c5e53ba464e, datestamp=1745748421 (Apr 27 2025 10:07:01)
+0042.282 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.282 (0) Examining (for files) backup set with nonce=804d67a79d93, datestamp=1745741164 (Apr 27 2025 08:06:04)
+0042.282 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.282 (0) Examining (for files) backup set with nonce=f4f61dc1e073, datestamp=1745737851 (Apr 27 2025 07:10:51)
+0042.282 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.284 (0) Examining (for files) backup set with nonce=9ab36af4c233, datestamp=1745733928 (Apr 27 2025 06:05:28)
+0042.284 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=62d9ca27cec8, datestamp=1745726716 (Apr 27 2025 04:05:16)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=97a87426ab3a, datestamp=1745719724 (Apr 27 2025 02:08:44)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=0e1622986f01, datestamp=1745712292 (Apr 27 2025 00:04:52)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=79da6dcaaeb5, datestamp=1745705115 (Apr 26 2025 22:05:15)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=0d664bbf65c8, datestamp=1745698011 (Apr 26 2025 20:06:51)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=608ff882cee4, datestamp=1745690752 (Apr 26 2025 18:05:52)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=74eab264ecfc, datestamp=1745683525 (Apr 26 2025 16:05:25)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=573fd8bc3023, datestamp=1745676387 (Apr 26 2025 14:06:27)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=70cda6e26088, datestamp=1745669104 (Apr 26 2025 12:05:04)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=6af43e46f5e3, datestamp=1745661891 (Apr 26 2025 10:04:51)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=a98789ec728f, datestamp=1745654717 (Apr 26 2025 08:05:17)
+0042.286 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=9900eff726e2, datestamp=1745651485 (Apr 26 2025 07:11:25)
+0042.286 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.288 (0) Examining (for files) backup set with nonce=18dae766125f, datestamp=1745647524 (Apr 26 2025 06:05:24)
+0042.288 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.292 (0) Examining (for files) backup set with nonce=d5390449ec29, datestamp=1745640303 (Apr 26 2025 04:05:03)
+0042.292 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.292 (0) Examining (for files) backup set with nonce=22b114736a12, datestamp=1745633099 (Apr 26 2025 02:04:59)
+0042.292 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.292 (0) Examining (for files) backup set with nonce=eb786e39b7d3, datestamp=1745625886 (Apr 26 2025 00:04:46)
+0042.292 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.292 (0) Examining (for files) backup set with nonce=9d76569d2b20, datestamp=1745618699 (Apr 25 2025 22:04:59)
+0042.292 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=7172d840eabb, datestamp=1745611491 (Apr 25 2025 20:04:51)
+0042.293 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=6af88b0e235c, datestamp=1745604312 (Apr 25 2025 18:05:12)
+0042.293 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=0051f38134ef, datestamp=1745597138 (Apr 25 2025 16:05:38)
+0042.293 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=22a7cf1c28a3, datestamp=1745589887 (Apr 25 2025 14:04:47)
+0042.293 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=45cac4fae318, datestamp=1745582811 (Apr 25 2025 12:06:51)
+0042.293 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=7a7485868ca4, datestamp=1745575510 (Apr 25 2025 10:05:10)
+0042.293 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=bd9d468bde49, datestamp=1745568472 (Apr 25 2025 08:07:52)
+0042.293 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=d5b97ecca2bb, datestamp=1745565062 (Apr 25 2025 07:11:02)
+0042.293 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.294 (0) Examining (for files) backup set with nonce=30d4d724b03b, datestamp=1745561085 (Apr 25 2025 06:04:45)
+0042.294 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.296 (0) Examining (for files) backup set with nonce=55c5c82cd91d, datestamp=1745553924 (Apr 25 2025 04:05:24)
+0042.297 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.297 (0) Examining (for files) backup set with nonce=3944859a0fb4, datestamp=1745546724 (Apr 25 2025 02:05:24)
+0042.297 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.297 (0) Examining (for files) backup set with nonce=e5e4aed1ac53, datestamp=1745539517 (Apr 25 2025 00:05:17)
+0042.297 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0042.297 (0) Examining (for files) backup set with nonce=bc74d44e33ca, datestamp=1745478754 (Apr 24 2025 07:12:34)
+0042.297 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0042.299 (0) Examining (for files) backup set with nonce=14d0eea11a06, datestamp=1745392455 (Apr 23 2025 07:14:15)
+0042.299 (0) plugins: over retain limit (10); will delete this file entity
+0042.299 (0) themes: over retain limit (10); will delete this file entity
+0042.299 (0) uploads: over retain limit (10); will delete this file entity
+0042.299 (0) others: over retain limit (10); will delete this file entity
+0044.005 (0) Google Drive: backup_2025-04-23-1114_Roze_Skincare_14d0eea11a06-others.zip: Deletion successful
+0044.333 (0) Google Drive: backup_2025-04-23-1114_Roze_Skincare_14d0eea11a06-uploads.zip: Deletion successful
+0045.530 (0) Google Drive: backup_2025-04-23-1114_Roze_Skincare_14d0eea11a06-themes.zip: Deletion successful
+0045.840 (0) Google Drive: backup_2025-04-23-1114_Roze_Skincare_14d0eea11a06-plugins.zip: Deletion successful
+0045.853 (0) This backup set is now empty; will remove from history
+0045.856 (0) Deleting log file (log.14d0eea11a06.txt)
+0045.859 (0) Examining (for files) backup set with nonce=9193ee6045d0, datestamp=1745251467 (Apr 21 2025 16:04:27)
+0045.859 (0) This backup set (1745251467) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0045.859 (0) This backup set (1745251467) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0045.859 (0) This backup set (1745251467) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0045.859 (0) This backup set (1745251467) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0045.859 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0045.863 (0) Examining (for files) backup set with nonce=400b35b44a7e, datestamp=1745248924 (Apr 21 2025 15:22:04)
+0045.863 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0045.863 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0045.863 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0045.863 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0045.863 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0045.863 (0) Retain: saving new backup history (sets now: 112) and finishing retain operation
+0045.883 (0) Decremented the semaphore (f) by 1
+0045.887 (0) Semaphore (f) unlocked
+0045.889 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0045.899 (0) Deleting zip manifest (backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-plugins.zip.list.tmp)
+0045.901 (0) Deleting zip manifest (backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-themes.zip.list.tmp)
+0045.904 (0) Deleting zip manifest (backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-uploads.zip.list.tmp)
+0045.907 (0) Deleting zip manifest (backup_2025-05-03-1110_Roze_Skincare_7de142647fa2-others.zip.list.tmp)
+0045.909 (0) No email will/can be sent - the user has not configured an email address.
+0045.912 (0) The backup succeeded and is now complete

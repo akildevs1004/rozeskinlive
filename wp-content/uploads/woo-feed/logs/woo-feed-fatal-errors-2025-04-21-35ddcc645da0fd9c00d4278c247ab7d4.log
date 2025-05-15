@@ -1,0 +1,38 @@
+2025-04-21T08:13:46+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in /var/www/rozeskin/wp-content/plugins/woo-stripe-payment/includes/wc-stripe-functions.php:268
+Stack trace:
+#0 /var/www/rozeskin/wp-content/plugins/woo-stripe-payment/includes/wc-stripe-functions.php(268): array_merge()
+#1 /var/www/rozeskin/wp-includes/class-wp-hook.php(324): wc_stripe_payment_gateways()
+#2 /var/www/rozeskin/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(91): apply_filters()
+#4 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(73): WC_Payment_Gateways->init()
+#5 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(46): WC_Payment_Gateways->__construct()
+#6 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/class-woocommerce.php(1159): WC_Payment_Gateways::instance()
+#7 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/wc-template-functions.php(76): WooCommerce->payment_gateways()
+#8 /var/www/rozeskin/wp-includes/class-wp-hook.php(324): wc_template_redirect()
+#9 /var/www/rozeskin/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/rozeskin/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/rozeskin/wp-includes/template-loader.php(13): do_action()
+#12 /var/www/rozeskin/wp-blog-header.php(19): require_once('...')
+#13 /var/www/rozeskin/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/rozeskin/wp-content/plugins/woo-stripe-payment/includes/wc-stripe-functions.php on line 268
+
+2025-04-21T08:13:49+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in /var/www/rozeskin/wp-content/plugins/woo-stripe-payment/includes/wc-stripe-functions.php:268
+Stack trace:
+#0 /var/www/rozeskin/wp-content/plugins/woo-stripe-payment/includes/wc-stripe-functions.php(268): array_merge()
+#1 /var/www/rozeskin/wp-includes/class-wp-hook.php(324): wc_stripe_payment_gateways()
+#2 /var/www/rozeskin/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#3 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(91): apply_filters()
+#4 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(73): WC_Payment_Gateways->init()
+#5 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(46): WC_Payment_Gateways->__construct()
+#6 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/class-woocommerce.php(1159): WC_Payment_Gateways::instance()
+#7 /var/www/rozeskin/wp-content/plugins/woocommerce/includes/wc-template-functions.php(76): WooCommerce->payment_gateways()
+#8 /var/www/rozeskin/wp-includes/class-wp-hook.php(324): wc_template_redirect()
+#9 /var/www/rozeskin/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /var/www/rozeskin/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /var/www/rozeskin/wp-includes/template-loader.php(13): do_action()
+#12 /var/www/rozeskin/wp-blog-header.php(19): require_once('...')
+#13 /var/www/rozeskin/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/rozeskin/wp-content/plugins/woo-stripe-payment/includes/wc-stripe-functions.php on line 268
+

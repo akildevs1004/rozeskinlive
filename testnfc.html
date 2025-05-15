@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC Scanner</title>
+</head>
+
+<body>
+    <h1>NFC Scanner</h1>
+    <button onclick="startNFCScan()">Scan NFC</button>
+    <div id="output"></div>
+
+    <script>
+        // Function to check NFC support and initiate scanning
+        async function startNFCScan() {
+            const output = document.getElementById("output");
+
+            // Check if Web NFC API is supported
+            if (!("NDEFReader" in window)) {
+                output.innerText = "Web NFC API is not supported on this browser.";
+                return;
+            }
+
+            try {
+                // Create a new NFC reader instance
+                const nfcReader = new NDEFReader();
+
+                // Start scanning for NFC tags
+                await nfcReader.scan();
+                output.innerHTML = "<p>NFC scan started. Tap an NFC tag to read data.</p>";
+
+                // Event listener for successful NFC read
+                nfcReader.onreading = (event) => {
+                    output.innerHTML = "<strong>NFC Data Read Successfully:</strong><br>";
+                    const { message, serialNumber } = event;
+
+                    // Display NFC tag's unique ID (UID)
+                    output.innerHTML += `<p><strong>NFC Tag UID (Serial Number):</strong> ${serialNumber}</p>`;
+
+                    // Loop through all records and display them
+                    message.records.forEach((record, index) => {
+                        output.innerHTML += `<h3>Record ${index + 1}</h3>`;
+                        output.innerHTML += `<p>Record Type: ${record.recordType}</p>`;
+
+                        // Decode the record data based on type
+                        if (record.recordType === "text") {
+                            const textDecoder = new TextDecoder(record.encoding || "utf-8");
+                            output.innerHTML += `<p>Text: ${textDecoder.decode(record.data)}</p>`;
+                        } else if (record.recordType === "url") {
+                            const url = new TextDecoder("utf-8").decode(record.data);
+                            output.innerHTML += `<p>URL: ${url}</p>`;
+                        } else {
+                            // For other record types, display raw data as a fallback
+                            const rawData = new TextDecoder("utf-8").decode(record.data);
+                            output.innerHTML += `<p>Data: ${rawData}</p>`;
+                        }
+                    });
+                };
+
+                // Event listener for read errors
+                nfcReader.onreadingerror = () => {
+                    output.innerHTML += "<p>NFC read error. Please try again.</p>";
+                };
+
+            } catch (error) {
+                console.error("Error initiating NFC scan:", error);
+                output.innerHTML = `<p>Error: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+
+</html>

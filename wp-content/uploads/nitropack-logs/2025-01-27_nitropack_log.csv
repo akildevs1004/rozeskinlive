@@ -1,0 +1,4 @@
+Date;Level;Message
+"2025-01-27 10:10:19";NOTICE;"Plugin activated: nitropack/main.php"
+"2025-01-27 10:12:31";NOTICE;"Manual purge of all pages"
+"2025-01-27 10:13:32";NOTICE;"Plugin deactivated: nitropack/main.php"

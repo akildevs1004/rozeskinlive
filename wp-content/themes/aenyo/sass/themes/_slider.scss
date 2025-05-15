@@ -1,0 +1,94 @@
+/* Revolution Slider ---------------------------------------------------------*/
+.elementor-widget-slider_revolution{
+	.tparrows{
+		display: inline-block;
+		@include opacity-h();
+		@include transition(all .3s ease);
+	}
+	&:hover{
+		.tparrows{
+			@include opacity-s();
+		}
+	}
+	.next-slider{
+		@media(max-width: 1655px){
+			.tp-leftarrow{
+				@include transform(translate(30px, -25px) !important);
+			}
+			.tp-rightarrow{
+				@include transform(translate(-30px, -25px) !important);
+				right: 0 !important;
+				left: auto !important;
+			}
+		}
+		@media(max-width: $screen-md-max){
+			.tparrows{
+				@include opacity-s();
+				&:before{
+					font-size: 40px !important;
+				}
+			}
+			.tp-leftarrow{
+				@include transform(translate(15px, -25px) !important);
+			}
+			.tp-rightarrow{
+				@include transform(translate(-15px, -25px) !important);
+				right: 0 !important;
+				left: auto !important;
+			}
+		}
+		@media(max-width: $screen-md-max){
+			.tp-bullets{
+				@include transform(translate(15px, -50px) !important);
+			}
+		}
+	}
+	.next-slider2{
+		@media(max-width: 1655px){
+			.tp-bullets{
+				@include rtl-left(50% !important);
+				@include transform(translate(-50%, -50px) !important);
+			}
+		}
+	}
+	.button-slider{
+		position: relative;
+		display: inline-block;
+		@include transition(all .3s ease);
+		&:after{
+			content: "\e905";
+			font-family: 'icomoon';
+			position: absolute;
+			color: var(--theme-color,$theme-color);
+			@include transition(all .3s ease);
+			@include rtl-margin-left(2px);
+			top: 1px;
+			font-size: calc(var(--font-size-body,14px) + 5px);
+		}
+		&:hover{
+			&:after{
+				@include rtl-padding-left(3px);
+			}
+		}
+	}
+	span {
+		i {
+			color: $theme-color;
+			@include rtl-margin-right(10px);
+			font-size: calc(var(--font-size-body, 14px) + 6px);
+		}
+		.icon-email {
+			font-size: calc(var(--font-size-body, 14px) + 2px);
+		}
+	}
+	@media(max-width: $screen-xs){
+		.button-slider2{
+			font-size: var(--font-size-body, $font-size-body) !important;
+			line-height: 35px !important;
+			padding: 0 30px !important;
+		}
+	}
+}
+
+
+

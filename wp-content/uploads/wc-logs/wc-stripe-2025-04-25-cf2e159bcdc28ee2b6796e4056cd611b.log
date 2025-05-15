@@ -1,0 +1,6 @@
+2025-04-25T11:27:28+00:00 INFO Webhook notification received: Event: charge.succeeded
+2025-04-25T11:27:28+00:00 INFO Webhook notification received: Event: payment_intent.succeeded
+2025-04-25T11:27:28+00:00 INFO payment_intent.succeeded event received. Intent has been completed for order 53457. Event exited.
+2025-04-25T16:56:50+00:00 INFO Webhook notification received: Event: payment_intent.succeeded
+2025-04-25T16:56:50+00:00 INFO payment_intent.succeeded event received. Intent has been completed for order 53459. Event exited.
+2025-04-25T16:56:50+00:00 INFO Webhook notification received: Event: charge.succeeded

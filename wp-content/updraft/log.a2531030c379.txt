@@ -1,0 +1,939 @@
+0000.000 (0) Opened log file at time: Thu, 01 May 2025 06:04:48 +0000 on https://rozeskin.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.8.1 PHP: 8.2.28 (fpm-fcgi, Linux rozeskin 5.15.0-131-generic #141-Ubuntu SMP Fri Jan 10 21:18:28 UTC 2025 x86_64) MySQL: 8.0.35 (max packet size=67108864) WPLANG: en_US Server: nginx/1.18.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.6M | 20M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 33996.5 MB
+0000.012 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: every2hours)
+0000.014 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.026 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1746072323, seconds_ago=7165)
+0000.034 (0) Set semaphore last lock (d) time to 2025-05-01 06:04:48
+0000.037 (0) Semaphore lock (d) complete
+0000.049 (0) Backup run: resumption=0, nonce=a2531030c379, file_nonce=a2531030c379 begun at=1746079488 (0s ago), job type=backup
+0000.056 (0) Scheduling a resumption (1) after 300 seconds (1746079788) in case this run gets aborted
+0000.071 (0) This backup run is not intended for files - skipping
+0000.075 (0) Beginning creation of database dump (WordPress DB)
+0000.078 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.083 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.103 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1537 bytes total)
+0000.106 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.132 (0) Table wp_options: Total expected rows (approximate): 1394
+0000.282 (0) Table wp_options: Rows added in this batch (next record: 221031): 1300 (uncompressed bytes in this segment=4027691) in 0.16 seconds
+0000.301 (0) Table wp_options: finishing file(s) (2, 665 KB)
+0000.310 (0) Table wp_users: Total expected rows (via COUNT): 50
+0000.313 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.323 (0) Table wp_users: Rows added in this batch (next record: 1167): 50 (uncompressed bytes in this segment=11444) in 0.02 seconds
+0000.334 (0) Table wp_users: finishing file(s) (2, 5.4 KB)
+0000.349 (0) Table wp_usermeta: Total expected rows (approximate): 2192
+0000.372 (0) Table wp_usermeta: Rows added in this batch (next record: 24899): 2207 (uncompressed bytes in this segment=228688) in 0.03 seconds
+0000.386 (0) Table wp_usermeta: finishing file(s) (2, 36.5 KB)
+0000.401 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 1277
+0000.432 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 4666): 1290 (uncompressed bytes in this segment=450632) in 0.04 seconds
+0000.447 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 40.1 KB)
+0000.457 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.461 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=624) in 0.01 seconds
+0000.474 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.486 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 9
+0000.490 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.496 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=899) in 0.01 seconds
+0000.507 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0000.517 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 3869
+0000.567 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 13922): 3863 (uncompressed bytes in this segment=347434) in 0.05 seconds
+0000.583 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 39.3 KB)
+0000.600 (0) Table wp_commentmeta: Total expected rows (via COUNT): 294
+0000.603 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.612 (0) Table wp_commentmeta: Rows added in this batch (next record: 469): 294 (uncompressed bytes in this segment=9484) in 0.02 seconds
+0000.629 (0) Table wp_commentmeta: finishing file(s) (2, 1.9 KB)
+0000.641 (0) Table wp_comments: Total expected rows (via COUNT): 552
+0000.667 (0) Table wp_comments: Rows added in this batch (next record: 606): 552 (uncompressed bytes in this segment=161812) in 0.03 seconds
+0000.682 (0) Table wp_comments: finishing file(s) (2, 22.9 KB)
+0000.693 (0) Table wp_links: Total expected rows (via COUNT): 0
+0000.696 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+0000.705 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0000.713 (0) Table wp_postmeta: Total expected rows (approximate): 14101
+0001.929 (0) Table wp_postmeta: binary mysqldump finished (writes: 70, bytes 39671516, return code 0) in 1.21 seconds
+0001.935 (0) Table wp_postmeta: finishing file(s) (1, 2395.8 KB)
+0001.954 (0) Table wp_posts: Total expected rows (approximate): 1665
+0002.317 (0) Table wp_posts: Rows added in this batch (next record: 53478): 2692 (uncompressed bytes in this segment=21268664) in 0.37 seconds
+0002.327 (0) Table wp_posts: finishing file(s) (2, 714.4 KB)
+0002.334 (0) Table wp_term_relationships: Total expected rows (approximate): 146
+0002.341 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 146 (uncompressed bytes in this segment=3161) in 0.01 seconds
+0002.350 (0) Table wp_term_relationships: finishing file(s) (2, 0.8 KB)
+0002.361 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 78
+0002.363 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.368 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 146): 78 (uncompressed bytes in this segment=4940) in 0.01 seconds
+0002.379 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.5 KB)
+0002.391 (0) Table wp_termmeta: Total expected rows (via COUNT): 193
+0002.393 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.399 (0) Table wp_termmeta: Rows added in this batch (next record: 445): 193 (uncompressed bytes in this segment=8423) in 0.01 seconds
+0002.410 (0) Table wp_termmeta: finishing file(s) (2, 2 KB)
+0002.419 (0) Table wp_terms: Total expected rows (via COUNT): 78
+0002.422 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.427 (0) Table wp_terms: Rows added in this batch (next record: 146): 78 (uncompressed bytes in this segment=3470) in 0.01 seconds
+0002.435 (0) Table wp_terms: finishing file(s) (2, 1.3 KB)
+0002.443 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 13
+0002.450 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 13 (uncompressed bytes in this segment=738) in 0.01 seconds
+0002.458 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0002.468 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 45
+0002.471 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.477 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 53421): 45 (uncompressed bytes in this segment=5993) in 0.01 seconds
+0002.485 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 1.1 KB)
+0002.494 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0002.500 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0002.508 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0002.517 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0002.519 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.524 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=808) in 0.01 seconds
+0002.531 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0002.545 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 3120
+0002.566 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 3270): 3120 (uncompressed bytes in this segment=139895) in 0.03 seconds
+0002.579 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 19.4 KB)
+0002.591 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0002.593 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.01 seconds
+0002.602 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0002.612 (0) Table wp_chaty_contact_form_leads: Total expected rows (via COUNT): 0
+0002.619 (0) Table wp_chaty_contact_form_leads: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=920) in 0.01 seconds
+0002.630 (0) Table wp_chaty_contact_form_leads: finishing file(s) (2, 0.4 KB)
+0002.650 (0) Table wp_e_events: Total expected rows (via COUNT): 2
+0002.654 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.662 (0) Table wp_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=972) in 0.02 seconds
+0002.673 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0002.683 (0) Table wp_gla_attribute_mapping_rules: Total expected rows (via COUNT): 0
+0002.691 (0) Table wp_gla_attribute_mapping_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=778) in 0.01 seconds
+0002.701 (0) Table wp_gla_attribute_mapping_rules: finishing file(s) (2, 0.4 KB)
+0002.710 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0002.736 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=113887) in 0.03 seconds
+0002.749 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 23.9 KB)
+0002.760 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 0
+0002.764 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1153) in 0.01 seconds
+0002.776 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 0.4 KB)
+0002.786 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 0
+0002.790 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=725) in 0.01 seconds
+0002.802 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0002.810 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 0
+0002.814 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.01 seconds
+0002.825 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.4 KB)
+0002.845 (0) Table wp_hfcm_scripts: Total expected rows (via COUNT): 5
+0002.849 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.857 (0) Table wp_hfcm_scripts: Rows added in this batch (next record: 7): 5 (uncompressed bytes in this segment=5898) in 0.02 seconds
+0002.875 (0) Table wp_hfcm_scripts: finishing file(s) (2, 2 KB)
+0002.886 (0) Table wp_ip2location_country_blocker_backend_rate_limit_log: Total expected rows (via COUNT): 0
+0002.895 (0) Table wp_ip2location_country_blocker_backend_rate_limit_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=832) in 0.01 seconds
+0002.906 (0) Table wp_ip2location_country_blocker_backend_rate_limit_log: finishing file(s) (2, 0.4 KB)
+0002.918 (0) Table wp_ip2location_country_blocker_frontend_rate_limit_log: Total expected rows (via COUNT): 0
+0002.922 (0) Table wp_ip2location_country_blocker_frontend_rate_limit_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=838) in 0.01 seconds
+0002.934 (0) Table wp_ip2location_country_blocker_frontend_rate_limit_log: finishing file(s) (2, 0.4 KB)
+0002.946 (0) Table wp_ip2location_country_blocker_log: Total expected rows (via COUNT): 0
+0002.949 (0) Table wp_ip2location_country_blocker_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1008) in 0.01 seconds
+0002.961 (0) Table wp_ip2location_country_blocker_log: finishing file(s) (2, 0.4 KB)
+0002.975 (0) Table wp_jetpack_sync_queue: Total expected rows (via COUNT): 3
+0002.978 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.987 (0) Table wp_jetpack_sync_queue: Rows added in this batch (next record: 55): 3 (uncompressed bytes in this segment=5520) in 0.02 seconds
+0003.003 (0) Table wp_jetpack_sync_queue: finishing file(s) (2, 1.5 KB)
+0003.019 (0) Table wp_post_smtp_logmeta: Total expected rows (via COUNT): 0
+0003.026 (0) Table wp_post_smtp_logmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=581) in 0.01 seconds
+0003.042 (0) Table wp_post_smtp_logmeta: finishing file(s) (2, 0.3 KB)
+0003.060 (0) Table wp_post_smtp_logs: Total expected rows (via COUNT): 250
+0003.063 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.198 (0) Table wp_post_smtp_logs: Rows added in this batch (next record: 2042): 250 (uncompressed bytes in this segment=6123269) in 0.15 seconds
+0003.212 (0) Table wp_post_smtp_logs: finishing file(s) (2, 362 KB)
+0003.222 (0) Table wp_rank_math_analytics_gsc: Total expected rows (via COUNT): 1
+0003.224 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.230 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1088) in 0.01 seconds
+0003.240 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0003.253 (0) Table wp_rank_math_analytics_inspections: Total expected rows (via COUNT): 33
+0003.256 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.262 (0) Table wp_rank_math_analytics_inspections: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=10632) in 0.02 seconds
+0003.275 (0) Table wp_rank_math_analytics_inspections: finishing file(s) (2, 1.5 KB)
+0003.284 (0) Table wp_rank_math_analytics_objects: Total expected rows (via COUNT): 224
+0003.287 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.298 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 383): 224 (uncompressed bytes in this segment=42095) in 0.02 seconds
+0003.308 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 4.1 KB)
+0003.318 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 877
+0003.332 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 47613): 877 (uncompressed bytes in this segment=80537) in 0.02 seconds
+0003.342 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 8.6 KB)
+0003.352 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 122
+0003.355 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.362 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 53417): 122 (uncompressed bytes in this segment=2987) in 0.01 seconds
+0003.372 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.9 KB)
+0003.385 (0) Table wp_rank_math_redirections: Total expected rows (via COUNT): 1
+0003.388 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.395 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1307) in 0.02 seconds
+0003.406 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.6 KB)
+0003.415 (0) Table wp_rank_math_redirections_cache: Total expected rows (via COUNT): 1
+0003.419 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.421 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1003) in 0.01 seconds
+0003.429 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.5 KB)
+0003.443 (0) Table wp_revslider_css: Total expected rows (via COUNT): 170
+0003.445 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.456 (0) Table wp_revslider_css: Rows added in this batch (next record: 170): 170 (uncompressed bytes in this segment=162716) in 0.02 seconds
+0003.468 (0) Table wp_revslider_css: finishing file(s) (2, 5.9 KB)
+0003.478 (0) Table wp_revslider_layer_animations: Total expected rows (via COUNT): 0
+0003.485 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=561) in 0.01 seconds
+0003.498 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0003.512 (0) Table wp_revslider_navigations: Total expected rows (via COUNT): 4
+0003.514 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.520 (0) Table wp_revslider_navigations: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=4295) in 0.02 seconds
+0003.532 (0) Table wp_revslider_navigations: finishing file(s) (2, 1.2 KB)
+0003.549 (0) Table wp_revslider_sliders: Total expected rows (via COUNT): 9
+0003.552 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.556 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=83667) in 0.02 seconds
+0003.570 (0) Table wp_revslider_sliders: finishing file(s) (2, 5.4 KB)
+0003.585 (0) Table wp_revslider_sliders7: Total expected rows (via COUNT): 9
+0003.588 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.591 (0) Table wp_revslider_sliders7: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=32555) in 0.01 seconds
+0003.606 (0) Table wp_revslider_sliders7: finishing file(s) (2, 2.9 KB)
+0003.623 (0) Table wp_revslider_slides: Total expected rows (via COUNT): 25
+0003.626 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.637 (0) Table wp_revslider_slides: Rows added in this batch (next record: 31): 25 (uncompressed bytes in this segment=350077) in 0.02 seconds
+0003.659 (0) Table wp_revslider_slides: finishing file(s) (2, 12.9 KB)
+0003.675 (0) Table wp_revslider_slides7: Total expected rows (via COUNT): 34
+0003.678 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.688 (0) Table wp_revslider_slides7: Rows added in this batch (next record: 40): 34 (uncompressed bytes in this segment=349050) in 0.02 seconds
+0003.707 (0) Table wp_revslider_slides7: finishing file(s) (2, 11.7 KB)
+0003.732 (0) Table wp_revslider_static_slides: Total expected rows (via COUNT): 9
+0003.736 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.742 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=3199) in 0.02 seconds
+0003.754 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.8 KB)
+0003.764 (0) Table wp_smush_dir_images: Total expected rows (via COUNT): 0
+0003.772 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1079) in 0.01 seconds
+0003.782 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0003.798 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 116
+0003.802 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.812 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 23352): 116 (uncompressed bytes in this segment=23327) in 0.02 seconds
+0003.828 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 4.1 KB)
+0003.843 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 88
+0003.846 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.856 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 97): 88 (uncompressed bytes in this segment=42684) in 0.02 seconds
+0003.871 (0) Table wp_wc_admin_notes: finishing file(s) (2, 10.1 KB)
+0003.882 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 160
+0003.887 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.898 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 1283): 160 (uncompressed bytes in this segment=21858) in 0.02 seconds
+0003.910 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 6.2 KB)
+0003.921 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0003.929 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.01 seconds
+0003.940 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0003.951 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 362
+0003.955 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.969 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: 374): 362 (uncompressed bytes in this segment=57088) in 0.02 seconds
+0003.987 (0) Table wp_wc_order_addresses: finishing file(s) (2, 11.4 KB)
+0003.996 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0004.003 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=709) in 0.01 seconds
+0004.014 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0004.025 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 182
+0004.029 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.039 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: 1268): 182 (uncompressed bytes in this segment=40808) in 0.02 seconds
+0004.048 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 7.1 KB)
+0004.057 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 224
+0004.060 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.068 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 421): 224 (uncompressed bytes in this segment=21667) in 0.01 seconds
+0004.077 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 3.9 KB)
+0004.086 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 182
+0004.089 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.094 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 53478): 182 (uncompressed bytes in this segment=29215) in 0.01 seconds
+0004.104 (0) Table wp_wc_order_stats: finishing file(s) (2, 5.1 KB)
+0004.113 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0004.118 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=791) in 0.01 seconds
+0004.126 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0004.137 (0) Table wp_wc_orders: Total expected rows (via COUNT): 182
+0004.140 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.150 (0) Table wp_wc_orders: Rows added in this batch (next record: 53478): 182 (uncompressed bytes in this segment=74562) in 0.02 seconds
+0004.158 (0) Table wp_wc_orders: finishing file(s) (2, 10.9 KB)
+0004.170 (0) Table wp_wc_orders_meta: Total expected rows (approximate): 2725
+0004.205 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: 2816): 2745 (uncompressed bytes in this segment=261010) in 0.04 seconds
+0004.215 (0) Table wp_wc_orders_meta: finishing file(s) (2, 46 KB)
+0004.226 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0004.232 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=850) in 0.01 seconds
+0004.240 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0004.257 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0004.259 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.264 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=900) in 0.02 seconds
+0004.273 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0004.283 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0004.289 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.01 seconds
+0004.298 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0004.308 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0004.311 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.01 seconds
+0004.320 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0004.334 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0004.337 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1038) in 0.01 seconds
+0004.349 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0004.361 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0004.365 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=954) in 0.01 seconds
+0004.374 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0004.384 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0004.389 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1518) in 0.01 seconds
+0004.405 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0004.419 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0004.423 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.01 seconds
+0004.437 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0004.448 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 404
+0004.451 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.462 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 422): 404 (uncompressed bytes in this segment=32765) in 0.02 seconds
+0004.473 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 2.8 KB)
+0004.483 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0004.490 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0.01 seconds
+0004.501 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0004.519 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 40
+0004.522 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.532 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 46429): 40 (uncompressed bytes in this segment=111505) in 0.02 seconds
+0004.547 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 6.3 KB)
+0004.558 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0004.561 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.571 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=961) in 0.02 seconds
+0004.582 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0004.591 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0004.596 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.599 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=870) in 0.01 seconds
+0004.610 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0004.621 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0004.624 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.627 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=709) in 0.01 seconds
+0004.637 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0004.647 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0004.654 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.01 seconds
+0004.666 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0004.676 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0004.681 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1283) in 0.01 seconds
+0004.693 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0004.703 (0) Table wp_wpc_accesslocks: Total expected rows (via COUNT): 0
+0004.707 (0) Table wp_wpc_accesslocks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.01 seconds
+0004.717 (0) Table wp_wpc_accesslocks: finishing file(s) (2, 0.4 KB)
+0004.728 (0) Table wp_wpc_login_fails: Total expected rows (via COUNT): 0
+0004.732 (0) Table wp_wpc_login_fails: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.01 seconds
+0004.746 (0) Table wp_wpc_login_fails: finishing file(s) (2, 0.4 KB)
+0004.749 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/rozeskin/wp-content/updraft/backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0004.753 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_options.table.tmpr221032.gz (1/82/fopen): adding to final database dump
+0004.769 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_options.table.gz (2/82/fopen): adding to final database dump
+0004.772 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_users.table.tmpr1168.gz (3/82/fopen): adding to final database dump
+0004.775 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_users.table.gz (4/82/fopen): adding to final database dump
+0004.777 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_usermeta.table.tmpr24900.gz (5/82/fopen): adding to final database dump
+0004.781 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_usermeta.table.gz (6/82/fopen): adding to final database dump
+0004.784 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_actionscheduler_actions.table.tmpr4667.gz (7/82/fopen): adding to final database dump
+0004.788 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_actionscheduler_actions.table.gz (8/82/fopen): adding to final database dump
+0004.790 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/82/fopen): adding to final database dump
+0004.793 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_actionscheduler_claims.table.gz (10/82/fopen): adding to final database dump
+0004.796 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_actionscheduler_groups.table.tmpr10.gz (11/82/fopen): adding to final database dump
+0004.799 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_actionscheduler_groups.table.gz (12/82/fopen): adding to final database dump
+0004.801 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_actionscheduler_logs.table.tmpr13923.gz (13/82/fopen): adding to final database dump
+0004.805 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_actionscheduler_logs.table.gz (14/82/fopen): adding to final database dump
+0004.808 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_commentmeta.table.tmpr470.gz (15/82/fopen): adding to final database dump
+0004.810 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_commentmeta.table.gz (16/82/fopen): adding to final database dump
+0004.812 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_comments.table.tmpr607.gz (17/82/fopen): adding to final database dump
+0004.814 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_comments.table.gz (18/82/fopen): adding to final database dump
+0004.818 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_links.table.tmpr0.gz (19/82/fopen): adding to final database dump
+0004.825 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_links.table.gz (20/82/fopen): adding to final database dump
+0004.836 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_postmeta.table.gz (21/82/fopen): adding to final database dump
+0004.869 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_posts.table.tmpr53479.gz (22/82/fopen): adding to final database dump
+0004.880 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_posts.table.gz (23/82/fopen): adding to final database dump
+0004.883 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_term_relationships.table.tmpr100001.gz (24/82/fopen): adding to final database dump
+0004.885 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_term_relationships.table.gz (25/82/fopen): adding to final database dump
+0004.889 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_term_taxonomy.table.tmpr147.gz (26/82/fopen): adding to final database dump
+0004.891 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_term_taxonomy.table.gz (27/82/fopen): adding to final database dump
+0004.892 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_termmeta.table.tmpr446.gz (28/82/fopen): adding to final database dump
+0004.894 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_termmeta.table.gz (29/82/fopen): adding to final database dump
+0004.896 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_terms.table.tmpr147.gz (30/82/fopen): adding to final database dump
+0004.897 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_terms.table.gz (31/82/fopen): adding to final database dump
+0004.901 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_category_lookup.table.tmpr1001.gz (32/82/fopen): adding to final database dump
+0004.905 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_category_lookup.table.gz (33/82/fopen): adding to final database dump
+0004.907 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_product_meta_lookup.table.tmpr53422.gz (34/82/fopen): adding to final database dump
+0004.909 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_product_meta_lookup.table.gz (35/82/fopen): adding to final database dump
+0004.911 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_reserved_stock.table.tmpr1.gz (36/82/fopen): adding to final database dump
+0004.913 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_reserved_stock.table.gz (37/82/fopen): adding to final database dump
+0004.916 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (38/82/fopen): adding to final database dump
+0004.919 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_tax_rate_classes.table.gz (39/82/fopen): adding to final database dump
+0004.921 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_order_itemmeta.table.tmpr3271.gz (40/82/fopen): adding to final database dump
+0004.924 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_order_itemmeta.table.gz (41/82/fopen): adding to final database dump
+0004.926 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (42/82/fopen): adding to final database dump
+0004.929 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_payment_tokenmeta.table.gz (43/82/fopen): adding to final database dump
+0004.932 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_chaty_contact_form_leads.table.tmpr0.gz (44/82/fopen): adding to final database dump
+0004.934 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_chaty_contact_form_leads.table.gz (45/82/fopen): adding to final database dump
+0004.937 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_e_events.table.tmpr3.gz (46/82/fopen): adding to final database dump
+0004.939 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_e_events.table.gz (47/82/fopen): adding to final database dump
+0004.941 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_attribute_mapping_rules.table.tmpr0.gz (48/82/fopen): adding to final database dump
+0004.943 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_attribute_mapping_rules.table.gz (49/82/fopen): adding to final database dump
+0004.945 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (50/82/fopen): adding to final database dump
+0004.948 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_budget_recommendations.table.gz (51/82/fopen): adding to final database dump
+0004.950 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_merchant_issues.table.tmpr0.gz (52/82/fopen): adding to final database dump
+0004.952 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_merchant_issues.table.gz (53/82/fopen): adding to final database dump
+0004.954 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_shipping_rates.table.tmpr0.gz (54/82/fopen): adding to final database dump
+0004.957 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_shipping_rates.table.gz (55/82/fopen): adding to final database dump
+0004.960 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_shipping_times.table.tmpr0.gz (56/82/fopen): adding to final database dump
+0004.962 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_gla_shipping_times.table.gz (57/82/fopen): adding to final database dump
+0004.964 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_hfcm_scripts.table.tmpr8.gz (58/82/fopen): adding to final database dump
+0004.965 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_hfcm_scripts.table.gz (59/82/fopen): adding to final database dump
+0004.968 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_ip2location_country_blocker_backend_rate_limit_log.table.tmpr0.gz (60/82/fopen): adding to final database dump
+0004.969 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_ip2location_country_blocker_backend_rate_limit_log.table.gz (61/82/fopen): adding to final database dump
+0004.971 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_ip2location_country_blocker_frontend_rate_limit_log.table.tmpr0.gz (62/82/fopen): adding to final database dump
+0004.973 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_ip2location_country_blocker_frontend_rate_limit_log.table.gz (63/82/fopen): adding to final database dump
+0004.975 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_ip2location_country_blocker_log.table.tmpr0.gz (64/82/fopen): adding to final database dump
+0004.977 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_ip2location_country_blocker_log.table.gz (65/82/fopen): adding to final database dump
+0004.979 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_jetpack_sync_queue.table.tmpr56.gz (66/82/fopen): adding to final database dump
+0004.982 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_jetpack_sync_queue.table.gz (67/82/fopen): adding to final database dump
+0004.984 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_post_smtp_logmeta.table.tmpr0.gz (68/82/fopen): adding to final database dump
+0004.985 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_post_smtp_logmeta.table.gz (69/82/fopen): adding to final database dump
+0004.987 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_post_smtp_logs.table.tmpr2043.gz (70/82/fopen): adding to final database dump
+0004.994 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_post_smtp_logs.table.gz (71/82/fopen): adding to final database dump
+0004.998 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_analytics_gsc.table.tmpr2.gz (72/82/fopen): adding to final database dump
+0005.001 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_analytics_gsc.table.gz (73/82/fopen): adding to final database dump
+0005.004 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_analytics_inspections.table.tmpr34.gz (74/82/fopen): adding to final database dump
+0005.006 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_analytics_inspections.table.gz (75/82/fopen): adding to final database dump
+0005.009 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_analytics_objects.table.tmpr384.gz (76/82/fopen): adding to final database dump
+0005.011 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_analytics_objects.table.gz (77/82/fopen): adding to final database dump
+0005.013 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_internal_links.table.tmpr47614.gz (78/82/fopen): adding to final database dump
+0005.017 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_internal_links.table.gz (79/82/fopen): adding to final database dump
+0005.020 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_internal_meta.table.tmpr53418.gz (80/82/fopen): adding to final database dump
+0005.022 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_internal_meta.table.gz (81/82/fopen): adding to final database dump
+0005.025 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_redirections.table.tmpr2.gz (82/82/fopen): adding to final database dump
+0005.027 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_redirections.table.gz (83/82/fopen): adding to final database dump
+0005.029 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_redirections_cache.table.tmpr2.gz (84/82/fopen): adding to final database dump
+0005.032 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_rank_math_redirections_cache.table.gz (85/82/fopen): adding to final database dump
+0005.035 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_css.table.tmpr171.gz (86/82/fopen): adding to final database dump
+0005.038 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_css.table.gz (87/82/fopen): adding to final database dump
+0005.041 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_layer_animations.table.tmpr0.gz (88/82/fopen): adding to final database dump
+0005.043 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_layer_animations.table.gz (89/82/fopen): adding to final database dump
+0005.046 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_navigations.table.tmpr5.gz (90/82/fopen): adding to final database dump
+0005.048 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_navigations.table.gz (91/82/fopen): adding to final database dump
+0005.050 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_sliders.table.tmpr10.gz (92/82/fopen): adding to final database dump
+0005.052 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_sliders.table.gz (93/82/fopen): adding to final database dump
+0005.054 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_sliders7.table.tmpr10.gz (94/82/fopen): adding to final database dump
+0005.057 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_sliders7.table.gz (95/82/fopen): adding to final database dump
+0005.060 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_slides.table.tmpr32.gz (96/82/fopen): adding to final database dump
+0005.062 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_slides.table.gz (97/82/fopen): adding to final database dump
+0005.064 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_slides7.table.tmpr41.gz (98/82/fopen): adding to final database dump
+0005.066 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_slides7.table.gz (99/82/fopen): adding to final database dump
+0005.071 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_static_slides.table.tmpr10.gz (100/82/fopen): adding to final database dump
+0005.074 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_revslider_static_slides.table.gz (101/82/fopen): adding to final database dump
+0005.080 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_smush_dir_images.table.tmpr0.gz (102/82/fopen): adding to final database dump
+0005.083 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_smush_dir_images.table.gz (103/82/fopen): adding to final database dump
+0005.085 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_admin_note_actions.table.tmpr23353.gz (104/82/fopen): adding to final database dump
+0005.087 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_admin_note_actions.table.gz (105/82/fopen): adding to final database dump
+0005.089 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_admin_notes.table.tmpr98.gz (106/82/fopen): adding to final database dump
+0005.091 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_admin_notes.table.gz (107/82/fopen): adding to final database dump
+0005.094 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_customer_lookup.table.tmpr1284.gz (108/82/fopen): adding to final database dump
+0005.095 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_customer_lookup.table.gz (109/82/fopen): adding to final database dump
+0005.097 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_download_log.table.tmpr0.gz (110/82/fopen): adding to final database dump
+0005.099 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_download_log.table.gz (111/82/fopen): adding to final database dump
+0005.101 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_addresses.table.tmpr375.gz (112/82/fopen): adding to final database dump
+0005.103 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_addresses.table.gz (113/82/fopen): adding to final database dump
+0005.105 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (114/82/fopen): adding to final database dump
+0005.108 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_coupon_lookup.table.gz (115/82/fopen): adding to final database dump
+0005.109 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_operational_data.table.tmpr1269.gz (116/82/fopen): adding to final database dump
+0005.111 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_operational_data.table.gz (117/82/fopen): adding to final database dump
+0005.113 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_product_lookup.table.tmpr422.gz (118/82/fopen): adding to final database dump
+0005.115 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_product_lookup.table.gz (119/82/fopen): adding to final database dump
+0005.117 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_stats.table.tmpr53479.gz (120/82/fopen): adding to final database dump
+0005.119 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_stats.table.gz (121/82/fopen): adding to final database dump
+0005.121 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (122/82/fopen): adding to final database dump
+0005.123 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_order_tax_lookup.table.gz (123/82/fopen): adding to final database dump
+0005.125 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_orders.table.tmpr53479.gz (124/82/fopen): adding to final database dump
+0005.127 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_orders.table.gz (125/82/fopen): adding to final database dump
+0005.129 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_orders_meta.table.tmpr2817.gz (126/82/fopen): adding to final database dump
+0005.131 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_orders_meta.table.gz (127/82/fopen): adding to final database dump
+0005.133 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (128/82/fopen): adding to final database dump
+0005.134 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_product_attributes_lookup.table.gz (129/82/fopen): adding to final database dump
+0005.135 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_product_download_directories.table.tmpr3.gz (130/82/fopen): adding to final database dump
+0005.138 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_product_download_directories.table.gz (131/82/fopen): adding to final database dump
+0005.139 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_rate_limits.table.tmpr0.gz (132/82/fopen): adding to final database dump
+0005.141 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_rate_limits.table.gz (133/82/fopen): adding to final database dump
+0005.142 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_webhooks.table.tmpr0.gz (134/82/fopen): adding to final database dump
+0005.144 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wc_webhooks.table.gz (135/82/fopen): adding to final database dump
+0005.145 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (136/82/fopen): adding to final database dump
+0005.149 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_api_keys.table.gz (137/82/fopen): adding to final database dump
+0005.150 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (138/82/fopen): adding to final database dump
+0005.152 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_attribute_taxonomies.table.gz (139/82/fopen): adding to final database dump
+0005.154 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (140/82/fopen): adding to final database dump
+0005.155 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (141/82/fopen): adding to final database dump
+0005.156 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_log.table.tmpr0.gz (142/82/fopen): adding to final database dump
+0005.159 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_log.table.gz (143/82/fopen): adding to final database dump
+0005.164 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_order_items.table.tmpr423.gz (144/82/fopen): adding to final database dump
+0005.168 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_order_items.table.gz (145/82/fopen): adding to final database dump
+0005.171 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (146/82/fopen): adding to final database dump
+0005.174 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_payment_tokens.table.gz (147/82/fopen): adding to final database dump
+0005.176 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_sessions.table.tmpr46430.gz (148/82/fopen): adding to final database dump
+0005.179 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_sessions.table.gz (149/82/fopen): adding to final database dump
+0005.182 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (150/82/fopen): adding to final database dump
+0005.184 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_shipping_zone_locations.table.gz (151/82/fopen): adding to final database dump
+0005.186 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (152/82/fopen): adding to final database dump
+0005.188 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_shipping_zone_methods.table.gz (153/82/fopen): adding to final database dump
+0005.190 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (154/82/fopen): adding to final database dump
+0005.193 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_shipping_zones.table.gz (155/82/fopen): adding to final database dump
+0005.195 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (156/82/fopen): adding to final database dump
+0005.197 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_tax_rate_locations.table.gz (157/82/fopen): adding to final database dump
+0005.199 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (158/82/fopen): adding to final database dump
+0005.200 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_woocommerce_tax_rates.table.gz (159/82/fopen): adding to final database dump
+0005.203 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wpc_accesslocks.table.tmpr0.gz (160/82/fopen): adding to final database dump
+0005.205 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wpc_accesslocks.table.gz (161/82/fopen): adding to final database dump
+0005.207 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wpc_login_fails.table.tmpr0.gz (162/82/fopen): adding to final database dump
+0005.208 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db-table-wp_wpc_login_fails.table.gz (163/82/fopen): adding to final database dump
+0005.213 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db.gz: finished writing out complete database file (4522.9 KB)
+0005.286 (0) Total database tables backed up: 82 (backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db.gz, size: 4631601, sha1: dba28ee1d87cbc39cd4946eb9141f44b41890e9f, sha256: 2377e4d92d9bd53a170acdf180bcaba4e081622c60a6d7a05790fb65f8a8dce5)
+0005.317 (0) backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.320 (0) Saving backup history. Total backup size: 4.4 MB
+0005.335 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0005.345 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0005.348 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1dc71fdca7ea7cfc0b92d731d5b7e40)
+0006.336 (0) Google Drive: quota usage: used=6700.3 MB, total=15360 MB, available=8659.7 MB
+0006.340 (0) Google Drive: backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db.gz: Attempting to upload to Google Drive (into folder id: 1oNVKjaogEwh5BsStZIaDwnF4ysODh14o)
+0007.111 (0) Googledrive chunked upload: 22.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.5 / 56)
+0007.457 (0) Googledrive chunked upload: 67.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.5 / 56)
+0008.384 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0008.396 (0) Google Drive: OK: Archive backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db.gz uploaded in 2.05 seconds
+0008.399 (0) Recording as successfully uploaded: backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db.gz
+0008.407 (0) Deleting local file: backup_2025-05-01-1004_Roze_Skincare_a2531030c379-db.gz: OK
+0008.418 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=100
+0008.424 (0) Number of backup sets in history: 112; groups (db): 1
+0008.427 (0) Examining (for databases) backup set with group_id=0, nonce=a2531030c379, datestamp=1746079488 (May 01 2025 06:04:48)
+0008.430 (0) This backup set is the backup set just made, so will not be deleted.
+0008.430 (0) Examining (for databases) backup set with group_id=0, nonce=6b7749b156fa, datestamp=1746072323 (May 01 2025 04:05:23)
+0008.430 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.433 (0) Examining (for databases) backup set with group_id=0, nonce=b6e2d0c92104, datestamp=1746065168 (May 01 2025 02:06:08)
+0008.433 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.433 (0) Examining (for databases) backup set with group_id=0, nonce=6ccb7d64c960, datestamp=1746057900 (May 01 2025 00:05:00)
+0008.433 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.433 (0) Examining (for databases) backup set with group_id=0, nonce=2bdfbe31759e, datestamp=1746050712 (Apr 30 2025 22:05:12)
+0008.433 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.433 (0) Examining (for databases) backup set with group_id=0, nonce=daf7bf1a6d58, datestamp=1746043514 (Apr 30 2025 20:05:14)
+0008.433 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.433 (0) Examining (for databases) backup set with group_id=0, nonce=a09ef179d002, datestamp=1746036301 (Apr 30 2025 18:05:01)
+0008.433 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.434 (0) Examining (for databases) backup set with group_id=0, nonce=ca569c2cb83a, datestamp=1746029115 (Apr 30 2025 16:05:15)
+0008.434 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.434 (0) Examining (for databases) backup set with group_id=0, nonce=b9fc53026322, datestamp=1746021976 (Apr 30 2025 14:06:16)
+0008.434 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.434 (0) Examining (for databases) backup set with group_id=0, nonce=5cae649525f8, datestamp=1746014715 (Apr 30 2025 12:05:15)
+0008.434 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.434 (0) Examining (for databases) backup set with group_id=0, nonce=9bd2d654b55f, datestamp=1746007520 (Apr 30 2025 10:05:20)
+0008.434 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.434 (0) Examining (for databases) backup set with group_id=0, nonce=5129be0bfde4, datestamp=1746000294 (Apr 30 2025 08:04:54)
+0008.434 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=7c60abf2a287, datestamp=1745997067 (Apr 30 2025 07:11:07)
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=c76df4501eca, datestamp=1745993159 (Apr 30 2025 06:05:59)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=e642afdb8c56, datestamp=1745985909 (Apr 30 2025 04:05:09)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=deb8e6e0ef43, datestamp=1745978747 (Apr 30 2025 02:05:47)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=ce28e6c44ec1, datestamp=1745971508 (Apr 30 2025 00:05:08)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=35c0e79e5c33, datestamp=1745964304 (Apr 29 2025 22:05:04)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=3cb27198a056, datestamp=1745957111 (Apr 29 2025 20:05:11)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=38b0f95d8054, datestamp=1745949886 (Apr 29 2025 18:04:46)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=6cd18a754e9f, datestamp=1745942825 (Apr 29 2025 16:07:05)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=8a7b9e8ef737, datestamp=1745935502 (Apr 29 2025 14:05:02)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=c348ffdfe9c4, datestamp=1745928464 (Apr 29 2025 12:07:44)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=f03e34039458, datestamp=1745921350 (Apr 29 2025 10:09:10)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=a28eb1495ae2, datestamp=1745913917 (Apr 29 2025 08:05:17)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=8eecf806310c, datestamp=1745910690 (Apr 29 2025 07:11:30)
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=4a3eafea4fec, datestamp=1745906727 (Apr 29 2025 06:05:27)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.435 (0) Examining (for databases) backup set with group_id=0, nonce=9f7410508a8f, datestamp=1745899534 (Apr 29 2025 04:05:34)
+0008.435 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=40ba81d7d650, datestamp=1745892338 (Apr 29 2025 02:05:38)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=0e2770250162, datestamp=1745885117 (Apr 29 2025 00:05:17)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=ec374868a2f0, datestamp=1745877886 (Apr 28 2025 22:04:46)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=e47eef1f4716, datestamp=1745870705 (Apr 28 2025 20:05:05)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=5269eb680a7a, datestamp=1745863583 (Apr 28 2025 18:06:23)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=04ceb8ea5b31, datestamp=1745856346 (Apr 28 2025 16:05:46)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=4a54a26ac378, datestamp=1745849119 (Apr 28 2025 14:05:19)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=f1226905804a, datestamp=1745841904 (Apr 28 2025 12:05:04)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=29fae65265ae, datestamp=1745834722 (Apr 28 2025 10:05:22)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=f11149f158d8, datestamp=1745827516 (Apr 28 2025 08:05:16)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=8f03a4a7b3d4, datestamp=1745824247 (Apr 28 2025 07:10:47)
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=1a509465e06f, datestamp=1745820369 (Apr 28 2025 06:06:09)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=b86ee9aca831, datestamp=1745813124 (Apr 28 2025 04:05:24)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=5647aa449a00, datestamp=1745805885 (Apr 28 2025 02:04:45)
+0008.436 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.436 (0) Examining (for databases) backup set with group_id=0, nonce=7eff25d0ad8a, datestamp=1745798775 (Apr 28 2025 00:06:15)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=b667a62c2040, datestamp=1745791488 (Apr 27 2025 22:04:48)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=62414737a65c, datestamp=1745784370 (Apr 27 2025 20:06:10)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=ee87c8681249, datestamp=1745777123 (Apr 27 2025 18:05:23)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=e4c955692777, datestamp=1745770202 (Apr 27 2025 16:10:02)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=0f35591494ce, datestamp=1745763054 (Apr 27 2025 14:10:54)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=54f00de91a73, datestamp=1745755499 (Apr 27 2025 12:04:59)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=1c5e53ba464e, datestamp=1745748421 (Apr 27 2025 10:07:01)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=804d67a79d93, datestamp=1745741164 (Apr 27 2025 08:06:04)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=f4f61dc1e073, datestamp=1745737851 (Apr 27 2025 07:10:51)
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=9ab36af4c233, datestamp=1745733928 (Apr 27 2025 06:05:28)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=62d9ca27cec8, datestamp=1745726716 (Apr 27 2025 04:05:16)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.437 (0) Examining (for databases) backup set with group_id=0, nonce=97a87426ab3a, datestamp=1745719724 (Apr 27 2025 02:08:44)
+0008.437 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=0e1622986f01, datestamp=1745712292 (Apr 27 2025 00:04:52)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=79da6dcaaeb5, datestamp=1745705115 (Apr 26 2025 22:05:15)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=0d664bbf65c8, datestamp=1745698011 (Apr 26 2025 20:06:51)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=608ff882cee4, datestamp=1745690752 (Apr 26 2025 18:05:52)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=74eab264ecfc, datestamp=1745683525 (Apr 26 2025 16:05:25)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=573fd8bc3023, datestamp=1745676387 (Apr 26 2025 14:06:27)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=70cda6e26088, datestamp=1745669104 (Apr 26 2025 12:05:04)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=6af43e46f5e3, datestamp=1745661891 (Apr 26 2025 10:04:51)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=a98789ec728f, datestamp=1745654717 (Apr 26 2025 08:05:17)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=9900eff726e2, datestamp=1745651485 (Apr 26 2025 07:11:25)
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=18dae766125f, datestamp=1745647524 (Apr 26 2025 06:05:24)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=d5390449ec29, datestamp=1745640303 (Apr 26 2025 04:05:03)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=22b114736a12, datestamp=1745633099 (Apr 26 2025 02:04:59)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.438 (0) Examining (for databases) backup set with group_id=0, nonce=eb786e39b7d3, datestamp=1745625886 (Apr 26 2025 00:04:46)
+0008.438 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=9d76569d2b20, datestamp=1745618699 (Apr 25 2025 22:04:59)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=7172d840eabb, datestamp=1745611491 (Apr 25 2025 20:04:51)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=6af88b0e235c, datestamp=1745604312 (Apr 25 2025 18:05:12)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=0051f38134ef, datestamp=1745597138 (Apr 25 2025 16:05:38)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=22a7cf1c28a3, datestamp=1745589887 (Apr 25 2025 14:04:47)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=45cac4fae318, datestamp=1745582811 (Apr 25 2025 12:06:51)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=7a7485868ca4, datestamp=1745575510 (Apr 25 2025 10:05:10)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=bd9d468bde49, datestamp=1745568472 (Apr 25 2025 08:07:52)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=d5b97ecca2bb, datestamp=1745565062 (Apr 25 2025 07:11:02)
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=30d4d724b03b, datestamp=1745561085 (Apr 25 2025 06:04:45)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=55c5c82cd91d, datestamp=1745553924 (Apr 25 2025 04:05:24)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=3944859a0fb4, datestamp=1745546724 (Apr 25 2025 02:05:24)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=e5e4aed1ac53, datestamp=1745539517 (Apr 25 2025 00:05:17)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=b7638925269a, datestamp=1745532370 (Apr 24 2025 22:06:10)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.439 (0) Examining (for databases) backup set with group_id=0, nonce=d75ab594c953, datestamp=1745525232 (Apr 24 2025 20:07:12)
+0008.439 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=0b381c248945, datestamp=1745517994 (Apr 24 2025 18:06:34)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=4c8ce42bb088, datestamp=1745510742 (Apr 24 2025 16:05:42)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=87388241d245, datestamp=1745503488 (Apr 24 2025 14:04:48)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=0bd389bdfef2, datestamp=1745496301 (Apr 24 2025 12:05:01)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=6065dd2ead79, datestamp=1745489321 (Apr 24 2025 10:08:41)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=cc1bebaa7c59, datestamp=1745481893 (Apr 24 2025 08:04:53)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=bc74d44e33ca, datestamp=1745478754 (Apr 24 2025 07:12:34)
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=492dcf36efe7, datestamp=1745474770 (Apr 24 2025 06:06:10)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=3dd8fffd0856, datestamp=1745467606 (Apr 24 2025 04:06:46)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=c697e189fe52, datestamp=1745460286 (Apr 24 2025 02:04:46)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=636f39c4a0e9, datestamp=1745453226 (Apr 24 2025 00:07:06)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=bd0b72d20b9c, datestamp=1745445984 (Apr 23 2025 22:06:24)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=f71ca75ae8ec, datestamp=1745438817 (Apr 23 2025 20:06:57)
+0008.440 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.440 (0) Examining (for databases) backup set with group_id=0, nonce=2f6810b2a2ea, datestamp=1745431621 (Apr 23 2025 18:07:01)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=b4f95dca3c1a, datestamp=1745424527 (Apr 23 2025 16:08:47)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=9c9c10d1619f, datestamp=1745417150 (Apr 23 2025 14:05:50)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=ce38ed0b4baa, datestamp=1745409925 (Apr 23 2025 12:05:25)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=5ae238318aed, datestamp=1745402699 (Apr 23 2025 10:04:59)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=63d269726b73, datestamp=1745395488 (Apr 23 2025 08:04:48)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=14d0eea11a06, datestamp=1745392455 (Apr 23 2025 07:14:15)
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=b6db3d0c944f, datestamp=1745388605 (Apr 23 2025 06:10:05)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=635bf960d171, datestamp=1745381098 (Apr 23 2025 04:04:58)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.441 (0) Examining (for databases) backup set with group_id=0, nonce=4ca780973196, datestamp=1745373887 (Apr 23 2025 02:04:47)
+0008.441 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.442 (0) Examining (for databases) backup set with group_id=0, nonce=591a8a92438d, datestamp=1745366877 (Apr 23 2025 00:07:57)
+0008.442 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0008.442 (0) Examining (for databases) backup set with group_id=0, nonce=9b273f99ac63, datestamp=1745359624 (Apr 22 2025 22:07:04)
+0008.442 (0) 1745359624: db: this set includes a database (backup_2025-04-23-0207_Roze_Skincare_9b273f99ac63-db.gz); db count is now 100
+0008.442 (0) 1745359624: db: over retain limit (100); will delete this database
+0010.354 (0) Google Drive: backup_2025-04-23-0207_Roze_Skincare_9b273f99ac63-db.gz: Deletion successful
+0010.365 (0) This backup set is now empty; will remove from history
+0010.369 (0) Deleting log file (log.9b273f99ac63.txt)
+0010.372 (0) Examining (for databases) backup set with group_id=0, nonce=5ae69ccb1726, datestamp=1745306110 (Apr 22 2025 07:15:10)
+0010.372 (0) Examining (for databases) backup set with group_id=0, nonce=9193ee6045d0, datestamp=1745251467 (Apr 21 2025 16:04:27)
+0010.372 (0) This backup set (1745251467) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0010.372 (0) Examining (for databases) backup set with group_id=0, nonce=400b35b44a7e, datestamp=1745248924 (Apr 21 2025 15:22:04)
+0010.372 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0010.372 (0) Number of backup sets in history: 111; groups (files): 1
+0010.374 (0) Examining (for files) backup set with nonce=a2531030c379, datestamp=1746079488 (May 01 2025 06:04:48)
+0010.374 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.377 (0) Examining (for files) backup set with nonce=6b7749b156fa, datestamp=1746072323 (May 01 2025 04:05:23)
+0010.377 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.377 (0) Examining (for files) backup set with nonce=b6e2d0c92104, datestamp=1746065168 (May 01 2025 02:06:08)
+0010.377 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.377 (0) Examining (for files) backup set with nonce=6ccb7d64c960, datestamp=1746057900 (May 01 2025 00:05:00)
+0010.377 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.377 (0) Examining (for files) backup set with nonce=2bdfbe31759e, datestamp=1746050712 (Apr 30 2025 22:05:12)
+0010.377 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.378 (0) Examining (for files) backup set with nonce=daf7bf1a6d58, datestamp=1746043514 (Apr 30 2025 20:05:14)
+0010.378 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.378 (0) Examining (for files) backup set with nonce=a09ef179d002, datestamp=1746036301 (Apr 30 2025 18:05:01)
+0010.378 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.378 (0) Examining (for files) backup set with nonce=ca569c2cb83a, datestamp=1746029115 (Apr 30 2025 16:05:15)
+0010.378 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.378 (0) Examining (for files) backup set with nonce=b9fc53026322, datestamp=1746021976 (Apr 30 2025 14:06:16)
+0010.378 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.378 (0) Examining (for files) backup set with nonce=5cae649525f8, datestamp=1746014715 (Apr 30 2025 12:05:15)
+0010.378 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.378 (0) Examining (for files) backup set with nonce=9bd2d654b55f, datestamp=1746007520 (Apr 30 2025 10:05:20)
+0010.378 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.378 (0) Examining (for files) backup set with nonce=5129be0bfde4, datestamp=1746000294 (Apr 30 2025 08:04:54)
+0010.378 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.378 (0) Examining (for files) backup set with nonce=7c60abf2a287, datestamp=1745997067 (Apr 30 2025 07:11:07)
+0010.378 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.380 (0) Examining (for files) backup set with nonce=c76df4501eca, datestamp=1745993159 (Apr 30 2025 06:05:59)
+0010.380 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=e642afdb8c56, datestamp=1745985909 (Apr 30 2025 04:05:09)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=deb8e6e0ef43, datestamp=1745978747 (Apr 30 2025 02:05:47)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=ce28e6c44ec1, datestamp=1745971508 (Apr 30 2025 00:05:08)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=35c0e79e5c33, datestamp=1745964304 (Apr 29 2025 22:05:04)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=3cb27198a056, datestamp=1745957111 (Apr 29 2025 20:05:11)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=38b0f95d8054, datestamp=1745949886 (Apr 29 2025 18:04:46)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=6cd18a754e9f, datestamp=1745942825 (Apr 29 2025 16:07:05)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=8a7b9e8ef737, datestamp=1745935502 (Apr 29 2025 14:05:02)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=c348ffdfe9c4, datestamp=1745928464 (Apr 29 2025 12:07:44)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=f03e34039458, datestamp=1745921350 (Apr 29 2025 10:09:10)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=a28eb1495ae2, datestamp=1745913917 (Apr 29 2025 08:05:17)
+0010.383 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.383 (0) Examining (for files) backup set with nonce=8eecf806310c, datestamp=1745910690 (Apr 29 2025 07:11:30)
+0010.383 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.385 (0) Examining (for files) backup set with nonce=4a3eafea4fec, datestamp=1745906727 (Apr 29 2025 06:05:27)
+0010.385 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=9f7410508a8f, datestamp=1745899534 (Apr 29 2025 04:05:34)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=40ba81d7d650, datestamp=1745892338 (Apr 29 2025 02:05:38)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=0e2770250162, datestamp=1745885117 (Apr 29 2025 00:05:17)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=ec374868a2f0, datestamp=1745877886 (Apr 28 2025 22:04:46)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=e47eef1f4716, datestamp=1745870705 (Apr 28 2025 20:05:05)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=5269eb680a7a, datestamp=1745863583 (Apr 28 2025 18:06:23)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=04ceb8ea5b31, datestamp=1745856346 (Apr 28 2025 16:05:46)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=4a54a26ac378, datestamp=1745849119 (Apr 28 2025 14:05:19)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=f1226905804a, datestamp=1745841904 (Apr 28 2025 12:05:04)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=29fae65265ae, datestamp=1745834722 (Apr 28 2025 10:05:22)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=f11149f158d8, datestamp=1745827516 (Apr 28 2025 08:05:16)
+0010.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.388 (0) Examining (for files) backup set with nonce=8f03a4a7b3d4, datestamp=1745824247 (Apr 28 2025 07:10:47)
+0010.388 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.391 (0) Examining (for files) backup set with nonce=1a509465e06f, datestamp=1745820369 (Apr 28 2025 06:06:09)
+0010.391 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.393 (0) Examining (for files) backup set with nonce=b86ee9aca831, datestamp=1745813124 (Apr 28 2025 04:05:24)
+0010.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.393 (0) Examining (for files) backup set with nonce=5647aa449a00, datestamp=1745805885 (Apr 28 2025 02:04:45)
+0010.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.393 (0) Examining (for files) backup set with nonce=7eff25d0ad8a, datestamp=1745798775 (Apr 28 2025 00:06:15)
+0010.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.393 (0) Examining (for files) backup set with nonce=b667a62c2040, datestamp=1745791488 (Apr 27 2025 22:04:48)
+0010.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.393 (0) Examining (for files) backup set with nonce=62414737a65c, datestamp=1745784370 (Apr 27 2025 20:06:10)
+0010.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.393 (0) Examining (for files) backup set with nonce=ee87c8681249, datestamp=1745777123 (Apr 27 2025 18:05:23)
+0010.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.394 (0) Examining (for files) backup set with nonce=e4c955692777, datestamp=1745770202 (Apr 27 2025 16:10:02)
+0010.394 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.394 (0) Examining (for files) backup set with nonce=0f35591494ce, datestamp=1745763054 (Apr 27 2025 14:10:54)
+0010.394 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.394 (0) Examining (for files) backup set with nonce=54f00de91a73, datestamp=1745755499 (Apr 27 2025 12:04:59)
+0010.394 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.394 (0) Examining (for files) backup set with nonce=1c5e53ba464e, datestamp=1745748421 (Apr 27 2025 10:07:01)
+0010.394 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.394 (0) Examining (for files) backup set with nonce=804d67a79d93, datestamp=1745741164 (Apr 27 2025 08:06:04)
+0010.394 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.394 (0) Examining (for files) backup set with nonce=f4f61dc1e073, datestamp=1745737851 (Apr 27 2025 07:10:51)
+0010.394 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.396 (0) Examining (for files) backup set with nonce=9ab36af4c233, datestamp=1745733928 (Apr 27 2025 06:05:28)
+0010.396 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.397 (0) Examining (for files) backup set with nonce=62d9ca27cec8, datestamp=1745726716 (Apr 27 2025 04:05:16)
+0010.397 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.397 (0) Examining (for files) backup set with nonce=97a87426ab3a, datestamp=1745719724 (Apr 27 2025 02:08:44)
+0010.397 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=0e1622986f01, datestamp=1745712292 (Apr 27 2025 00:04:52)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=79da6dcaaeb5, datestamp=1745705115 (Apr 26 2025 22:05:15)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=0d664bbf65c8, datestamp=1745698011 (Apr 26 2025 20:06:51)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=608ff882cee4, datestamp=1745690752 (Apr 26 2025 18:05:52)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=74eab264ecfc, datestamp=1745683525 (Apr 26 2025 16:05:25)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=573fd8bc3023, datestamp=1745676387 (Apr 26 2025 14:06:27)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=70cda6e26088, datestamp=1745669104 (Apr 26 2025 12:05:04)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=6af43e46f5e3, datestamp=1745661891 (Apr 26 2025 10:04:51)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=a98789ec728f, datestamp=1745654717 (Apr 26 2025 08:05:17)
+0010.398 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.398 (0) Examining (for files) backup set with nonce=9900eff726e2, datestamp=1745651485 (Apr 26 2025 07:11:25)
+0010.398 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.400 (0) Examining (for files) backup set with nonce=18dae766125f, datestamp=1745647524 (Apr 26 2025 06:05:24)
+0010.400 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=d5390449ec29, datestamp=1745640303 (Apr 26 2025 04:05:03)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=22b114736a12, datestamp=1745633099 (Apr 26 2025 02:04:59)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=eb786e39b7d3, datestamp=1745625886 (Apr 26 2025 00:04:46)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=9d76569d2b20, datestamp=1745618699 (Apr 25 2025 22:04:59)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=7172d840eabb, datestamp=1745611491 (Apr 25 2025 20:04:51)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=6af88b0e235c, datestamp=1745604312 (Apr 25 2025 18:05:12)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=0051f38134ef, datestamp=1745597138 (Apr 25 2025 16:05:38)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=22a7cf1c28a3, datestamp=1745589887 (Apr 25 2025 14:04:47)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=45cac4fae318, datestamp=1745582811 (Apr 25 2025 12:06:51)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=7a7485868ca4, datestamp=1745575510 (Apr 25 2025 10:05:10)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=bd9d468bde49, datestamp=1745568472 (Apr 25 2025 08:07:52)
+0010.402 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.402 (0) Examining (for files) backup set with nonce=d5b97ecca2bb, datestamp=1745565062 (Apr 25 2025 07:11:02)
+0010.402 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.405 (0) Examining (for files) backup set with nonce=30d4d724b03b, datestamp=1745561085 (Apr 25 2025 06:04:45)
+0010.405 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.407 (0) Examining (for files) backup set with nonce=55c5c82cd91d, datestamp=1745553924 (Apr 25 2025 04:05:24)
+0010.407 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=3944859a0fb4, datestamp=1745546724 (Apr 25 2025 02:05:24)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=e5e4aed1ac53, datestamp=1745539517 (Apr 25 2025 00:05:17)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=b7638925269a, datestamp=1745532370 (Apr 24 2025 22:06:10)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=d75ab594c953, datestamp=1745525232 (Apr 24 2025 20:07:12)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=0b381c248945, datestamp=1745517994 (Apr 24 2025 18:06:34)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=4c8ce42bb088, datestamp=1745510742 (Apr 24 2025 16:05:42)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=87388241d245, datestamp=1745503488 (Apr 24 2025 14:04:48)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=0bd389bdfef2, datestamp=1745496301 (Apr 24 2025 12:05:01)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=6065dd2ead79, datestamp=1745489321 (Apr 24 2025 10:08:41)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=cc1bebaa7c59, datestamp=1745481893 (Apr 24 2025 08:04:53)
+0010.408 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.408 (0) Examining (for files) backup set with nonce=bc74d44e33ca, datestamp=1745478754 (Apr 24 2025 07:12:34)
+0010.408 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.410 (0) Examining (for files) backup set with nonce=492dcf36efe7, datestamp=1745474770 (Apr 24 2025 06:06:10)
+0010.410 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.412 (0) Examining (for files) backup set with nonce=3dd8fffd0856, datestamp=1745467606 (Apr 24 2025 04:06:46)
+0010.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.412 (0) Examining (for files) backup set with nonce=c697e189fe52, datestamp=1745460286 (Apr 24 2025 02:04:46)
+0010.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.412 (0) Examining (for files) backup set with nonce=636f39c4a0e9, datestamp=1745453226 (Apr 24 2025 00:07:06)
+0010.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.412 (0) Examining (for files) backup set with nonce=bd0b72d20b9c, datestamp=1745445984 (Apr 23 2025 22:06:24)
+0010.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.412 (0) Examining (for files) backup set with nonce=f71ca75ae8ec, datestamp=1745438817 (Apr 23 2025 20:06:57)
+0010.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.412 (0) Examining (for files) backup set with nonce=2f6810b2a2ea, datestamp=1745431621 (Apr 23 2025 18:07:01)
+0010.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.413 (0) Examining (for files) backup set with nonce=b4f95dca3c1a, datestamp=1745424527 (Apr 23 2025 16:08:47)
+0010.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.413 (0) Examining (for files) backup set with nonce=9c9c10d1619f, datestamp=1745417150 (Apr 23 2025 14:05:50)
+0010.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.413 (0) Examining (for files) backup set with nonce=ce38ed0b4baa, datestamp=1745409925 (Apr 23 2025 12:05:25)
+0010.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.413 (0) Examining (for files) backup set with nonce=5ae238318aed, datestamp=1745402699 (Apr 23 2025 10:04:59)
+0010.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.413 (0) Examining (for files) backup set with nonce=63d269726b73, datestamp=1745395488 (Apr 23 2025 08:04:48)
+0010.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.413 (0) Examining (for files) backup set with nonce=14d0eea11a06, datestamp=1745392455 (Apr 23 2025 07:14:15)
+0010.413 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.416 (0) Examining (for files) backup set with nonce=b6db3d0c944f, datestamp=1745388605 (Apr 23 2025 06:10:05)
+0010.416 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.418 (0) Examining (for files) backup set with nonce=635bf960d171, datestamp=1745381098 (Apr 23 2025 04:04:58)
+0010.418 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.418 (0) Examining (for files) backup set with nonce=4ca780973196, datestamp=1745373887 (Apr 23 2025 02:04:47)
+0010.418 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.418 (0) Examining (for files) backup set with nonce=591a8a92438d, datestamp=1745366877 (Apr 23 2025 00:07:57)
+0010.418 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.418 (0) Examining (for files) backup set with nonce=5ae69ccb1726, datestamp=1745306110 (Apr 22 2025 07:15:10)
+0010.418 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.420 (0) Examining (for files) backup set with nonce=9193ee6045d0, datestamp=1745251467 (Apr 21 2025 16:04:27)
+0010.420 (0) This backup set (1745251467) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.420 (0) This backup set (1745251467) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.420 (0) This backup set (1745251467) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.420 (0) This backup set (1745251467) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.420 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.422 (0) Examining (for files) backup set with nonce=400b35b44a7e, datestamp=1745248924 (Apr 21 2025 15:22:04)
+0010.422 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0010.422 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0010.422 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0010.422 (0) This backup set (1745248924) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0010.422 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.422 (0) Retain: saving new backup history (sets now: 111) and finishing retain operation
+0010.438 (0) Resume backup (a2531030c379, 0): finish run
+0010.445 (0) Decremented the semaphore (d) by 1
+0010.451 (0) Semaphore (d) unlocked
+0010.453 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0010.462 (0) No email will/can be sent - the user has not configured an email address.
+0010.464 (0) The backup succeeded and is now complete

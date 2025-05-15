@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLS Player</title>
+</head>
+
+<body>
+
+    <video id="video" width="100%" controls></video>
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+        var video = document.getElementById('video');
+        var videoSrc = 'http://rozeskin.com/obslive.m3u8'; // Replace with your .m3u8 URL
+
+        if (Hls.isSupported()) {
+            var hls = new Hls();
+            hls.loadSource(videoSrc);
+            hls.attachMedia(video);
+
+            hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                console.log('Manifest loaded, start playing...');
+                video.play();
+            });
+
+            hls.on(Hls.Events.ERROR, function (event, data) {
+                console.error('HLS.js error:', data);
+            });
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            // Native support for HLS in browsers like Safari
+            video.src = videoSrc;
+            video.addEventListener('loadedmetadata', function () {
+                video.play();
+            });
+        } else {
+            console.error('HLS is not supported in this browser');
+        }
+    </script>
+
+</body>
+
+</html>
